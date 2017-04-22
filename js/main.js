@@ -1,3 +1,6 @@
+console.log("js loaded");
+
+
 var apiKey = "f27abba92256495495a7f9499a8c8f8e";
 var selectedAccountType = 2;
 
@@ -17,7 +20,7 @@ function findUser() {
     var membershipId;
 
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", 'http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/' + selectedAccountType + '/' + username, true);
+    xhr.open("GET", 'https://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/' + selectedAccountType + '/' + username, true);
     xhr.setRequestHeader("X-API-Key", apiKey);
 
     xhr.onreadystatechange = function() {
@@ -37,7 +40,7 @@ function findUser() {
 
 function getAccountSummary(membershipId){
   var xhr = new XMLHttpRequest();
-  var req = 'http://www.bungie.net/Platform/Destiny/' + selectedAccountType + '/Account/' + membershipId +"/Summary/"
+  var req = 'https://www.bungie.net/Platform/Destiny/' + selectedAccountType + '/Account/' + membershipId +"/Summary/"
   xhr.open("GET", req, true);
   xhr.setRequestHeader("X-API-Key", apiKey);
 
@@ -87,7 +90,7 @@ function characterDscr(character){
 
 function getActivities(membershipId, characterId, characterIdx){
   var xhr = new XMLHttpRequest();
-  var req = 'http://www.bungie.net/Platform/Destiny/Stats/AggregateActivityStats/' + selectedAccountType + '/' + membershipId +"/" + characterId;
+  var req = 'https://www.bungie.net/Platform/Destiny/Stats/AggregateActivityStats/' + selectedAccountType + '/' + membershipId +"/" + characterId;
   xhr.open("GET", req, true);
   xhr.setRequestHeader("X-API-Key", apiKey);
 
