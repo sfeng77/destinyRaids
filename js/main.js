@@ -3,6 +3,7 @@ console.log("js loaded");
 
 var apiKey = "f27abba92256495495a7f9499a8c8f8e";
 var selectedAccountType = 2;
+var bungieStuff = 'https://www.bungie.net/Platform/Destiny/';
 
 var raidNames = ["Vault of Glass", "Vault of Glass Heroic", "Vault of Glass AoT",
                   "Crota's End", "Crota's End Heroic", "Crota's End AoT",
@@ -20,7 +21,7 @@ function findUser() {
     var membershipId;
 
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", 'https://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/' + selectedAccountType + '/' + username, true);
+    xhr.open("GET", bungieStuff +'SearchDestinyPlayer/'+ selectedAccountType + '/' + username, true);
     xhr.setRequestHeader("X-API-Key", apiKey);
 
     xhr.onreadystatechange = function() {
@@ -40,7 +41,7 @@ function findUser() {
 
 function getAccountSummary(membershipId){
   var xhr = new XMLHttpRequest();
-  var req = 'https://www.bungie.net/Platform/Destiny/' + selectedAccountType + '/Account/' + membershipId +"/Summary/"
+  var req = bungieStuff + selectedAccountType + '/Account/' + membershipId +"/Summary/"
   xhr.open("GET", req, true);
   xhr.setRequestHeader("X-API-Key", apiKey);
 
@@ -90,7 +91,7 @@ function characterDscr(character){
 
 function getActivities(membershipId, characterId, characterIdx){
   var xhr = new XMLHttpRequest();
-  var req = 'https://www.bungie.net/Platform/Destiny/Stats/AggregateActivityStats/' + selectedAccountType + '/' + membershipId +"/" + characterId;
+  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + membershipId +"/" + characterId;
   xhr.open("GET", req, true);
   xhr.setRequestHeader("X-API-Key", apiKey);
 
@@ -112,7 +113,7 @@ function getActivities(membershipId, characterId, characterIdx){
           }
 
           for(var i = 0; i< 12; i++)
-            completionsString += raidNames[i] + " : " + completions[i]+ " "+ timePlayed[i] +  '<br>';
+            completionsString += raidNames[i] + " : " + completions[i]+ " ; "+ timePlayed[i] +  '<br>';
           var objectId = "ch" + characterIdx +"stat";
           printById(objectId, completionsString);
       }
