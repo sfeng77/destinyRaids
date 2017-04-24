@@ -137,6 +137,8 @@ function printById(objectId, content){
 }
 
 function summary() {
+  console.log(location.origin);
+
     findUser();
     //alert(grimore);
 }
