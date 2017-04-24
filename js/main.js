@@ -13,7 +13,7 @@ var raidNames = ["Vault of Glass", "Vault of Glass Heroic", "Vault of Glass AoT"
 var raidActivityHash = [2659248071, 2659248068, 856898338,
                         1836893116, 1836893119, 4000873610,
                         1733556769, 3978884648, 3534581229,
-                        1387993552, 260765522,3356249023
+                        1387993552, 260765522, 3356249023
                       ];
 
 function findUser() {
@@ -25,10 +25,14 @@ function findUser() {
     xhr.setRequestHeader("X-API-Key", apiKey);
 
     xhr.onreadystatechange = function() {
+        //console.log(this.readyState)
+        //console.log(this.status)
         if (this.readyState === 4 && this.status === 200) {
+            console.log(this.responseText)
             var json = JSON.parse(this.responseText);
+            console.log(json.Response)
             membershipId = json.Response[0].membershipId;
-            //console.log(membershipId);
+            console.log(membershipId);
             //findGrimore(membershipId);
             getAccountSummary(membershipId);
         }
@@ -48,7 +52,7 @@ function getAccountSummary(membershipId){
   xhr.onreadystatechange = function() {
       if (this.readyState === 4 && this.status === 200) {
           var json = JSON.parse(this.responseText);
-          //console.log(json);
+          console.log(json);
           var characters = json.Response.data.characters;
           var grimore = json.Response.data.grimoireScore;
           printById("grimore", "Grimore Score: " + grimore);
@@ -98,7 +102,7 @@ function getActivities(membershipId, characterId, characterIdx){
   xhr.onreadystatechange = function() {
       if (this.readyState === 4 && this.status === 200) {
           var json = JSON.parse(this.responseText);
-          // console.log(json);
+          console.log(json);
           var activities = json.Response.data.activities;
           var completionsString = "";
           var completions = new Array(12).fill(0);
