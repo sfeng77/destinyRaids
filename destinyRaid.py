@@ -5,6 +5,16 @@ import requests
 # os.environ['NO_PROXY'] = 'bungie.net'
 
 
+# import logging
+# LOG_FILENAME = 'debug.log'
+# logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
+#
+# # logging.basicConfig()
+# logging.getLogger().setLevel(logging.DEBUG)
+# requests_log = logging.getLogger("requests.packages.urllib3")
+# requests_log.setLevel(logging.DEBUG)
+# requests_log.propagate = True
+
 raidNames = ["Vault of Glass", "Vault of Glass Heroic", "Vault of Glass AoT",
              "Crota's End", "Crota's End Heroic", "Crota's End AoT",
              "King's Fall", "King's Fall Heroic", "King's Fall AoT",
@@ -32,7 +42,7 @@ characterHashes = {
 
 apiKey = "cd2254b7d1d24127abb7a98a3b0ea10e"
 HEADERS = {"X-API-Key": apiKey}
-BUNGIE = "http://www.bungie.net/platform/Destiny/"
+BUNGIE = "https://www.bungie.net/platform/Destiny/"
 AccountType = "2"
 
 
