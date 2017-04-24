@@ -20,6 +20,11 @@ function findUser() {
     var username = document.getElementById("gamerTag").value;
     var membershipId;
 
+    var customeapikey = document.getElementById("api-key").value;
+    if (customeapikey !== ""){
+      apiKey = customeapikey;
+    }
+
     var xhr = new XMLHttpRequest();
     xhr.open("GET", bungieStuff +'SearchDestinyPlayer/'+ selectedAccountType + '/' + username, true);
     xhr.setRequestHeader("X-API-Key", apiKey);
