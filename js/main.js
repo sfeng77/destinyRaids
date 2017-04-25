@@ -28,6 +28,14 @@ var raidActivityHash = [2659248071, 2659248068, 856898338,
 
 function findUser() {
   var username = document.getElementById("gamerTag").value;
+
+  if(username === ''){
+    $("#usernameform").addClass("has-danger");
+    $("#usernameform #feedback").text("I don't have time to explain why I need your username.");
+
+    return;
+  }
+
   var membershipId;
 
   var xhr = new XMLHttpRequest();
@@ -43,12 +51,12 @@ function findUser() {
       // console.log(json.Response)
       if (json.Response.length === 0) {
         $("#usernameform").addClass("has-danger");
-        $("#usernameform #feedback").text("Guardian not found!");
+        $("#usernameform #feedback").text(username + " is forever lost in the dark corners of time.");
 
       } else {
         membershipId = json.Response[0].membershipId;
         $("#usernameform").addClass("has-success");
-        $("#usernameform #feedback").text("Guardian Record Located");
+        $("#usernameform #feedback").text("Guardians make their own fate.");
 
 
         // console.log(membershipId);
@@ -74,7 +82,7 @@ function getAccountSummary(membershipId) {
   xhr.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
       var json = JSON.parse(this.responseText);
-      // console.log(json);
+      console.log(json);
       var characters = json.Response.data.characters;
       var grimore = json.Response.data.grimoireScore;
 
@@ -109,11 +117,12 @@ function characterDscr(character) {
 
   }
 
-  raceHash = character.characterBase.raceHash
-  classHash = character.characterBase.classHash
-  genderHash = character.characterBase.genderHash
+  var raceHash = character.characterBase.raceHash
+  var classHash = character.characterBase.classHash
+  var genderHash = character.characterBase.genderHash
+  var light = character.characterBase.powerLevel
 
-  var dscr = [characterHashes[genderHash], characterHashes[raceHash], characterHashes[classHash]]
+  var dscr = [light, characterHashes[genderHash], characterHashes[raceHash], characterHashes[classHash]]
   return (dscr.join(" "));
 
 }
@@ -182,7 +191,7 @@ function tableCreate(pid, completions, timePlayed, title) {
 function summary() {
   // console.log(location.origin);
   $("#usernameform").removeClass("has-danger has-success");
-  $("#usernameform #feedback").text("Looking for the guardian");
+  $("#usernameform #feedback").text("Wait for Ghost to open the door ...");
   findUser();
   //alert(grimore);
 }
