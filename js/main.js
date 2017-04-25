@@ -48,7 +48,7 @@ function findUser() {
       } else {
         membershipId = json.Response[0].membershipId;
         $("#usernameform").addClass("has-success");
-        $("#usernameform #feedback").text("");
+        $("#usernameform #feedback").text("Guardian Record Located");
 
 
         // console.log(membershipId);

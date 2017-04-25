@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="css/sticky-footer.css" rel="stylesheet">
+  <link href="css/header_background.css" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -21,17 +22,17 @@
 <body>
 
   <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron" id = "header">
       <h1>Destiny Raid Completions</h1>
 
-      <div class="form-group" id="usernameform" action = "summary();">
+      <div class="form-group" id="usernameform" action="summary();">
         <div class="input-group input-group-lg">
           <input type="text" class="form-control" id="gamerTag" placeholder="PSN username">
           <span class="input-group-btn">
-              <button type="submit" class="btn btn-default" onclick="summary();">Go</button>
+              <button type="submit" class="btn btn-primary" onclick="summary();">Go</button>
             </span>
         </div>
-        <div class="form-control-feedback" id='feedback'></div>
+        <div class="form-control-feedback" id='feedback'>Eyes up, guardian!</div>
       </div>
 
     </div>
