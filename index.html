@@ -1,29 +1,61 @@
+<!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>Destiny raid completions query</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Raids Stats</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </head>
+
 <body>
 
-  <script src="js/main.js"></script>
-
-  <h1>Your PSN username here:</h1>
-  <input type="text" id="gamerTag" value="GeauxMushroom">
-  <input id="submit" name="submit" type="submit" value="Submit" onclick="summary();" />
-
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Destiny Raid Stats</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="input-group">
+      <label for="gamerTag">PSN  : </label>
+      <input type="text" class="form-control" id="gamerTag">
+      <span class="input-group-btn">
+      <input class="btn btn-primary" type="submit" value="Submit" onclick="summary();">
+    </span>
+    </div>
+  </div>
   <!-- <p>you can use a customized api-key here:</p>
   <input type="text" id="api-key" value=""> -->
+  <div class="container">
+    <h2 id="grimore"></h2>
+  </div>
 
-  <h2 id ="grimore"></h2>
 
+  <div class="container">
 
-  <h2 id = "ch0summary"></h2>
-  <p id = "ch0stat"></p>
+    <h2 id="ch0summary"></h2>
+    <p id="ch0stat"></p>
+  </div>
 
-  <h2 id = "ch1summary"></h2>
-  <p id = "ch1stat"></p>
-  <h2 id = "ch2summary"></h2>
-  <p id = "ch2stat"></p>
+  <div class="container">
+
+    <h2 id="ch1summary"></h2>
+    <p id="ch1stat"></p>
+  </div>
+
+  <div class="container">
+
+    <h2 id="ch2summary"></h2>
+    <p id="ch2stat"></p>
+  </div>
 
 </body>
+
 </html>
