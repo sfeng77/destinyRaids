@@ -1,7 +1,8 @@
 console.log("js loaded");
 
 
-var apiKey = "f27abba92256495495a7f9499a8c8f8e";
+// var apiKey = "f27abba92256495495a7f9499a8c8f8e";
+var apiKey = "509f21739e774d29bf5a6c3b01e127af";
 var selectedAccountType = 2;
 var bungieStuff = 'https://www.bungie.net/Platform/Destiny/';
 
@@ -20,10 +21,11 @@ function findUser() {
     var username = document.getElementById("gamerTag").value;
     var membershipId;
 
-    var customeapikey = document.getElementById("api-key").value;
-    if (customeapikey !== ""){
-      apiKey = customeapikey;
-    }
+    // var customeapikey = document.getElementById("api-key").value;
+    // if (customeapikey !== ""){
+    //   apiKey = customeapikey;
+    // }
+    console.log(apiKey);
 
     var xhr = new XMLHttpRequest();
     xhr.open("GET", bungieStuff +'SearchDestinyPlayer/'+ selectedAccountType + '/' + username, true);
@@ -137,7 +139,7 @@ function printById(objectId, content){
 }
 
 function summary() {
-  console.log(location.origin);
+    console.log(location.origin);
 
     findUser();
     //alert(grimore);
