@@ -1,5 +1,3 @@
-console.log("js loaded");
-
 // var apiKey = "f27abba92256495495a7f9499a8c8f8e";
 var apiKey = "509f21739e774d29bf5a6c3b01e127af";
 var selectedAccountType = 2;
@@ -19,21 +17,13 @@ var raidNames = ["Vault of Glass",
   "Wrath of the Machine AoT"
 ];
 
-var raidNamesCon = "";
-for (var i = 0; i < 12; i++)
-  raidNamesCon += raidNames[i] + "<br>"
 
 
-for (var i = 0; i < 12; i++)
-
-  var raidActivityHash = [2659248071, 2659248068, 856898338,
-    1836893116, 1836893119, 4000873610,
-    1733556769, 3534581229, 3978884648,
-    1387993552, 260765522, 3356249023
-  ];
-
-
-// findUser();
+var raidActivityHash = [2659248071, 2659248068, 856898338,
+  1836893116, 1836893119, 4000873610,
+  1733556769, 3534581229, 3978884648,
+  1387993552, 260765522, 3356249023
+];
 
 
 function findUser() {
@@ -50,11 +40,17 @@ function findUser() {
     if (this.readyState === 4 && this.status === 200) {
       // console.log(this.responseText)
       var json = JSON.parse(this.responseText);
-      console.log(json.Response)
+      // console.log(json.Response)
       if (json.Response.length === 0) {
-        printById("grimore", "User not found!")
+        $("#usernameform").addClass("has-danger");
+        $("#usernameform #feedback").text("Guardian not found!");
+
       } else {
         membershipId = json.Response[0].membershipId;
+        $("#usernameform").addClass("has-success");
+        $("#usernameform #feedback").text("");
+
+
         // console.log(membershipId);
         //findGrimore(membershipId);
         getAccountSummary(membershipId);
@@ -81,7 +77,9 @@ function getAccountSummary(membershipId) {
       // console.log(json);
       var characters = json.Response.data.characters;
       var grimore = json.Response.data.grimoireScore;
-      printById("grimore", "Grimore Score: " + grimore);
+
+      $("#grimore").text("Grimore Score: " + grimore);
+
       for (var i = 0; i < characters.length; i++) {
         characterId = characters[i].characterBase.characterId;
 
@@ -129,7 +127,7 @@ function getActivities(membershipId, characterId, characterIdx, desc) {
   xhr.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
       var json = JSON.parse(this.responseText);
-      console.log(json);
+      // console.log(json);
       var activities = json.Response.data.activities;
       var completionsString = "";
       var completions = new Array(12).fill(0);
@@ -162,7 +160,7 @@ function tableCreate(pid, completions, timePlayed, title) {
   for (var i = 0; i < 12; i++) {
     var tr = tbl.insertRow();
 
-    if (completions[i] === 0){
+    if (completions[i] === 0) {
       tr.className = 'table-danger';
     }
 
@@ -180,13 +178,22 @@ function tableCreate(pid, completions, timePlayed, title) {
 }
 
 
-function printById(objectId, content) {
-  document.getElementById(objectId).innerHTML = content;
-}
 
 function summary() {
   // console.log(location.origin);
-
+  $("#usernameform").removeClass("has-danger has-success");
+  $("#usernameform #feedback").text("Looking for the guardian");
   findUser();
   //alert(grimore);
 }
+
+
+$("#usernameform").submit(function() {
+  console.log("form submit");
+  summary();
+});
+
+$(document).ready(function() {
+  console.log("page ready");
+  // $("#js-warning").hide();
+});
