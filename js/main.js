@@ -6,23 +6,30 @@ var apiKey = "509f21739e774d29bf5a6c3b01e127af";
 var selectedAccountType = 2;
 var bungieStuff = 'https://www.bungie.net/Platform/Destiny/';
 
-var raidNames = ["Vault of Glass             ",
-                 "Vault of Glass Heroic      ",
-                 "Vault of Glass AoT         ",
-                 "Crota's End                ",
-                 "Crota's End Heroic         ",
-                 "Crota's End AoT            ",
-                 "King's Fall                ",
-                 "King's Fall Heroic         ",
-                 "King's Fall AoT            ",
-                 "Wrath of the Machine       ",
+var raidNames = ["Vault of Glass",
+                 "Vault of Glass Heroic",
+                 "Vault of Glass AoT",
+                 "Crota's End",
+                 "Crota's End Heroic",
+                 "Crota's End AoT",
+                 "King's Fall",
+                 "King's Fall Heroic",
+                 "King's Fall AoT",
+                 "Wrath of the Machine",
                  "Wrath of the Machine Heroic",
-                 "Wrath of the Machine AoT    "
+                 "Wrath of the Machine AoT"
 ];
+
+var raidNamesCon = "";
+for (var i = 0; i < 12; i++)
+  raidNamesCon += raidNames[i] + "<br>"
+
+
+for (var i = 0; i < 12; i++)
 
 var raidActivityHash = [2659248071, 2659248068, 856898338,
   1836893116, 1836893119, 4000873610,
-  1733556769, 3978884648, 3534581229,
+  1733556769, 3534581229, 3978884648,
   1387993552, 260765522, 3356249023
 ];
 
@@ -139,8 +146,9 @@ function getActivities(membershipId, characterId, characterIdx) {
       }
 
       for (var i = 0; i < 12; i++)
-        completionsString += raidNames[i] + " : " + completions[i] + " ; " + timePlayed[i] + '<br>';
+        completionsString += completions[i] + " ; " + timePlayed[i] + '<br>';
       var objectId = "ch" + characterIdx + "stat";
+      printById("ch"+characterIdx+"names", raidNamesCon);
       printById(objectId, completionsString);
     }
   }

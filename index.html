@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Raids Stats</title>
 
@@ -20,42 +21,63 @@
   <div class="container">
     <div class="jumbotron">
       <h1>Destiny Raid Stats</h1>
+      <div class="input-group">
+          <label for="gamerTag">PSN  : </label>
+          <input type="text" class="form-control" id="gamerTag">
+          <span class="input-group-btn">
+          <input class="btn btn-primary" type="submit" value="Submit" onclick="summary();">
+        </span>
+
+      </div>
     </div>
   </div>
-  <div class="container">
-    <div class="input-group">
-      <label for="gamerTag">PSN  : </label>
-      <input type="text" class="form-control" id="gamerTag">
-      <span class="input-group-btn">
-      <input class="btn btn-primary" type="submit" value="Submit" onclick="summary();">
-    </span>
-    </div>
-  </div>
+
   <!-- <p>you can use a customized api-key here:</p>
   <input type="text" id="api-key" value=""> -->
   <div class="container">
     <h2 id="grimore"></h2>
   </div>
 
-
   <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-4">
 
-    <h2 id="ch0summary"></h2>
-    <p id="ch0stat"></p>
+        <h2 id="ch0summary"></h2>
+        <div class="row">
+          <div class="col-xs-8">
+            <p id="ch0names"></p>
+          </div>
+          <div class="col-xs-4">
+            <p id="ch0stat"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+       <h2 id="ch1summary"></h2>
+         <div class="row">
+          <div class="col-xs-8">
+            <p id="ch1names"></p>
+          </div>
+          <div class="col-xs-4">
+            <p id="ch1stat"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+      <h2 id="ch2summary"></h2>
+        <div class="row">
+          <div class="col-xs-8">
+            <p id="ch2names"></p>
+          </div>
+          <div class="col-xs-4">
+            <p id="ch2stat"></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="container">
-
-    <h2 id="ch1summary"></h2>
-    <p id="ch1stat"></p>
-  </div>
-
-  <div class="container">
-
-    <h2 id="ch2summary"></h2>
-    <p id="ch2stat"></p>
-  </div>
-
 </body>
 
 </html>
