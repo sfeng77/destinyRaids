@@ -1,23 +1,22 @@
 console.log("js loaded");
 
-
 // var apiKey = "f27abba92256495495a7f9499a8c8f8e";
 var apiKey = "509f21739e774d29bf5a6c3b01e127af";
 var selectedAccountType = 2;
 var bungieStuff = 'https://www.bungie.net/Platform/Destiny/';
 
 var raidNames = ["Vault of Glass",
-                 "Vault of Glass Heroic",
-                 "Vault of Glass AoT",
-                 "Crota's End",
-                 "Crota's End Heroic",
-                 "Crota's End AoT",
-                 "King's Fall",
-                 "King's Fall Heroic",
-                 "King's Fall AoT",
-                 "Wrath of the Machine",
-                 "Wrath of the Machine Heroic",
-                 "Wrath of the Machine AoT"
+  "Vault of Glass Heroic",
+  "Vault of Glass AoT",
+  "Crota's End",
+  "Crota's End Heroic",
+  "Crota's End AoT",
+  "King's Fall",
+  "King's Fall Heroic",
+  "King's Fall AoT",
+  "Wrath of the Machine",
+  "Wrath of the Machine Heroic",
+  "Wrath of the Machine AoT"
 ];
 
 var raidNamesCon = "";
@@ -27,21 +26,19 @@ for (var i = 0; i < 12; i++)
 
 for (var i = 0; i < 12; i++)
 
-var raidActivityHash = [2659248071, 2659248068, 856898338,
-  1836893116, 1836893119, 4000873610,
-  1733556769, 3534581229, 3978884648,
-  1387993552, 260765522, 3356249023
-];
+  var raidActivityHash = [2659248071, 2659248068, 856898338,
+    1836893116, 1836893119, 4000873610,
+    1733556769, 3534581229, 3978884648,
+    1387993552, 260765522, 3356249023
+  ];
+
+
+// findUser();
+
 
 function findUser() {
   var username = document.getElementById("gamerTag").value;
   var membershipId;
-
-  // var customeapikey = document.getElementById("api-key").value;
-  // if (customeapikey !== ""){
-  //   apiKey = customeapikey;
-  // }
-  // console.log(apiKey);
 
   var xhr = new XMLHttpRequest();
   xhr.open("GET", bungieStuff + 'SearchDestinyPlayer/' + selectedAccountType + '/' + username, true);
@@ -88,9 +85,10 @@ function getAccountSummary(membershipId) {
       for (var i = 0; i < characters.length; i++) {
         characterId = characters[i].characterBase.characterId;
 
-        var objectId = "ch" + i + "summary"
-        printById(objectId, characterDscr(characters[i]));
-        getActivities(membershipId, characterId, i);
+        //var objectId = "ch" + i + "summary"
+        // printById(objectId, characterDscr(characters[i]));
+        var desc = characterDscr(characters[i])
+        getActivities(membershipId, characterId, i, desc);
       }
     }
   }
@@ -122,7 +120,7 @@ function characterDscr(character) {
 
 }
 
-function getActivities(membershipId, characterId, characterIdx) {
+function getActivities(membershipId, characterId, characterIdx, desc) {
   var xhr = new XMLHttpRequest();
   var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + membershipId + "/" + characterId;
   xhr.open("GET", req, true);
@@ -131,7 +129,7 @@ function getActivities(membershipId, characterId, characterIdx) {
   xhr.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
       var json = JSON.parse(this.responseText);
-      // console.log(json);
+      console.log(json);
       var activities = json.Response.data.activities;
       var completionsString = "";
       var completions = new Array(12).fill(0);
@@ -145,15 +143,36 @@ function getActivities(membershipId, characterId, characterIdx) {
         }
       }
 
-      for (var i = 0; i < 12; i++)
-        completionsString += completions[i] + " ; " + timePlayed[i] + '<br>';
-      var objectId = "ch" + characterIdx + "stat";
-      printById("ch"+characterIdx+"names", raidNamesCon);
-      printById(objectId, completionsString);
+      tableCreate("ch" + characterIdx + "box", completions, timePlayed, desc)
+
     }
   }
 
   xhr.send();
+}
+
+
+function tableCreate(pid, completions, timePlayed, title) {
+  var parent = document.getElementById(pid);
+  parent.innerHTML = ''
+  var tbl = document.createElement('table');
+  tbl.className = 'table table-striped table-sm table-hover'
+  var cap = tbl.createTHead();
+  cap.innerHTML = "<b>" + title + "</b>"
+  for (var i = 0; i < 12; i++) {
+    var tr = tbl.insertRow();
+
+    var td = tr.insertCell();
+    td.appendChild(document.createTextNode(raidNames[i]));
+
+    var td = tr.insertCell();
+    td.appendChild(document.createTextNode(completions[i]));
+
+    var td = tr.insertCell();
+    td.appendChild(document.createTextNode(timePlayed[i]));
+
+  }
+  parent.appendChild(tbl);
 }
 
 
