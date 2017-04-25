@@ -137,7 +137,7 @@ function getActivities(membershipId, characterId, characterIdx, desc) {
       for (var i = 0; i < activities.length; i++) {
         for (var j = 0; j < raidActivityHash.length; j++) {
           if (activities[i].activityHash === raidActivityHash[j]) {
-            completions[j] = activities[i].values.activityCompletions.basic.displayValue;
+            completions[j] = activities[i].values.activityCompletions.basic.value;
             timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue;
           }
         }
@@ -161,6 +161,10 @@ function tableCreate(pid, completions, timePlayed, title) {
   cap.innerHTML = "<b>" + title + "</b>"
   for (var i = 0; i < 12; i++) {
     var tr = tbl.insertRow();
+
+    if (completions[i] === 0){
+      tr.className = 'table-danger';
+    }
 
     var td = tr.insertCell();
     td.appendChild(document.createTextNode(raidNames[i]));
