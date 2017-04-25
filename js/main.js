@@ -81,11 +81,11 @@ function getAccountSummary(membershipId) {
   xhr.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
       var json = JSON.parse(this.responseText);
-      // console.log(json);
+      console.log(json);
       var characters = json.Response.data.characters;
       var grimore = json.Response.data.grimoireScore;
 
-      $("#grimore").text("Grimore Score: " + grimore);
+      $("#grimore").text("Grimoire Score: " + grimore);
 
       for (var i = 0; i < characters.length; i++) {
         characterId = characters[i].characterBase.characterId;
