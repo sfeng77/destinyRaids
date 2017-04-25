@@ -1,4 +1,3 @@
-// var apiKey = "f27abba92256495495a7f9499a8c8f8e";
 var apiKey = "509f21739e774d29bf5a6c3b01e127af";
 var selectedAccountType = 2;
 var bungieStuff = 'https://www.bungie.net/Platform/Destiny/';
@@ -82,7 +81,7 @@ function getAccountSummary(membershipId) {
   xhr.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
       var json = JSON.parse(this.responseText);
-      console.log(json);
+      // console.log(json);
       var characters = json.Response.data.characters;
       var grimore = json.Response.data.grimoireScore;
 
