@@ -16,8 +16,6 @@ var raidNames = ["Vault of Glass",
   "Wrath of the Machine AoT"
 ];
 
-
-
 var raidActivityHash = [2659248071, 2659248068, 856898338,
   1836893116, 1836893119, 4000873610,
   1733556769, 3534581229, 3978884648,
@@ -26,83 +24,72 @@ var raidActivityHash = [2659248071, 2659248068, 856898338,
 
 
 function findUser() {
-  var username = document.getElementById("gamerTag").value;
+  var username = $("#gamerTag").val()
 
   if(username === ''){
     $("#usernameform").addClass("has-danger");
-    $("#usernameform #feedback").text("I don't have time to explain why I need your username.");
+    $("#feedback").text("I don't have time to explain why I need your username.");
 
     return;
   }
 
-  var membershipId;
+  var mid;
+  var req = bungieStuff + 'SearchDestinyPlayer/' + selectedAccountType + '/' + username
 
-  var xhr = new XMLHttpRequest();
-  xhr.open("GET", bungieStuff + 'SearchDestinyPlayer/' + selectedAccountType + '/' + username, true);
-  xhr.setRequestHeader("X-API-Key", apiKey);
-
-  xhr.onreadystatechange = function() {
-    //console.log(this.readyState)
-    //console.log(this.status)
-    if (this.readyState === 4 && this.status === 200) {
-      // console.log(this.responseText)
-      var json = JSON.parse(this.responseText);
-      // console.log(json.Response)
-      if (json.Response.length === 0) {
+  $.ajax({
+    url: req,
+    headers : {"X-API-Key": apiKey},
+    datatype: "json",
+    success : function(data){
+      if (data.Response.length === 0) {
         $("#usernameform").addClass("has-danger");
-        $("#usernameform #feedback").text(username + " is forever lost in the dark corners of time.");
+        $("#feedback").text(username + " is forever lost in the dark corners of time.");
 
       } else {
-        membershipId = json.Response[0].membershipId;
+        mid = data.Response[0].membershipId;
         $("#usernameform").addClass("has-success");
-        $("#usernameform #feedback").text("Guardians make their own fate.");
+        $("#feedback").text("Guardians make their own fate.");
 
-
-        // console.log(membershipId);
-        //findGrimore(membershipId);
-        getAccountSummary(membershipId);
+        getAccountSummary(mid);
 
       }
-
+    },
+    error: function(err){
+      console.log(err)
     }
-  }
-
-  xhr.send();
+  });
 
 }
 
 
-function getAccountSummary(membershipId) {
-  var xhr = new XMLHttpRequest();
-  var req = bungieStuff + selectedAccountType + '/Account/' + membershipId + "/Summary/"
-  xhr.open("GET", req, true);
-  xhr.setRequestHeader("X-API-Key", apiKey);
+function getAccountSummary(mid) {
+  var req = bungieStuff + selectedAccountType + '/Account/' + mid + "/Summary/"
 
-  xhr.onreadystatechange = function() {
-    if (this.readyState === 4 && this.status === 200) {
-      var json = JSON.parse(this.responseText);
-      console.log(json);
-      var characters = json.Response.data.characters;
-      var grimore = json.Response.data.grimoireScore;
+  $.ajax({
+    url: req,
+    headers : {"X-API-Key": apiKey},
+    datatype: "json",
+    success : function(data){
+      var characters = data.Response.data.characters;
+      var grimoire = data.Response.data.grimoireScore;
 
-      $("#grimore").text("Grimoire Score: " + grimore);
+      $("#grimore").text("Grimoire Score: " + grimoire);
 
       for (var i = 0; i < characters.length; i++) {
-        characterId = characters[i].characterBase.characterId;
-
-        //var objectId = "ch" + i + "summary"
-        // printById(objectId, characterDscr(characters[i]));
-        var desc = characterDscr(characters[i])
-        getActivities(membershipId, characterId, i, desc);
+        var cid = characters[i].characterBase.characterId;
+        var desc = characterDscr(characters[i].characterBase)
+        getActivities(mid, cid, i, desc);
       }
+    },
+    error: function(err){
+      console.log(err)
     }
-  }
+  });
 
-  xhr.send();
 }
 
-function characterDscr(character) {
-  var characterHashes = {
+function characterDscr(cb) {
+  var cd = {
     2803282938: "Awoken",
     898834093: "Exo",
     3887404748: "Human",
@@ -116,28 +103,25 @@ function characterDscr(character) {
 
   }
 
-  var raceHash = character.characterBase.raceHash
-  var classHash = character.characterBase.classHash
-  var genderHash = character.characterBase.genderHash
-  var light = character.characterBase.powerLevel
+  var raceHash = cb.raceHash
+  var classHash = cb.classHash
+  var genderHash = cb.genderHash
+  var light = cb.powerLevel
 
-  var dscr = [light, characterHashes[genderHash], characterHashes[raceHash], characterHashes[classHash]]
+  var dscr = [light, cd[genderHash], cd[raceHash], cd[classHash]]
   return (dscr.join(" "));
 
 }
 
-function getActivities(membershipId, characterId, characterIdx, desc) {
-  var xhr = new XMLHttpRequest();
-  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + membershipId + "/" + characterId;
-  xhr.open("GET", req, true);
-  xhr.setRequestHeader("X-API-Key", apiKey);
+function getActivities(mid, cid, idx, desc) {
+  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + "/" + cid;
 
-  xhr.onreadystatechange = function() {
-    if (this.readyState === 4 && this.status === 200) {
-      var json = JSON.parse(this.responseText);
-      // console.log(json);
-      var activities = json.Response.data.activities;
-      var completionsString = "";
+  $.ajax({
+    url: req,
+    headers : {"X-API-Key": apiKey},
+    datatype: "json",
+    success : function(data){
+      var activities = data.Response.data.activities;
       var completions = new Array(12).fill(0);
       var timePlayed = new Array(12).fill("0h 0m");
       for (var i = 0; i < activities.length; i++) {
@@ -149,12 +133,13 @@ function getActivities(membershipId, characterId, characterIdx, desc) {
         }
       }
 
-      tableCreate("ch" + characterIdx + "box", completions, timePlayed, desc)
+      tableCreate("ch" + idx + "box", completions, timePlayed, desc)
 
+    },
+    error: function(err){
+      console.log(err)
     }
-  }
-
-  xhr.send();
+  });
 }
 
 
@@ -190,7 +175,7 @@ function tableCreate(pid, completions, timePlayed, title) {
 function summary() {
   // console.log(location.origin);
   $("#usernameform").removeClass("has-danger has-success");
-  $("#usernameform #feedback").text("Wait for Ghost to open the door ...");
+  $("#feedback").text("Wait for Ghost to open the door ...");
   findUser();
   //alert(grimore);
 }
