@@ -3,18 +3,12 @@ var selectedAccountType = 2;
 var bungieStuff = 'https://www.bungie.net/Platform/Destiny/';
 
 var raidNames = ["Vault of Glass",
-  "Vault of Glass Heroic",
-  "Vault of Glass AoT",
   "Crota's End",
-  "Crota's End Heroic",
-  "Crota's End AoT",
   "King's Fall",
-  "King's Fall Heroic",
-  "King's Fall AoT",
   "Wrath of the Machine",
-  "Wrath of the Machine Heroic",
-  "Wrath of the Machine AoT"
 ];
+
+var raidMod = ["Normal", "Heroic", "Age of Triumph"]
 
 var raidActivityHash = [2659248071, 2659248068, 856898338,
   1836893116, 1836893119, 4000873610,
@@ -147,10 +141,19 @@ function tableCreate(pid, completions, timePlayed, title) {
   var parent = document.getElementById(pid);
   parent.innerHTML = ''
   var tbl = document.createElement('table');
-  tbl.className = 'table table-striped table-sm table-hover'
+  tbl.className = 'table table-sm table-hover'
   var cap = tbl.createTHead();
   cap.innerHTML = "<b>" + title + "</b>"
   for (var i = 0; i < 12; i++) {
+
+    if (i % 3 === 0){
+      var tr = tbl.insertRow();
+      var td = tr.insertCell();
+      var raidtitle = document.createElement("b");
+      raidtitle.innerHTML = raidNames[i / 3];
+      td.appendChild(raidtitle);
+    }
+
     var tr = tbl.insertRow();
 
     if (completions[i] === 0) {
@@ -158,7 +161,7 @@ function tableCreate(pid, completions, timePlayed, title) {
     }
 
     var td = tr.insertCell();
-    td.appendChild(document.createTextNode(raidNames[i]));
+    td.appendChild(document.createTextNode(raidMod[i % 3]));
 
     var td = tr.insertCell();
     td.appendChild(document.createTextNode(completions[i]));
