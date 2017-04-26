@@ -173,20 +173,21 @@ function tableCreate(pid, completions, timePlayed, title) {
 
 
 function summary() {
-  // console.log(location.origin);
   $("#usernameform").removeClass("has-danger has-success");
   $("#feedback").text("Wait for Ghost to open the door ...");
+  $("#grimore").html("");
+  $("#ch0box").html("");
+  $("#ch1box").html("");
+  $("#ch2box").html("");
   findUser();
-  //alert(grimore);
 }
 
 
-$("#usernameform").submit(function() {
-  console.log("form submit");
-  summary();
-});
-
 $(document).ready(function() {
   console.log("page ready");
-  // $("#js-warning").hide();
+  $('#usernameform').submit(function(e) {
+    e.preventDefault();
+    console.log("form submit");
+    summary();
+  });
 });
