@@ -140,11 +140,18 @@ function getActivities(mid, cid, idx, desc) {
 function tableCreate(pid, completions, timePlayed, title) {
   var parent = document.getElementById(pid);
   parent.innerHTML = ''
+
+  var classsum = document.createElement('div');
+  classsum.innerHTML = "<b>" + title + "</b>";
+
+  parent.appendChild(classsum);
+
+
   var tbl = document.createElement('table');
   tbl.className = 'table table-sm table-hover'
-  var cap = tbl.createTHead();
-  cap.innerHTML = "<b>" + title + "</b>";
-  
+  // var cap = tbl.createTHead();
+  // cap.innerHTML = "<b>" + title + "</b>";
+
   for (var i = 0; i < 12; i++) {
 
     if (i % 3 === 0){
