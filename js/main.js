@@ -143,12 +143,15 @@ function tableCreate(pid, completions, timePlayed, title) {
   var tbl = document.createElement('table');
   tbl.className = 'table table-sm table-hover'
   var cap = tbl.createTHead();
-  cap.innerHTML = "<b>" + title + "</b>"
+  cap.innerHTML = "<b>" + title + "</b>";
+  
   for (var i = 0; i < 12; i++) {
 
     if (i % 3 === 0){
       var tr = tbl.insertRow();
+      tr.className = "table-info";
       var td = tr.insertCell();
+      td.colSpan = '3';
       var raidtitle = document.createElement("b");
       raidtitle.innerHTML = raidNames[i / 3];
       td.appendChild(raidtitle);
