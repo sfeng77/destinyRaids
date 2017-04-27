@@ -77,8 +77,8 @@ function getAccountSummary(mid) {
       var characters = data.Response.data.characters
       var grimoire = data.Response.data.grimoireScore
 
-      $('#summary').text('Grimoire Score: ' + grimoire)
-
+      //$('#summary').text('Grimoire Score: ' + grimoire)
+      addStat('Grimoire Score', grimoire)
       var nc = characters.length
 
       for (var i = 0; i < characters.length; i++) {
@@ -91,6 +91,33 @@ function getAccountSummary(mid) {
       console.log(err)
     }
   })
+}
+
+
+function addStat (statName, statValue) {
+  var gs = document.createElement('div')
+  gs.className = 'card'
+
+  var gt = document.createElement('b')
+  gt.className = 'card-header'
+  gt.innerHTML = statName
+
+  gs.append(gt)
+
+  var score = document.createElement('h2')
+  score.align = 'right'
+  score.innerHTML = statValue
+
+  var gb = document.createElement('div')
+  gb.className = 'card-block'
+
+  gb.append(score)
+  gs.append(gb)
+
+  var col = document.createElement('div')
+  col.className = 'col-xs-6 col-md-3'
+  col.append(gs)
+  $('#summary').append(col)
 }
 
 function characterDscr(cb) {
