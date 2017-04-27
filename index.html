@@ -20,39 +20,32 @@
 <body>
 
   <div class="container">
-    <div class="jumbotron" id = "header">
+    <div class="jumbotron" id="header">
       <h1>Destiny Raid Completions</h1>
 
 
       <form id="usernameform">
-      <div class="form-group" >
-        <div class="input-group">
-          <input type="text" class="form-control col-sm-6" id="gamerTag" placeholder="PSN username">
-          <span class="input-group-btn">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="text" class="form-control col-sm-6" id="gamerTag" placeholder="PSN username, e.g. Deej_BNG">
+            <span class="input-group-btn">
               <button type="submit" class="btn btn-primary">Go</button>
             </span>
+          </div>
+          <div class="form-control-feedback" id='feedback'>Eyes up, guardian!</div>
         </div>
-        <div class="form-control-feedback" id='feedback'>Eyes up, guardian!</div>
-      </div>
-    </form>
+      </form>
+
     </div>
   </div>
 
 
   <div class="container">
-    <h2 id="grimore"></h2>
+    <h2 id="summary"></h2>
   </div>
 
   <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-4" id='ch0box'>
-      </div>
-
-      <div class="col-lg-4" id='ch1box'>
-      </div>
-
-      <div class="col-lg-4" id='ch2box'>
-      </div>
+    <div class="row justify-content-around" id="chstats">
     </div>
   </div>
 
