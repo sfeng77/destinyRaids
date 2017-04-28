@@ -27,7 +27,7 @@ var raidActivityHash = [
 ]
 
 function findUser() {
-  var username = $('#gamerTag').val()
+  var username = $('#gamerTag').val().trim()
 
   if (username === '') {
     $('#usernameform').addClass('has-danger')
