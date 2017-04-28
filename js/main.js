@@ -7,6 +7,8 @@ var successText = 'Guardians make their own fate.'
 var notFoundText = ' is forever lost in the dark corners of time.'
 var emptyFormText = 'I don\'t have time to explain why I need your username.'
 
+var deletedCharacterName = 'Deleted Character'
+
 var raidNames = ['Vault of Glass', 'Crota\'s End', 'King\'s Fall', 'Wrath of the Machine']
 
 var raidMod = ['Normal', 'Heroic', 'Age of Triumph']
@@ -78,9 +80,7 @@ function getAccountSummary(mid) {
       var characters = data.Response.data.characters
       var grimoire = data.Response.data.grimoireScore
 
-      //$('#summary').text('Grimoire Score: ' + grimoire)
       addStat('Grimoire Score', grimoire)
-      var nc = characters.length
 
       for (var i = 0; i < characters.length; i++) {
         var cid = characters[i].characterBase.characterId
@@ -105,9 +105,9 @@ function getAccountSummary(mid) {
       // console.log(data)
       var characters = data.Response.characters
       for (var i = 0; i < characters.length; i++) {
-        if (characters[i].deleted == true) {
+        if (characters[i].deleted === true) {
           var cid = characters[i].characterId
-          deletedgetActivities(mid, cid)
+          getActivities(mid, cid, deletedCharacterName)
         }
       }
     },
@@ -116,7 +116,6 @@ function getAccountSummary(mid) {
     }
   })
 }
-
 
 function addStat(statName, statValue) {
   var gs = document.createElement('div')
@@ -168,7 +167,7 @@ function characterDscr(cb) {
   return (dscr.join(' '))
 }
 
-function getActivities(mid, cid, desc) {
+function getActivities(mid, cid, title) {
   var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
 
   $.ajax({
@@ -191,38 +190,7 @@ function getActivities(mid, cid, desc) {
         }
       }
 
-      tableCreate(completions, timePlayed, desc)
-    },
-    error: function (err) {
-      console.log(err)
-    }
-  })
-}
-
-function deletedgetActivities(mid, cid) {
-  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
-
-  $.ajax({
-    url: req,
-    headers: {
-      'X-API-Key': apiKey
-    },
-    datatype: 'json',
-    success: function (data) {
-      // console.log(data)
-      var activities = data.Response.data.activities
-      var completions = new Array(12).fill(0)
-      var timePlayed = new Array(12).fill('0h 0m')
-      for (var i = 0; i < activities.length; i++) {
-        for (var j = 0; j < raidActivityHash.length; j++) {
-          if (activities[i].activityHash === raidActivityHash[j]) {
-            completions[j] = activities[i].values.activityCompletions.basic.value
-            timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue
-          }
-        }
-      }
-
-      deletedtableCreate(completions, timePlayed, "Deleted Character")
+      tableCreate(completions, timePlayed, title)
     },
     error: function (err) {
       console.log(err)
@@ -276,56 +244,11 @@ function tableCreate(completions, timePlayed, title) {
   var chCol = document.createElement('div')
   chCol.className = 'col-xs-12 col-md-6 col-lg-4'
   chCol.append(chCard)
-  $('#chstats').append(chCol)
-}
-
-function deletedtableCreate(completions, timePlayed, title) {
-  var chCard = document.createElement('div')
-  chCard.className = 'card'
-
-  var chSum = document.createElement('h5')
-  chSum.className = 'card-header'
-  chSum.innerHTML = title
-
-  chCard.appendChild(chSum)
-
-  var tbl = document.createElement('table')
-  tbl.className = 'table table-sm table-hover'
-
-  var tr,
-    td
-  for (var i = 0; i < 12; i++) {
-    if (i % 3 === 0) {
-      tr = tbl.insertRow()
-      tr.className = 'table-info'
-      td = tr.insertCell()
-      td.colSpan = '3'
-      var raidtitle = document.createElement('b')
-      raidtitle.innerHTML = raidNames[i / 3]
-      td.appendChild(raidtitle)
-    }
-
-    tr = tbl.insertRow()
-
-    if (completions[i] === 0) {
-      tr.className = 'table-danger'
-    }
-
-    td = tr.insertCell()
-    td.appendChild(document.createTextNode(raidMod[i % 3]))
-
-    td = tr.insertCell()
-    td.appendChild(document.createTextNode(completions[i]))
-
-    td = tr.insertCell()
-    td.appendChild(document.createTextNode(timePlayed[i]))
+  if (title === deletedCharacterName) {
+    $('#deletedchstats').append(chCol)
+  } else {
+    $('#chstats').append(chCol)
   }
-  chCard.appendChild(tbl)
-
-  var chCol = document.createElement('div')
-  chCol.className = 'col-xs-12 col-md-6 col-lg-4'
-  chCol.append(chCard)
-  $('#deletedchstats').append(chCol)
 }
 
 function summary() {
