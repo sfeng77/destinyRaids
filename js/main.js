@@ -2,6 +2,7 @@ var apiKey = '509f21739e774d29bf5a6c3b01e127af'
 var selectedAccountType = 2
 var bungieStuff = 'https://www.bungie.net/Platform/Destiny/'
 
+
 var waitText = 'Ghost is trying to open the door...'
 var successText = 'Guardians make their own fate.'
 var notFoundText = ' is forever lost in the dark corners of time.'
@@ -94,7 +95,6 @@ function getAccountSummary(mid) {
   })
 }
 
-
 function addStat (statName, statValue) {
   var gs = document.createElement('div')
   gs.className = 'card'
@@ -134,65 +134,129 @@ function characterDscr(cb) {
     2204441813: 'Female',
     3111576190: 'Male'
 
-  }
 
-  var raceHash = cb.raceHash
-  var classHash = cb.classHash
-  var genderHash = cb.genderHash
-  var light = cb.powerLevel
+    gs.append(gt)
 
-  var dscr = [light, cd[genderHash], cd[raceHash], cd[classHash]]
-  return (dscr.join(' '))
+
+    var score = document.createElement('h2')
+    score.align = 'right'
+    score.innerHTML = statValue
+
+    var gb = document.createElement('div')
+    gb.className = 'card-block'
+
+    gb.append(score)
+    gs.append(gb)
+
+    var col = document.createElement('div')
+    col.className = 'col-xs-6 col-md-3'
+    col.append(gs)
+    $('#summary').append(col)
 }
 
-function getActivities(mid, cid, idx, desc, nc) {
-  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
+function characterDscr(cb) {
+    var cd = {
+        2803282938: 'Awoken',
+        898834093: 'Exo',
+        3887404748: 'Human',
 
-  $.ajax({
-    url: req,
-    headers: {
-      'X-API-Key': apiKey
-    },
-    datatype: 'json',
-    success: function(data) {
-      // console.log(data)
-      var activities = data.Response.data.activities
-      var completions = new Array(12).fill(0)
-      var timePlayed = new Array(12).fill('0h 0m')
-      for (var i = 0; i < activities.length; i++) {
-        for (var j = 0; j < raidActivityHash.length; j++) {
-          if (activities[i].activityHash === raidActivityHash[j]) {
-            completions[j] = activities[i].values.activityCompletions.basic.value
-            timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue
-          }
-        }
-      }
+        671679327: 'Hunter',
+        2271682572: 'Warlock',
+        3655393761: 'Titan',
 
-      tableCreate(idx, completions, timePlayed, desc, nc)
-    },
-    error: function(err) {
-      console.log(err)
+        2204441813: 'Female',
+        3111576190: 'Male'
+
     }
-  })
+
+    var raceHash = cb.raceHash
+    var classHash = cb.classHash
+    var genderHash = cb.genderHash
+    var light = cb.powerLevel
+
+    var dscr = [light, cd[genderHash], cd[raceHash], cd[classHash]]
+    return (dscr.join(' '))
 }
 
-function tableCreate(idx, completions, timePlayed, title) {
-  var chCard = document.createElement('div')
+function getActivities(mid, cid, desc) {
+    var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
+
+    $.ajax({
+        url: req,
+        headers: {
+            'X-API-Key': apiKey
+        },
+        datatype: 'json',
+        success: function(data) {
+            // console.log(data)
+            var activities = data.Response.data.activities
+            var completions = new Array(12).fill(0)
+            var timePlayed = new Array(12).fill('0h 0m')
+            for (var i = 0; i < activities.length; i++) {
+                for (var j = 0; j < raidActivityHash.length; j++) {
+                    if (activities[i].activityHash === raidActivityHash[j]) {
+                        completions[j] = activities[i].values.activityCompletions.basic.value
+                        timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue
+                    }
+                }
+            }
+
+            tableCreate(completions, timePlayed, desc)
+        },
+        error: function(err) {
+            console.log(err)
+        }
+    })
+}
+
+function deletedgetActivities(mid, cid) {
+    var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
+
+    $.ajax({
+        url: req,
+        headers: {
+            'X-API-Key': apiKey
+        },
+        datatype: 'json',
+        success: function(data) {
+            // console.log(data)
+            var activities = data.Response.data.activities
+            var completions = new Array(12).fill(0)
+            var timePlayed = new Array(12).fill('0h 0m')
+            for (var i = 0; i < activities.length; i++) {
+                for (var j = 0; j < raidActivityHash.length; j++) {
+                    if (activities[i].activityHash === raidActivityHash[j]) {
+                        completions[j] = activities[i].values.activityCompletions.basic.value
+                        timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue
+                    }
+                }
+            }
+
+            deletedtableCreate(completions, timePlayed, "Deleted Character")
+        },
+        error: function(err) {
+            console.log(err)
+        }
+    })
+}
+
+function tableCreate(completions, timePlayed, title) {
+    var chCard = document.createElement('div')
     chCard.className = 'card'
 
-    var chSum = document.createElement('h4')
-      chSum.className = 'card-header'
-      chSum.innerHTML = title
+    var chSum = document.createElement('h5')
+    chSum.className = 'card-header'
+    chSum.innerHTML = title
 
-      chCard.appendChild(chSum)
+    chCard.appendChild(chSum)
 
-      var tbl = document.createElement('table')
-        tbl.className = 'table table-sm table-hover'
+    var tbl = document.createElement('table')
+    tbl.className = 'table table-sm table-hover'
 
-        var tr,
-          td
-        for (var i = 0; i < 12; i++) {
-          if (i % 3 === 0) {
+    var tr,
+    td
+    for (var i = 0; i < 12; i++) {
+        if (i % 3 === 0) {
             tr = tbl.insertRow()
             tr.className = 'table-info'
             td = tr.insertCell()
@@ -200,44 +264,95 @@ function tableCreate(idx, completions, timePlayed, title) {
             var raidtitle = document.createElement('b')
             raidtitle.innerHTML = raidNames[i / 3]
             td.appendChild(raidtitle)
-          }
-
-          tr = tbl.insertRow()
-
-          if (completions[i] === 0) {
-            tr.className = 'table-danger'
-          }
-
-          td = tr.insertCell()
-          td.appendChild(document.createTextNode(raidMod[i % 3]))
-
-          td = tr.insertCell()
-          td.appendChild(document.createTextNode(completions[i]))
-
-          td = tr.insertCell()
-          td.appendChild(document.createTextNode(timePlayed[i]))
         }
-        chCard.appendChild(tbl)
 
-        var chCol = document.createElement('div')
-        chCol.className = 'col-xs-12 col-md-6 col-lg-4'
-        chCol.append(chCard)
-        $('#chstats').append(chCol)
-      }
+        tr = tbl.insertRow()
 
-      function summary() {
-        $('#usernameform').removeClass('has-danger has-success')
-        $('#feedback').text(waitText)
-        $('#summary').html('')
-        $('#chstats').html('')
-        findUser()
-      }
+        if (completions[i] === 0) {
+            tr.className = 'table-danger'
+        }
 
-      $(document).ready(function() {
-        // console.log('page ready')
-        $('#usernameform').submit(function(e) {
-          e.preventDefault()
-          // console.log('form submit')
-          summary()
-        })
-      })
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(raidMod[i % 3]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(completions[i]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(timePlayed[i]))
+    }
+    chCard.appendChild(tbl)
+
+    var chCol = document.createElement('div')
+    chCol.className = 'col-xs-12 col-md-6 col-lg-4'
+    chCol.append(chCard)
+    $('#chstats').append(chCol)
+}
+
+function deletedtableCreate(completions, timePlayed, title) {
+    var chCard = document.createElement('div')
+    chCard.className = 'card'
+
+    var chSum = document.createElement('h5')
+    chSum.className = 'card-header'
+    chSum.innerHTML = title
+
+    chCard.appendChild(chSum)
+
+    var tbl = document.createElement('table')
+    tbl.className = 'table table-sm table-hover'
+
+    var tr,
+    td
+    for (var i = 0; i < 12; i++) {
+        if (i % 3 === 0) {
+            tr = tbl.insertRow()
+            tr.className = 'table-info'
+            td = tr.insertCell()
+            td.colSpan = '3'
+            var raidtitle = document.createElement('b')
+            raidtitle.innerHTML = raidNames[i / 3]
+            td.appendChild(raidtitle)
+        }
+
+        tr = tbl.insertRow()
+
+        if (completions[i] === 0) {
+            tr.className = 'table-danger'
+        }
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(raidMod[i % 3]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(completions[i]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(timePlayed[i]))
+    }
+    chCard.appendChild(tbl)
+
+    var chCol = document.createElement('div')
+    chCol.className = 'col-xs-12 col-md-6 col-lg-4'
+    chCol.append(chCard)
+    $('#deletedchstats').append(chCol)
+}
+
+function summary() {
+    $('#usernameform').removeClass('has-danger has-success')
+    $('#feedback').text(waitText)
+    $('#summary').html('')
+    $('#chstats').html('')
+    $('#deletedchstats').html('')
+    findUser()
+}
+
+$(document).ready(function() {
+    // console.log('page ready')
+    $('#usernameform').submit(function(e) {
+        e.preventDefault()
+        // console.log('form submit')
+        summary()
+    })
+})
+
