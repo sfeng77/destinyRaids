@@ -355,4 +355,3 @@ $(document).ready(function() {
         summary()
     })
 })
-
