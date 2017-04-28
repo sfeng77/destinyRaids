@@ -1,133 +1,347 @@
-console.log("js loaded");
+var apiKey = '509f21739e774d29bf5a6c3b01e127af'
+var selectedAccountType = 2
+var bungieStuff = 'https://www.bungie.net/Platform/Destiny/'
 
+var waitText = 'Ghost is trying to open the door...'
+var successText = 'Guardians make their own fate.'
+var notFoundText = ' is forever lost in the dark corners of time.'
+var emptyFormText = 'I don\'t have time to explain why I need your username.'
 
-var apiKey = "f27abba92256495495a7f9499a8c8f8e";
-var selectedAccountType = 2;
-var bungieStuff = 'https://www.bungie.net/Platform/Destiny/';
+var raidNames = ['Vault of Glass', 'Crota\'s End', 'King\'s Fall', 'Wrath of the Machine']
 
-var raidNames = ["Vault of Glass", "Vault of Glass Heroic", "Vault of Glass AoT",
-                  "Crota's End", "Crota's End Heroic", "Crota's End AoT",
-                  "King's Fall", "King's Fall Heroic", "King's Fall AoT",
-                  "Wrath of the Machine", "Wrath of the Machine Heoric", "Wrath of the Machine AoT"];
+var raidMod = ['Normal', 'Heroic', 'Age of Triumph']
 
-var raidActivityHash = [2659248071, 2659248068, 856898338,
-                        1836893116, 1836893119, 4000873610,
-                        1733556769, 3978884648, 3534581229,
-                        1387993552, 260765522,3356249023
-                      ];
+var raidActivityHash = [
+    2659248071,
+    2659248068,
+    856898338,
+    1836893116,
+    1836893119,
+    4000873610,
+    1733556769,
+    3534581229,
+    3978884648,
+    1387993552,
+    260765522,
+    3356249023
+]
 
 function findUser() {
-    var username = document.getElementById("gamerTag").value;
-    var membershipId;
+    var username = $('#gamerTag').val().trim()
 
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", bungieStuff +'SearchDestinyPlayer/'+ selectedAccountType + '/' + username, true);
-    xhr.setRequestHeader("X-API-Key", apiKey);
+    if (username === '') {
+        $('#usernameform').addClass('has-danger')
+        $('#feedback').text(emptyFormText)
 
-    xhr.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status === 200) {
-            var json = JSON.parse(this.responseText);
-            membershipId = json.Response[0].membershipId;
-            //console.log(membershipId);
-            //findGrimore(membershipId);
-            getAccountSummary(membershipId);
-        }
+        return
     }
 
-    xhr.send();
+    var req = bungieStuff + 'SearchDestinyPlayer/' + selectedAccountType + '/' + username + '/'
 
-}
+    $.ajax({
+        method: 'get',
+        url: req,
+        headers: {
+            'X-API-Key': apiKey
+        },
+        datatype: 'json',
+        success: function(data) {
+            if (data.Response.length === 0) {
+                $('#usernameform').addClass('has-danger')
+                $('#feedback').text(username + notFoundText)
+            } else {
+                var mid = data.Response[0].membershipId
+                $('#usernameform').addClass('has-success')
+                $('#feedback').text(successText)
 
-
-function getAccountSummary(membershipId){
-  var xhr = new XMLHttpRequest();
-  var req = bungieStuff + selectedAccountType + '/Account/' + membershipId +"/Summary/"
-  xhr.open("GET", req, true);
-  xhr.setRequestHeader("X-API-Key", apiKey);
-
-  xhr.onreadystatechange = function() {
-      if (this.readyState === 4 && this.status === 200) {
-          var json = JSON.parse(this.responseText);
-          //console.log(json);
-          var characters = json.Response.data.characters;
-          var grimore = json.Response.data.grimoireScore;
-          printById("grimore", "Grimore Score: " + grimore);
-          for(var i = 0; i < characters.length; i++){
-            characterId  = characters[i].characterBase.characterId;
-
-            var objectId = "ch" + i +"summary"
-            printById(objectId, characterDscr(characters[i]));
-            getActivities(membershipId, characterId, i);
-          }
-      }
-  }
-
-  xhr.send();
-}
-
-function characterDscr(character){
-  var characterHashes = {
-    2803282938: "Awoken",
-    898834093: "Exo",
-    3887404748: "Human",
-
-    671679327:"Hunter",
-    2271682572:"Warlock",
-    3655393761:"Titan",
-
-    2204441813:"Female",
-    3111576190:"Male"
-
-  }
-
-  raceHash = character.characterBase.raceHash
-  classHash = character.characterBase.classHash
-  genderHash = character.characterBase.genderHash
-
-  var dscr = [characterHashes[genderHash], characterHashes[raceHash], characterHashes[classHash]]
-  return (dscr.join(" ")) ;
-
-}
-
-function getActivities(membershipId, characterId, characterIdx){
-  var xhr = new XMLHttpRequest();
-  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + membershipId +"/" + characterId;
-  xhr.open("GET", req, true);
-  xhr.setRequestHeader("X-API-Key", apiKey);
-
-  xhr.onreadystatechange = function() {
-      if (this.readyState === 4 && this.status === 200) {
-          var json = JSON.parse(this.responseText);
-          // console.log(json);
-          var activities = json.Response.data.activities;
-          var completionsString = "";
-          var completions = new Array(12).fill(0);
-          var timePlayed = new Array(12).fill("0h 0m");
-          for(var i = 0; i < activities.length; i++){
-            for(var j =0; j < raidActivityHash.length; j++){
-              if (activities[i].activityHash === raidActivityHash[j]){
-                completions[j] = activities[i].values.activityCompletions.basic.displayValue;
-                timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue;
-              }
+                getAccountSummary(mid)
             }
-          }
+        },
+        error: function(err) {
+            console.log(err)
+        }
+    })
+}
 
-          for(var i = 0; i< 12; i++)
-            completionsString += raidNames[i] + " : " + completions[i]+ " ; "+ timePlayed[i] +  '<br>';
-          var objectId = "ch" + characterIdx +"stat";
-          printById(objectId, completionsString);
-      }
-  }
+function getAccountSummary(mid) {
+    var req = bungieStuff + selectedAccountType + '/Account/' + mid + '/Summary/'
 
-  xhr.send();
+    $.ajax({
+        url: req,
+        headers: {
+            'X-API-Key': apiKey
+        },
+        datatype: 'json',
+        success: function(data) {
+            // console.log(data)
+
+            var characters = data.Response.data.characters
+            var grimoire = data.Response.data.grimoireScore
+
+            //$('#summary').text('Grimoire Score: ' + grimoire)
+            addStat('Grimoire Score', grimoire)
+            var nc = characters.length
+
+            for (var i = 0; i < characters.length; i++) {
+                var cid = characters[i].characterBase.characterId
+                var desc = characterDscr(characters[i].characterBase)
+                getActivities(mid, cid, desc)
+            }
+        },
+        error: function(exception) {
+            console.log(exception)
+        }
+    })
+
+    var req = bungieStuff + 'Stats/Account/' + selectedAccountType + '/' + mid + '/'
+
+    $.ajax({
+        url: req,
+        headers: {
+            'X-API-Key': apiKey
+        },
+        datatype: 'json',
+        success: function(data) {
+            // console.log(data)
+            var characters = data.Response.characters
+            for (var i = 0; i < characters.length; i++) {
+                if (characters[i].deleted == true) {
+                    var cid = characters[i].characterId
+                    deletedgetActivities(mid, cid)
+                }
+            }
+        },
+        error: function(err) {
+            console.log(err)
+        }
+    })
 }
 
 
-function printById(objectId, content){
-  document.getElementById(objectId).innerHTML = content;
+function addStat (statName, statValue) {
+    var gs = document.createElement('div')
+    gs.className = 'card'
+
+    var gt = document.createElement('b')
+    gt.className = 'card-header'
+    gt.innerHTML = statName
+
+    gs.append(gt)
+
+    var score = document.createElement('h2')
+    score.align = 'right'
+    score.innerHTML = statValue
+
+    var gb = document.createElement('div')
+    gb.className = 'card-block'
+
+    gb.append(score)
+    gs.append(gb)
+
+    var col = document.createElement('div')
+    col.className = 'col-xs-6 col-md-3'
+    col.append(gs)
+    $('#summary').append(col)
+}
+
+function characterDscr(cb) {
+    var cd = {
+        2803282938: 'Awoken',
+        898834093: 'Exo',
+        3887404748: 'Human',
+
+        671679327: 'Hunter',
+        2271682572: 'Warlock',
+        3655393761: 'Titan',
+
+        2204441813: 'Female',
+        3111576190: 'Male'
+
+    }
+
+    var raceHash = cb.raceHash
+    var classHash = cb.classHash
+    var genderHash = cb.genderHash
+    var light = cb.powerLevel
+
+    var dscr = [light, cd[genderHash], cd[raceHash], cd[classHash]]
+    return (dscr.join(' '))
+}
+
+function getActivities(mid, cid, desc) {
+    var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
+
+    $.ajax({
+        url: req,
+        headers: {
+            'X-API-Key': apiKey
+        },
+        datatype: 'json',
+        success: function(data) {
+            // console.log(data)
+            var activities = data.Response.data.activities
+            var completions = new Array(12).fill(0)
+            var timePlayed = new Array(12).fill('0h 0m')
+            for (var i = 0; i < activities.length; i++) {
+                for (var j = 0; j < raidActivityHash.length; j++) {
+                    if (activities[i].activityHash === raidActivityHash[j]) {
+                        completions[j] = activities[i].values.activityCompletions.basic.value
+                        timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue
+                    }
+                }
+            }
+
+            tableCreate(completions, timePlayed, desc)
+        },
+        error: function(err) {
+            console.log(err)
+        }
+    })
+}
+
+function deletedgetActivities(mid, cid) {
+    var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
+
+    $.ajax({
+        url: req,
+        headers: {
+            'X-API-Key': apiKey
+        },
+        datatype: 'json',
+        success: function(data) {
+            // console.log(data)
+            var activities = data.Response.data.activities
+            var completions = new Array(12).fill(0)
+            var timePlayed = new Array(12).fill('0h 0m')
+            for (var i = 0; i < activities.length; i++) {
+                for (var j = 0; j < raidActivityHash.length; j++) {
+                    if (activities[i].activityHash === raidActivityHash[j]) {
+                        completions[j] = activities[i].values.activityCompletions.basic.value
+                        timePlayed[j] = activities[i].values.activitySecondsPlayed.basic.displayValue
+                    }
+                }
+            }
+
+            deletedtableCreate(completions, timePlayed, "唔，删了多可惜")
+        },
+        error: function(err) {
+            console.log(err)
+        }
+    })
+}
+
+function tableCreate(completions, timePlayed, title) {
+    var chCard = document.createElement('div')
+    chCard.className = 'card'
+
+    var chSum = document.createElement('h5')
+    chSum.className = 'card-header'
+    chSum.innerHTML = title
+
+    chCard.appendChild(chSum)
+
+    var tbl = document.createElement('table')
+    tbl.className = 'table table-sm table-hover'
+
+    var tr,
+    td
+    for (var i = 0; i < 12; i++) {
+        if (i % 3 === 0) {
+            tr = tbl.insertRow()
+            tr.className = 'table-info'
+            td = tr.insertCell()
+            td.colSpan = '3'
+            var raidtitle = document.createElement('b')
+            raidtitle.innerHTML = raidNames[i / 3]
+            td.appendChild(raidtitle)
+        }
+
+        tr = tbl.insertRow()
+
+        if (completions[i] === 0) {
+            tr.className = 'table-danger'
+        }
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(raidMod[i % 3]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(completions[i]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(timePlayed[i]))
+    }
+    chCard.appendChild(tbl)
+
+    var chCol = document.createElement('div')
+    chCol.className = 'col-xs-12 col-md-6 col-lg-4'
+    chCol.append(chCard)
+    $('#chstats').append(chCol)
+}
+
+function deletedtableCreate(completions, timePlayed, title) {
+    var chCard = document.createElement('div')
+    chCard.className = 'card'
+
+    var chSum = document.createElement('h5')
+    chSum.className = 'card-header'
+    chSum.innerHTML = title
+
+    chCard.appendChild(chSum)
+
+    var tbl = document.createElement('table')
+    tbl.className = 'table table-sm table-hover'
+
+    var tr,
+    td
+    for (var i = 0; i < 12; i++) {
+        if (i % 3 === 0) {
+            tr = tbl.insertRow()
+            tr.className = 'table-info'
+            td = tr.insertCell()
+            td.colSpan = '3'
+            var raidtitle = document.createElement('b')
+            raidtitle.innerHTML = raidNames[i / 3]
+            td.appendChild(raidtitle)
+        }
+
+        tr = tbl.insertRow()
+
+        if (completions[i] === 0) {
+            tr.className = 'table-danger'
+        }
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(raidMod[i % 3]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(completions[i]))
+
+        td = tr.insertCell()
+        td.appendChild(document.createTextNode(timePlayed[i]))
+    }
+    chCard.appendChild(tbl)
+
+    var chCol = document.createElement('div')
+    chCol.className = 'col-xs-12 col-md-6 col-lg-4'
+    chCol.append(chCard)
+    $('#deletedchstats').append(chCol)
 }
 
 function summary() {
-    findUser();
-    //alert(grimore);
+    $('#usernameform').removeClass('has-danger has-success')
+    $('#feedback').text(waitText)
+    $('#summary').html('')
+    $('#chstats').html('')
+    $('#deletedchstats').html('')
+    findUser()
 }
+
+$(document).ready(function() {
+    // console.log('page ready')
+    $('#usernameform').submit(function(e) {
+        e.preventDefault()
+        // console.log('form submit')
+        summary()
+    })
+})

@@ -1,0 +1,8 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+#header {
+   background-image: url("../img/Raid_Emblem.png");
+   background-repeat: no-repeat;
+   background-position: 85% -50px;
+   background-size: 300px 360px;
+}

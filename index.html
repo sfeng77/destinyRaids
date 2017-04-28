@@ -1,21 +1,88 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-  <title>Destiny raid completions query</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raids Stats</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="css/sticky-footer.css" rel="stylesheet">
+  <link href="css/header_background.css" rel="stylesheet">
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
+  <script src = 'js/jquery-3.2.1.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </head>
+
 <body>
-  <input type="text" id="gamerTag" value="GeauxMushroom">
-  <input id="submit" name="submit" type="submit" value="Submit" onclick="summary();" />
-  <h2 id ="grimore"></p>
+
+  <div class="container">
+    <div class="jumbotron" id="header">
+      <h1>啊哈哈</h1>
+      <form id="usernameform">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="text" class="form-control col-sm-6" id="gamerTag" placeholder="PSN username, e.g. Deej_BNG">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-primary">Go</button>
+            </span>
+          </div>
+          <div class="form-control-feedback" id='feedback'>Eyes up, guardian!</div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<div class = "container">
+  <div class="card">
+    <!-- Nav tabs -->
+    <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#raids" role="tab">Raid</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#deleted" role="tab">Deleted</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a>
+      </li>
+    </ul>
+  </div>
+    <!-- Tab panes -->
+    <div class="tab-content card-block">
+      <div class="tab-pane active" id="raids" role="tabpanel">
+          <div class="row justify-content-start" id="chstats">
+            Guardian, type your PSN username to get started.
+          </div>
+      </div>
+      <div class="tab-pane" id="deleted" role="tabpanel">
+          <div class="row justify-content-start" id="deletedchstats">
+            Guardian, type your PSN username to get started.
+          </div>
+      </div>
+      <div class="tab-pane" id="profile" role="tabpanel">
+        <div class="row justify-content-start" id="summary">
+          Guardian, type your PSN username to get started.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-  <h2 id = "ch0summary"></h2>
-  <p id = "ch0stat"></p>
+  <footer class="footer">
+    <div class="container">
+      &copy; <a href="https://sfeng77.github.io/blog/" target="_blank">Sheng Feng</a> &middot;
+      <a href="https://github.com/sfeng77/destinyRaids" target="_blank">Project Page</a>
+    </div>
+  </footer>
 
-  <h2 id = "ch1summary"></h2>
-  <p id = "ch1stat"></p>
-  <h2 id = "ch2summary"></h2>
-  <p id = "ch2stat"></p>
-
-<script src="js/main.js"></script>
 </body>
+
 </html>
