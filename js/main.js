@@ -222,7 +222,7 @@ function deletedgetActivities(mid, cid) {
                 }
             }
 
-            deletedtableCreate(completions, timePlayed, "唔，删了多可惜")
+            deletedtableCreate(completions, timePlayed, "Deleted Character")
         },
         error: function(err) {
             console.log(err)
@@ -338,10 +338,8 @@ function summary() {
 }
 
 $(document).ready(function() {
-    // console.log('page ready')
     $('#usernameform').submit(function(e) {
         e.preventDefault()
-        // console.log('form submit')
         summary()
     })
 })
