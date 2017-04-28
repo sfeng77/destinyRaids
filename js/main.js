@@ -36,9 +36,10 @@ function findUser() {
     return
   }
 
-  var req = bungieStuff + 'SearchDestinyPlayer/' + selectedAccountType + '/' + username
+  var req = bungieStuff + 'SearchDestinyPlayer/' + selectedAccountType + '/' + username + '/'
 
   $.ajax({
+    method: 'get',
     url: req,
     headers: {
       'X-API-Key': apiKey
@@ -72,7 +73,7 @@ function getAccountSummary(mid) {
     },
     datatype: 'json',
     success: function(data) {
-      console.log(data)
+      // console.log(data)
 
       var characters = data.Response.data.characters
       var grimoire = data.Response.data.grimoireScore
@@ -87,8 +88,8 @@ function getAccountSummary(mid) {
         getActivities(mid, cid, i, desc, nc)
       }
     },
-    error: function(err) {
-      console.log(err)
+    error: function(exception) {
+      console.log(exception)
     }
   })
 }
@@ -145,7 +146,7 @@ function characterDscr(cb) {
 }
 
 function getActivities(mid, cid, idx, desc, nc) {
-  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid
+  var req = bungieStuff + '/Stats/AggregateActivityStats/' + selectedAccountType + '/' + mid + '/' + cid + '/'
 
   $.ajax({
     url: req,
@@ -154,7 +155,7 @@ function getActivities(mid, cid, idx, desc, nc) {
     },
     datatype: 'json',
     success: function(data) {
-      console.log(data)
+      // console.log(data)
       var activities = data.Response.data.activities
       var completions = new Array(12).fill(0)
       var timePlayed = new Array(12).fill('0h 0m')
@@ -233,10 +234,10 @@ function tableCreate(idx, completions, timePlayed, title) {
       }
 
       $(document).ready(function() {
-        console.log('page ready')
+        // console.log('page ready')
         $('#usernameform').submit(function(e) {
           e.preventDefault()
-          console.log('form submit')
+          // console.log('form submit')
           summary()
         })
       })
