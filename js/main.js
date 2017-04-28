@@ -219,7 +219,7 @@ function tableCreate(idx, completions, timePlayed, title) {
         chCard.appendChild(tbl)
 
         var chCol = document.createElement('div')
-        chCol.className = 'col-xs-12 col-md-4'
+        chCol.className = 'col-xs-12 col-md-6 col-lg-4'
         chCol.append(chCard)
         $('#chstats').append(chCol)
       }
