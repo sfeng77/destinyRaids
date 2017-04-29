@@ -119,9 +119,14 @@ function getAccountSummary(mid) {
       var pveKills = mergedStats.results.allPvE.allTime.kills.basic.displayValue
       var pvpKDR = mergedStats.results.allPvP.allTime.killsDeathsRatio.basic.displayValue
 
-      addStat('PVE kills', pveKills)
-      addStat('PVP K/R', pvpKDR)
+      addStat('PvE kills', pveKills)
+      addStat('PvP K/R', pvpKDR)
 
+      var pveKillDistance = mergedStats.results.allPvE.allTime.averageKillDistance.basic.displayValue
+      var pvpKillDistance = mergedStats.results.allPvP.allTime.averageKillDistance.basic.displayValue
+
+      addStat('PvE Avg. Kill Distance', pveKillDistance)
+      addStat('PvP Avg. Kill Distance', pvpKillDistance)
     },
     error: function (err) {
       console.log(err)
