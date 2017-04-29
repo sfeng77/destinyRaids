@@ -29,7 +29,7 @@ var raidActivityHash = [
 ]
 
 function findUser() {
-  var username = $('#gamerTag').val().trim()
+  var username = $('#username').val().trim()
 
   if (username === '') {
     $('#usernameform').addClass('has-danger')
@@ -114,12 +114,12 @@ function getAccountSummary(mid) {
 
       var mergedStats = data.Response.mergedAllCharacters
       var timePlayed = mergedStats.merged.allTime.totalActivityDurationSeconds.basic.displayValue
-      addStat('Time played', timePlayed)
+      addStat('Time Played', timePlayed)
 
       var pveKills = mergedStats.results.allPvE.allTime.kills.basic.displayValue
       var pvpKDR = mergedStats.results.allPvP.allTime.killsDeathsRatio.basic.displayValue
 
-      addStat('PvE kills', pveKills)
+      addStat('PvE Kills', pveKills)
       addStat('PvP K/D', pvpKDR)
 
       var pveKillDistance = mergedStats.results.allPvE.allTime.averageKillDistance.basic.displayValue
