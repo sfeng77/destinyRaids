@@ -120,7 +120,7 @@ function getAccountSummary(mid) {
       var pvpKDR = mergedStats.results.allPvP.allTime.killsDeathsRatio.basic.displayValue
 
       addStat('PvE kills', pveKills)
-      addStat('PvP K/R', pvpKDR)
+      addStat('PvP K/D', pvpKDR)
 
       var pveKillDistance = mergedStats.results.allPvE.allTime.averageKillDistance.basic.displayValue
       var pvpKillDistance = mergedStats.results.allPvP.allTime.averageKillDistance.basic.displayValue
