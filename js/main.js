@@ -78,22 +78,23 @@ function getAccountSummary(mid) {
       // console.log(data)
 
       var characters = data.Response.data.characters
-      var grimoire = data.Response.data.grimoireScore
-
-      addStat('Grimoire Score', grimoire)
 
       for (var i = 0; i < characters.length; i++) {
         var cid = characters[i].characterBase.characterId
         var desc = characterDscr(characters[i].characterBase)
         getActivities(mid, cid, desc)
       }
+
+      var grimoire = data.Response.data.grimoireScore
+      addStat('Grimoire Score', grimoire)
+
     },
     error: function (exception) {
       console.log(exception)
     }
   })
 
-  var req = bungieStuff + 'Stats/Account/' + selectedAccountType + '/' + mid + '/'
+  req = bungieStuff + 'Stats/Account/' + selectedAccountType + '/' + mid + '/'
 
   $.ajax({
     url: req,
@@ -102,7 +103,7 @@ function getAccountSummary(mid) {
     },
     datatype: 'json',
     success: function (data) {
-      // console.log(data)
+      console.log(data)
       var characters = data.Response.characters
       for (var i = 0; i < characters.length; i++) {
         if (characters[i].deleted === true) {
@@ -110,6 +111,17 @@ function getAccountSummary(mid) {
           getActivities(mid, cid, deletedCharacterName)
         }
       }
+
+      var mergedStats = data.Response.mergedAllCharacters
+      var timePlayed = mergedStats.merged.allTime.totalActivityDurationSeconds.basic.displayValue
+      addStat('Time played', timePlayed)
+
+      var pveKills = mergedStats.results.allPvE.allTime.kills.basic.displayValue
+      var pvpKDR = mergedStats.results.allPvP.allTime.killsDeathsRatio.basic.displayValue
+
+      addStat('PVE kills', pveKills)
+      addStat('PVP K/R', pvpKDR)
+
     },
     error: function (err) {
       console.log(err)
