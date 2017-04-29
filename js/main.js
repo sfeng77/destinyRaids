@@ -254,9 +254,9 @@ function tableCreate(completions, timePlayed, title) {
 function summary() {
   $('#usernameform').removeClass('has-danger has-success')
   $('#feedback').text(waitText)
-  $('#summary').html('')
-  $('#chstats').html('')
-  $('#deletedchstats').html('')
+  $('#summary').empty()
+  $('#chstats').empty()
+  $('#deletedchstats').empty()
   findUser()
 }
 
