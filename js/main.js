@@ -246,6 +246,7 @@ function tableCreate(completions, timePlayed, title) {
   chCol.append(chCard)
   if (title === deletedCharacterName) {
     $('#deletedchstats').append(chCol)
+    $('#deletedTab').show(100)
   } else {
     $('#chstats').append(chCol)
   }
@@ -257,10 +258,14 @@ function summary() {
   $('#summary').empty()
   $('#chstats').empty()
   $('#deletedchstats').empty()
+  $('.nav-tabs a[href="#raids"]').tab('show')
+  $('#deletedTab').hide(100)
+
   findUser()
 }
 
 $(document).ready(function () {
+  $('#deletedTab').hide()
   $('#usernameform').submit(function (e) {
     e.preventDefault()
     summary()
