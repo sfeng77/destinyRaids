@@ -28,6 +28,35 @@ var raidActivityHash = [
   3356249023
 ]
 
+var weaponKillsId = [
+  'weaponKillsAutoRifle', 'weaponKillsHandCannon', 'weaponKillsPulseRifle', 'weaponKillsScoutRifle',
+  'weaponKillsFusionRifle', 'weaponKillsShotgun', 'weaponKillsSideArm', 'weaponKillsSniper',
+  'weaponKillsRocketLauncher', 'weaponKillsMachinegun', 'weaponKillsSword',
+  'weaponKillsGrenade', 'weaponKillsMelee', 'weaponKillsSuper', 'weaponKillsRelic'
+]
+
+var weaponKillsLabel = [
+  'AutoRifle', 'HandCannon', 'PulseRifle', 'ScoutRifle',
+  'FusionRifle', 'Shotgun', 'SideArm','Sniper',
+  'RocketLauncher', 'Machinegun', 'Sword',
+  'Grenade', 'Melee', 'Super', 'Relic'
+]
+
+var weaponClass = [
+  'Primary', 'Primary', 'Primary', 'Primary',
+  'Special', 'Special', 'Special', 'Special',
+  'Heavy', 'Heavy', 'Heavy',
+  'Ability', 'Ability', 'Ability', 'Ability'
+]
+
+var weaponClassColor = {
+  'Primary': '#bdbdbd',
+  'Special': '#007E33',
+  'Heavy': '#aa66cc',
+  'Ability': '#4285F4'
+}
+
+
 function findUser() {
   var username = $('#username').val().trim()
 
@@ -127,11 +156,47 @@ function getAccountSummary(mid) {
 
       addStat('PvE Avg. Kill Distance', pveKillDistance)
       addStat('PvP Avg. Kill Distance', pvpKillDistance)
+
+      weaponKills("PvE Kills Breakdown", mergedStats.results.allPvE.allTime)
+      weaponKills("PvP Kills Breakdown", mergedStats.results.allPvP.allTime)
+
     },
     error: function (err) {
       console.log(err)
     }
   })
+}
+
+
+function weaponKills(statName, stats) {
+
+  n = weaponKillsId.length
+  var kills = new Array(n).fill(0)
+  for (var i = 0; i < n; i++) {
+    kills[i] = stats[weaponKillsId[i]].basic.value
+  }
+  var colors = new Array(n)
+  for (var i = 0; i < n; i++) {
+    colors[i] = weaponClassColor[weaponClass[i]]
+  }
+  var data = [{
+    y: kills,
+    x: weaponKillsLabel,
+    marker: {
+      color: colors
+    },
+    type: 'bar'
+  }]
+  var layout = {
+    autosize: true,
+    title: statName
+  }
+
+  mydiv = document.createElement('div')
+  mydiv.className = 'responsive-plot'
+  $('#charts').append(mydiv)
+  Plotly.newPlot(mydiv, data, layout)
+
 }
 
 function addStat(statName, statValue) {
@@ -274,6 +339,7 @@ function summary() {
   $('#feedback').text(waitText)
   $('#summary').empty()
   $('#chstats').empty()
+  $('#charts').empty()
   $('#deletedchstats').empty()
   $('.nav-tabs a[href="#raids"]').tab('show')
   $('#deletedTab').hide(100)
