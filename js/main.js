@@ -245,18 +245,18 @@ function gameReportTable(reports, chbox) {
     // console.log(report);
     var tbody = document.createElement("tbody");
     tbl.append(tbody);
-    tr = tbody.insertRow();
-    tr.className = "clickable table-info";  //+['table-danger', 'table-success'][report.completed];
-    tr.setAttribute("data-toggle", "collapse");
-    tr.setAttribute("data-target", '#'+report.gameId);
+    var titlerow = tbody.insertRow();
+    titlerow.className = "clickable";  //+['table-danger', 'table-success'][report.completed];
+    titlerow.setAttribute("data-toggle", "collapse");
+    titlerow.setAttribute("data-target", '#'+report.gameId);
 
-    td = tr.insertCell();
+    td = titlerow.insertCell();
     var raidtitle = document.createElement('b');
     raidtitle.innerHTML = report.gameTitle;
     td.appendChild(raidtitle);
-    td = tr.insertCell();
+    td = titlerow.insertCell();
     td.appendChild(document.createTextNode(raidCompleteText[report.completed]));
-    td = tr.insertCell();
+    td = titlerow.insertCell();
     td.appendChild(document.createTextNode(report.length));
 
     tbody = document.createElement("tbody");
@@ -264,7 +264,8 @@ function gameReportTable(reports, chbox) {
     tbody.className = "collapse";
     tbody.id = report.gameId;
 
-    tr = tbody.insertRow();
+    var tr = tbody.insertRow();
+    tr.className = "table-active";
     td = tr.insertCell();
     td.innerHTML = ('<b>Guardian</b>');
     td = tr.insertCell();
@@ -274,9 +275,11 @@ function gameReportTable(reports, chbox) {
 
     var playersId = [];
     var playerStat = {};
+    var gameCompleted = 0;
 
     $.each(report.standing, function(index, st){
       var mid = st.player.destinyUserInfo.membershipId;
+      gameCompleted |= st.values.completed.basic.value;
       if(mid in playerStat){
         playerStat[mid].kill += st.values.kills.basic.value;
         playerStat[mid].death += st.values.deaths.basic.value;
@@ -292,6 +295,11 @@ function gameReportTable(reports, chbox) {
       }
 
     });
+
+    if (report.completed === 1)
+      titlerow.className += " table-success";
+    else if (gameCompleted === 1)
+      titlerow.className += " table-danger";
 
     playersId.sort(function(a, b){
       if (playerStat[a].completed === playerStat[b].completed)
