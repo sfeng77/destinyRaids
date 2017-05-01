@@ -1,0 +1,3278 @@
+{
+    "CabalCenturion": {
+        "enemyId": "CabalCenturion",
+        "enemyName": "Centurion",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalCenturion",
+            "headshots": "precisionKillOfCabalCenturion",
+            "deaths": "deathsFromCabalCenturion",
+            "kd": "killsDeathsRatioCabalCenturion",
+            "kills": "killsOfCabalCenturion"
+        }
+    },
+    "CabalCenturionElite": {
+        "enemyId": "CabalCenturionElite",
+        "enemyName": "Elite Centurion",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalCenturionElite",
+            "headshots": "precisionKillOfCabalCenturionElite",
+            "deaths": "deathsFromCabalCenturionElite",
+            "kills": "killsOfCabalCenturionElite"
+        }
+    },
+    "CabalColossus": {
+        "enemyId": "CabalColossus",
+        "enemyName": "Colossus",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalColossus",
+            "headshots": "precisionKillOfCabalColossus",
+            "deaths": "deathsFromCabalColossus",
+            "kd": "killsDeathsRatioCabalColossus",
+            "kills": "killsOfCabalColossus"
+        }
+    },
+    "CabalColossusElite": {
+        "enemyId": "CabalColossusElite",
+        "enemyName": "Elite Colossus",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalColossusElite",
+            "headshots": "precisionKillOfCabalColossusElite",
+            "deaths": "deathsFromCabalColossusElite",
+            "kills": "killsOfCabalColossusElite"
+        }
+    },
+    "CabalGoliath": {
+        "enemyId": "CabalGoliath",
+        "enemyName": "Goliath Tank",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalGoliath",
+            "headshots": "precisionKillOfCabalGoliath",
+            "deaths": "deathsFromCabalGoliath",
+            "kd": "killsDeathsRatioCabalGoliath",
+            "kills": "killsOfCabalGoliath"
+        }
+    },
+    "CabalLegionary": {
+        "enemyId": "CabalLegionary",
+        "enemyName": "Legionary",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalLegionary",
+            "headshots": "precisionKillOfCabalLegionary",
+            "deaths": "deathsFromCabalLegionary",
+            "kd": "killsDeathsRatioCabalLegionary",
+            "kills": "killsOfCabalLegionary"
+        }
+    },
+    "CabalPhalanx": {
+        "enemyId": "CabalPhalanx",
+        "enemyName": "Phalanx",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalPhalanx",
+            "headshots": "precisionKillOfCabalPhalanx",
+            "deaths": "deathsFromCabalPhalanx",
+            "kd": "killsDeathsRatioCabalPhalanx",
+            "kills": "killsOfCabalPhalanx"
+        }
+    },
+    "CabalPsion": {
+        "enemyId": "CabalPsion",
+        "enemyName": "Psion",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalPsion",
+            "headshots": "precisionKillOfCabalPsion",
+            "deaths": "deathsFromCabalPsion",
+            "kd": "killsDeathsRatioCabalPsion",
+            "kills": "killsOfCabalPsion"
+        }
+    },
+    "CabalPsionElite": {
+        "enemyId": "CabalPsionElite",
+        "enemyName": "Elite Psion",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalPsionElite",
+            "headshots": "precisionKillOfCabalPsionElite",
+            "deaths": "deathsFromCabalPsionElite",
+            "kills": "killsOfCabalPsionElite"
+        }
+    },
+    "FallenCaptain": {
+        "enemyId": "FallenCaptain",
+        "enemyName": "Captain",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenCaptain",
+            "headshots": "precisionKillOfFallenCaptain",
+            "deaths": "deathsFromFallenCaptain",
+            "kd": "killsDeathsRatioFallenCaptain",
+            "kills": "killsOfFallenCaptain"
+        }
+    },
+    "FallenCaptainElite": {
+        "enemyId": "FallenCaptainElite",
+        "enemyName": "Noble Captain",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenCaptainElite",
+            "headshots": "precisionKillOfFallenCaptainElite",
+            "deaths": "deathsFromFallenCaptainElite",
+            "kills": "killsOfFallenCaptainElite"
+        }
+    },
+    "FallenCaptainEliteShockBlade": {
+        "enemyId": "FallenCaptainEliteShockBlade",
+        "enemyName": "Noble Captain",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "ShockBlade",
+        "stats": {
+            "assists": "assistsAgainstFallenCaptainEliteShockBlade",
+            "headshots": "precisionKillOfFallenCaptainEliteShockBlade",
+            "deaths": "deathsFromFallenCaptainEliteShockBlade",
+            "kills": "killsOfFallenCaptainEliteShockBlade"
+        }
+    },
+    "FallenDreg": {
+        "enemyId": "FallenDreg",
+        "enemyName": "Dreg",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenDreg",
+            "headshots": "precisionKillOfFallenDreg",
+            "deaths": "deathsFromFallenDreg",
+            "kd": "killsDeathsRatioFallenDreg",
+            "kills": "killsOfFallenDreg"
+        }
+    },
+    "FallenPike": {
+        "enemyId": "FallenPike",
+        "enemyName": "Pike Dreg",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenPike",
+            "headshots": "precisionKillOfFallenPike",
+            "deaths": "deathsFromFallenPike",
+            "kd": "killsDeathsRatioFallenPike",
+            "kills": "killsOfFallenPike"
+        }
+    },
+    "FallenServitor": {
+        "enemyId": "FallenServitor",
+        "enemyName": "Servitor",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenServitor",
+            "headshots": "precisionKillOfFallenServitor",
+            "deaths": "deathsFromFallenServitor",
+            "kd": "killsDeathsRatioFallenServitor",
+            "kills": "killsOfFallenServitor"
+        }
+    },
+    "FallenServitorElite": {
+        "enemyId": "FallenServitorElite",
+        "enemyName": "Noble Servitor",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenServitorElite",
+            "headshots": "precisionKillOfFallenServitorElite",
+            "deaths": "deathsFromFallenServitorElite",
+            "kills": "killsOfFallenServitorElite"
+        }
+    },
+    "FallenShank": {
+        "enemyId": "FallenShank",
+        "enemyName": "Shank",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenShank",
+            "headshots": "precisionKillOfFallenShank",
+            "deaths": "deathsFromFallenShank",
+            "kd": "killsDeathsRatioFallenShank",
+            "kills": "killsOfFallenShank"
+        }
+    },
+    "FallenVandal": {
+        "enemyId": "FallenVandal",
+        "enemyName": "Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenVandal",
+            "headshots": "precisionKillOfFallenVandal",
+            "deaths": "deathsFromFallenVandal",
+            "kd": "killsDeathsRatioFallenVandal",
+            "kills": "killsOfFallenVandal"
+        }
+    },
+    "FallenVandalElite": {
+        "enemyId": "FallenVandalElite",
+        "enemyName": "Noble Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenVandalElite",
+            "headshots": "precisionKillOfFallenVandalElite",
+            "deaths": "deathsFromFallenVandalElite",
+            "kills": "killsOfFallenVandalElite"
+        }
+    },
+    "FallenVandalEliteShockBlade": {
+        "enemyId": "FallenVandalEliteShockBlade",
+        "enemyName": "Noble Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "ShockBlade",
+        "stats": {
+            "assists": "assistsAgainstFallenVandalEliteShockBlade",
+            "headshots": "precisionKillOfFallenVandalEliteShockBlade",
+            "deaths": "deathsFromFallenVandalEliteShockBlade",
+            "kills": "killsOfFallenVandalEliteShockBlade"
+        }
+    },
+    "FallenVandalStealth": {
+        "enemyId": "FallenVandalStealth",
+        "enemyName": "Stealth Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenVandalStealth",
+            "headshots": "precisionKillOfFallenVandalStealth",
+            "deaths": "deathsFromFallenVandalStealth",
+            "kills": "killsOfFallenVandalStealth"
+        }
+    },
+    "HiveKnight": {
+        "enemyId": "HiveKnight",
+        "enemyName": "Knight",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveKnight",
+            "headshots": "precisionKillOfHiveKnight",
+            "deaths": "deathsFromHiveKnight",
+            "kd": "killsDeathsRatioHiveKnight",
+            "kills": "killsOfHiveKnight"
+        }
+    },
+    "HiveKnightElite": {
+        "enemyId": "HiveKnightElite",
+        "enemyName": "Ascendant Knight",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveKnightElite",
+            "headshots": "precisionKillOfHiveKnightElite",
+            "deaths": "deathsFromHiveKnightElite",
+            "kills": "killsOfHiveKnightElite"
+        }
+    },
+    "HiveShrieker": {
+        "enemyId": "HiveShrieker",
+        "enemyName": "Shrieker",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveShrieker",
+            "headshots": "precisionKillOfHiveShrieker",
+            "deaths": "deathsFromHiveShrieker",
+            "kd": "killsDeathsRatioHiveShrieker",
+            "kills": "killsOfHiveShrieker"
+        }
+    },
+    "HiveOgre": {
+        "enemyId": "HiveOgre",
+        "enemyName": "Ogre",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveOgre",
+            "headshots": "precisionKillOfHiveOgre",
+            "deaths": "deathsFromHiveOgre",
+            "kd": "killsDeathsRatioHiveOgre",
+            "kills": "killsOfHiveOgre"
+        }
+    },
+    "HiveThrall": {
+        "enemyId": "HiveThrall",
+        "enemyName": "Thrall",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveThrall",
+            "headshots": "precisionKillOfHiveThrall",
+            "deaths": "deathsFromHiveThrall",
+            "kd": "killsDeathsRatioHiveThrall",
+            "kills": "killsOfHiveThrall"
+        }
+    },
+    "HiveThrallExploder": {
+        "enemyId": "HiveThrallExploder",
+        "enemyName": "Cursed Thrall",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveThrallExploder",
+            "headshots": "precisionKillOfHiveThrallExploder",
+            "deaths": "deathsFromHiveThrallExploder",
+            "kd": "killsDeathsRatioHiveThrallExploder",
+            "kills": "killsOfHiveThrallExploder"
+        }
+    },
+    "HiveAcolyte": {
+        "enemyId": "HiveAcolyte",
+        "enemyName": "Acolyte",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveAcolyte",
+            "headshots": "precisionKillOfHiveAcolyte",
+            "deaths": "deathsFromHiveAcolyte",
+            "kd": "killsDeathsRatioHiveAcolyte",
+            "kills": "killsOfHiveAcolyte"
+        }
+    },
+    "HiveWizard": {
+        "enemyId": "HiveWizard",
+        "enemyName": "Wizard",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveWizard",
+            "headshots": "precisionKillOfHiveWizard",
+            "deaths": "deathsFromHiveWizard",
+            "kd": "killsDeathsRatioHiveWizard",
+            "kills": "killsOfHiveWizard"
+        }
+    },
+    "PlayerHunter": {
+        "enemyId": "PlayerHunter",
+        "enemyName": "Hunter",
+        "enemyRace": "Player",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstPlayerHunter",
+            "headshots": "precisionKillOfPlayerHunter",
+            "deaths": "deathsFromPlayerHunter",
+            "kills": "killsOfPlayerHunter"
+        }
+    },
+    "PlayerTitan": {
+        "enemyId": "PlayerTitan",
+        "enemyName": "Titan",
+        "enemyRace": "Player",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstPlayerTitan",
+            "headshots": "precisionKillOfPlayerTitan",
+            "deaths": "deathsFromPlayerTitan",
+            "kills": "killsOfPlayerTitan"
+        }
+    },
+    "PlayerWarlock": {
+        "enemyId": "PlayerWarlock",
+        "enemyName": "Warlock",
+        "enemyRace": "Player",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstPlayerWarlock",
+            "headshots": "precisionKillOfPlayerWarlock",
+            "deaths": "deathsFromPlayerWarlock",
+            "kills": "killsOfPlayerWarlock"
+        }
+    },
+    "R1S1EventCosmoMajor3": {
+        "enemyId": "R1S1EventCosmoMajor3",
+        "enemyName": "Blade of the Monarch",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor3",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor3",
+            "deaths": "deathsFromR1S1EventCosmoMajor3",
+            "kills": "killsOfR1S1EventCosmoMajor3"
+        }
+    },
+    "R1S1EventCosmoMajor4": {
+        "enemyId": "R1S1EventCosmoMajor4",
+        "enemyName": "Wrath of the Swarm",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor4",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor4",
+            "deaths": "deathsFromR1S1EventCosmoMajor4",
+            "kills": "killsOfR1S1EventCosmoMajor4"
+        }
+    },
+    "R1S1EventCosmoMajor5": {
+        "enemyId": "R1S1EventCosmoMajor5",
+        "enemyName": "Loksis, Devil Claw",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor5",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor5",
+            "deaths": "deathsFromR1S1EventCosmoMajor5",
+            "kills": "killsOfR1S1EventCosmoMajor5"
+        }
+    },
+    "R1S1EventMarsMajor0": {
+        "enemyId": "R1S1EventMarsMajor0",
+        "enemyName": "Spymaster Haru'ul",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventMarsMajor0",
+            "headshots": "precisionKillOfR1S1EventMarsMajor0",
+            "deaths": "deathsFromR1S1EventMarsMajor0",
+            "kills": "killsOfR1S1EventMarsMajor0"
+        }
+    },
+    "R1S1EventMarsMajor2": {
+        "enemyId": "R1S1EventMarsMajor2",
+        "enemyName": "Commander Edru'us",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventMarsMajor2",
+            "headshots": "precisionKillOfR1S1EventMarsMajor2",
+            "deaths": "deathsFromR1S1EventMarsMajor2",
+            "kills": "killsOfR1S1EventMarsMajor2"
+        }
+    },
+    "R1S1EventMarsMajor3": {
+        "enemyId": "R1S1EventMarsMajor3",
+        "enemyName": "Aphix Penultima Alpha",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventMarsMajor3",
+            "headshots": "precisionKillOfR1S1EventMarsMajor3",
+            "deaths": "deathsFromR1S1EventMarsMajor3",
+            "kills": "killsOfR1S1EventMarsMajor3"
+        }
+    },
+    "R1S1EventMoonUltra0": {
+        "enemyId": "R1S1EventMoonUltra0",
+        "enemyName": "The Untethered One",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Event",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventMoonUltra0",
+            "headshots": "precisionKillOfR1S1EventMoonUltra0",
+            "deaths": "deathsFromR1S1EventMoonUltra0",
+            "kills": "killsOfR1S1EventMoonUltra0"
+        }
+    },
+    "R1S1EventVenusMajor0": {
+        "enemyId": "R1S1EventVenusMajor0",
+        "enemyName": "Skaith Vandal",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventVenusMajor0",
+            "headshots": "precisionKillOfR1S1EventVenusMajor0",
+            "deaths": "deathsFromR1S1EventVenusMajor0",
+            "kills": "killsOfR1S1EventVenusMajor0"
+        }
+    },
+    "R1S1EventVenusMajor1": {
+        "enemyId": "R1S1EventVenusMajor1",
+        "enemyName": "Skaith Vandal",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventVenusMajor1",
+            "headshots": "precisionKillOfR1S1EventVenusMajor1",
+            "deaths": "deathsFromR1S1EventVenusMajor1",
+            "kills": "killsOfR1S1EventVenusMajor1"
+        }
+    },
+    "R1S1EventVenusMajor2": {
+        "enemyId": "R1S1EventVenusMajor2",
+        "enemyName": "Skaith Vandal",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventVenusMajor2",
+            "headshots": "precisionKillOfR1S1EventVenusMajor2",
+            "deaths": "deathsFromR1S1EventVenusMajor2",
+            "kills": "killsOfR1S1EventVenusMajor2"
+        }
+    },
+    "R1S1EventVenusUltra0": {
+        "enemyId": "R1S1EventVenusUltra0",
+        "enemyName": "Axis Clocker",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Event",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventVenusUltra0",
+            "headshots": "precisionKillOfR1S1EventVenusUltra0",
+            "deaths": "deathsFromR1S1EventVenusUltra0",
+            "kills": "killsOfR1S1EventVenusUltra0"
+        }
+    },
+    "R1S1EventVenusUltra1": {
+        "enemyId": "R1S1EventVenusUltra1",
+        "enemyName": "Timecrosser",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Event",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventVenusUltra1",
+            "headshots": "precisionKillOfR1S1EventVenusUltra1",
+            "deaths": "deathsFromR1S1EventVenusUltra1",
+            "kills": "killsOfR1S1EventVenusUltra1"
+        }
+    },
+    "R1S1RaidVenus0Major0": {
+        "enemyId": "R1S1RaidVenus0Major0",
+        "enemyName": "Gorgon",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major0",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major0",
+            "deaths": "deathsFromR1S1RaidVenus0Major0",
+            "kills": "killsOfR1S1RaidVenus0Major0"
+        }
+    },
+    "R1S1RaidVenus0Major1": {
+        "enemyId": "R1S1RaidVenus0Major1",
+        "enemyName": "Gorgon",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major1",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major1",
+            "deaths": "deathsFromR1S1RaidVenus0Major1",
+            "kills": "killsOfR1S1RaidVenus0Major1"
+        }
+    },
+    "R1S1RaidVenus0Major2": {
+        "enemyId": "R1S1RaidVenus0Major2",
+        "enemyName": "Gorgon",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major2",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major2",
+            "deaths": "deathsFromR1S1RaidVenus0Major2",
+            "kills": "killsOfR1S1RaidVenus0Major2"
+        }
+    },
+    "R1S1RaidVenus0Major3": {
+        "enemyId": "R1S1RaidVenus0Major3",
+        "enemyName": "Descendant Minotaur",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major3",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major3",
+            "deaths": "deathsFromR1S1RaidVenus0Major3",
+            "kills": "killsOfR1S1RaidVenus0Major3"
+        }
+    },
+    "R1S1RaidVenus0Major4": {
+        "enemyId": "R1S1RaidVenus0Major4",
+        "enemyName": "Praetorian",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major4",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major4",
+            "deaths": "deathsFromR1S1RaidVenus0Major4",
+            "kills": "killsOfR1S1RaidVenus0Major4"
+        }
+    },
+    "R1S1RaidVenus0Major5": {
+        "enemyId": "R1S1RaidVenus0Major5",
+        "enemyName": "Precursor Minotaur",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major5",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major5",
+            "deaths": "deathsFromR1S1RaidVenus0Major5",
+            "kills": "killsOfR1S1RaidVenus0Major5"
+        }
+    },
+    "R1S1RaidVenus0Major6": {
+        "enemyId": "R1S1RaidVenus0Major6",
+        "enemyName": "Descendant Gatekeeper",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major6",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major6",
+            "deaths": "deathsFromR1S1RaidVenus0Major6",
+            "kills": "killsOfR1S1RaidVenus0Major6"
+        }
+    },
+    "R1S1RaidVenus0Major7": {
+        "enemyId": "R1S1RaidVenus0Major7",
+        "enemyName": "Gatekeeper",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major7",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major7",
+            "deaths": "deathsFromR1S1RaidVenus0Major7",
+            "kills": "killsOfR1S1RaidVenus0Major7"
+        }
+    },
+    "R1S1RaidVenus0Major8": {
+        "enemyId": "R1S1RaidVenus0Major8",
+        "enemyName": "Precursor Gatekeeper",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Major8",
+            "headshots": "precisionKillOfR1S1RaidVenus0Major8",
+            "deaths": "deathsFromR1S1RaidVenus0Major8",
+            "kills": "killsOfR1S1RaidVenus0Major8"
+        }
+    },
+    "R1S1RaidVenus0Ultra0": {
+        "enemyId": "R1S1RaidVenus0Ultra0",
+        "enemyName": "The Templar",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Ultra0",
+            "headshots": "precisionKillOfR1S1RaidVenus0Ultra0",
+            "deaths": "deathsFromR1S1RaidVenus0Ultra0",
+            "kills": "killsOfR1S1RaidVenus0Ultra0"
+        }
+    },
+    "R1S1RaidVenus0Ultra1": {
+        "enemyId": "R1S1RaidVenus0Ultra1",
+        "enemyName": "Atheon, Time's Conflux",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0Ultra1",
+            "headshots": "precisionKillOfR1S1RaidVenus0Ultra1",
+            "deaths": "deathsFromR1S1RaidVenus0Ultra1",
+            "kills": "killsOfR1S1RaidVenus0Ultra1"
+        }
+    },
+    "R1S1StoryCosmo0Ultra0": {
+        "enemyId": "R1S1StoryCosmo0Ultra0",
+        "enemyName": "Riksis, Devil Archon",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryCosmo0Ultra0",
+            "headshots": "precisionKillOfR1S1StoryCosmo0Ultra0",
+            "deaths": "deathsFromR1S1StoryCosmo0Ultra0",
+            "kills": "killsOfR1S1StoryCosmo0Ultra0"
+        }
+    },
+    "R1S1StoryMars1Major0": {
+        "enemyId": "R1S1StoryMars1Major0",
+        "enemyName": "Bracus Tho'ourg",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars1Major0",
+            "headshots": "precisionKillOfR1S1StoryMars1Major0",
+            "deaths": "deathsFromR1S1StoryMars1Major0",
+            "kills": "killsOfR1S1StoryMars1Major0"
+        }
+    },
+    "R1S1StoryMars3Major0": {
+        "enemyId": "R1S1StoryMars3Major0",
+        "enemyName": "Bracus Tha'aurn",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars3Major0",
+            "headshots": "precisionKillOfR1S1StoryMars3Major0",
+            "deaths": "deathsFromR1S1StoryMars3Major0",
+            "kills": "killsOfR1S1StoryMars3Major0"
+        }
+    },
+    "R1S1StoryMars5Ultra0": {
+        "enemyId": "R1S1StoryMars5Ultra0",
+        "enemyName": "Primus Sha'aull",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars5Ultra0",
+            "headshots": "precisionKillOfR1S1StoryMars5Ultra0",
+            "deaths": "deathsFromR1S1StoryMars5Ultra0",
+            "kills": "killsOfR1S1StoryMars5Ultra0"
+        }
+    },
+    "R1S1StoryMars6Major0": {
+        "enemyId": "R1S1StoryMars6Major0",
+        "enemyName": "Prohibitive Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars6Major0",
+            "headshots": "precisionKillOfR1S1StoryMars6Major0",
+            "deaths": "deathsFromR1S1StoryMars6Major0",
+            "kills": "killsOfR1S1StoryMars6Major0"
+        }
+    },
+    "R1S1StoryMars7Major0": {
+        "enemyId": "R1S1StoryMars7Major0",
+        "enemyName": "Divisive Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars7Major0",
+            "headshots": "precisionKillOfR1S1StoryMars7Major0",
+            "deaths": "deathsFromR1S1StoryMars7Major0",
+            "kills": "killsOfR1S1StoryMars7Major0"
+        }
+    },
+    "R1S1StoryMars7Ultra0": {
+        "enemyId": "R1S1StoryMars7Ultra0",
+        "enemyName": "Eschaton Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars7Ultra0",
+            "headshots": "precisionKillOfR1S1StoryMars7Ultra0",
+            "deaths": "deathsFromR1S1StoryMars7Ultra0",
+            "kills": "killsOfR1S1StoryMars7Ultra0"
+        }
+    },
+    "R1S1StoryMars7Ultra1": {
+        "enemyId": "R1S1StoryMars7Ultra1",
+        "enemyName": "Imminent Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars7Ultra1",
+            "headshots": "precisionKillOfR1S1StoryMars7Ultra1",
+            "deaths": "deathsFromR1S1StoryMars7Ultra1",
+            "kills": "killsOfR1S1StoryMars7Ultra1"
+        }
+    },
+    "R1S1StoryMars7Ultra2": {
+        "enemyId": "R1S1StoryMars7Ultra2",
+        "enemyName": "Primeval Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMars7Ultra2",
+            "headshots": "precisionKillOfR1S1StoryMars7Ultra2",
+            "deaths": "deathsFromR1S1StoryMars7Ultra2",
+            "kills": "killsOfR1S1StoryMars7Ultra2"
+        }
+    },
+    "R1S1StoryMoon1Minor0": {
+        "enemyId": "R1S1StoryMoon1Minor0",
+        "enemyName": "Vurok, Eir Spawn",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon1Minor0",
+            "headshots": "precisionKillOfR1S1StoryMoon1Minor0",
+            "deaths": "deathsFromR1S1StoryMoon1Minor0",
+            "kills": "killsOfR1S1StoryMoon1Minor0"
+        }
+    },
+    "R1S1StoryMoon3Major0": {
+        "enemyId": "R1S1StoryMoon3Major0",
+        "enemyName": "Kranox, the Graven",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon3Major0",
+            "headshots": "precisionKillOfR1S1StoryMoon3Major0",
+            "deaths": "deathsFromR1S1StoryMoon3Major0",
+            "kills": "killsOfR1S1StoryMoon3Major0"
+        }
+    },
+    "R1S1StoryMoon4Major0": {
+        "enemyId": "R1S1StoryMoon4Major0",
+        "enemyName": "Banuk, Ur Prince",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon4Major0",
+            "headshots": "precisionKillOfR1S1StoryMoon4Major0",
+            "deaths": "deathsFromR1S1StoryMoon4Major0",
+            "kills": "killsOfR1S1StoryMoon4Major0"
+        }
+    },
+    "R1S1StoryMoon4Major1": {
+        "enemyId": "R1S1StoryMoon4Major1",
+        "enemyName": "Merok, Eir Prince",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon4Major1",
+            "headshots": "precisionKillOfR1S1StoryMoon4Major1",
+            "deaths": "deathsFromR1S1StoryMoon4Major1",
+            "kills": "killsOfR1S1StoryMoon4Major1"
+        }
+    },
+    "R1S1StoryMoon5Major0": {
+        "enemyId": "R1S1StoryMoon5Major0",
+        "enemyName": "Telthor, Unborn",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon5Major0",
+            "headshots": "precisionKillOfR1S1StoryMoon5Major0",
+            "deaths": "deathsFromR1S1StoryMoon5Major0",
+            "kills": "killsOfR1S1StoryMoon5Major0"
+        }
+    },
+    "R1S1StoryMoon5Minor0": {
+        "enemyId": "R1S1StoryMoon5Minor0",
+        "enemyName": "Siphon Witch",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon5Minor0",
+            "headshots": "precisionKillOfR1S1StoryMoon5Minor0",
+            "deaths": "deathsFromR1S1StoryMoon5Minor0",
+            "kills": "killsOfR1S1StoryMoon5Minor0"
+        }
+    },
+    "R1S1StoryMoon6Major0": {
+        "enemyId": "R1S1StoryMoon6Major0",
+        "enemyName": "Frigoris, Exiled Baron",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon6Major0",
+            "headshots": "precisionKillOfR1S1StoryMoon6Major0",
+            "deaths": "deathsFromR1S1StoryMoon6Major0",
+            "kills": "killsOfR1S1StoryMoon6Major0"
+        }
+    },
+    "R1S1StoryMoon6Ultra0": {
+        "enemyId": "R1S1StoryMoon6Ultra0",
+        "enemyName": "Sardok, Eye of Oryx",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon6Ultra0",
+            "headshots": "precisionKillOfR1S1StoryMoon6Ultra0",
+            "deaths": "deathsFromR1S1StoryMoon6Ultra0",
+            "kills": "killsOfR1S1StoryMoon6Ultra0"
+        }
+    },
+    "R1S1StoryVenus2Major0": {
+        "enemyId": "R1S1StoryVenus2Major0",
+        "enemyName": "Corrective Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryVenus2Major0",
+            "headshots": "precisionKillOfR1S1StoryVenus2Major0",
+            "deaths": "deathsFromR1S1StoryVenus2Major0",
+            "kills": "killsOfR1S1StoryVenus2Major0"
+        }
+    },
+    "R1S1StoryVenus5Major0": {
+        "enemyId": "R1S1StoryVenus5Major0",
+        "enemyName": "Grayliks, Winter Baron",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryVenus5Major0",
+            "headshots": "precisionKillOfR1S1StoryVenus5Major0",
+            "deaths": "deathsFromR1S1StoryVenus5Major0",
+            "kills": "killsOfR1S1StoryVenus5Major0"
+        }
+    },
+    "R1S1StoryVenus5Major1": {
+        "enemyId": "R1S1StoryVenus5Major1",
+        "enemyName": "Simiks-3",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryVenus5Major1",
+            "headshots": "precisionKillOfR1S1StoryVenus5Major1",
+            "deaths": "deathsFromR1S1StoryVenus5Major1",
+            "kills": "killsOfR1S1StoryVenus5Major1"
+        }
+    },
+    "R1S1StoryVenus6Major0": {
+        "enemyId": "R1S1StoryVenus6Major0",
+        "enemyName": "Kell's Guard",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryVenus6Major0",
+            "headshots": "precisionKillOfR1S1StoryVenus6Major0",
+            "deaths": "deathsFromR1S1StoryVenus6Major0",
+            "kills": "killsOfR1S1StoryVenus6Major0"
+        }
+    },
+    "R1S1StoryVenus6Ultra0": {
+        "enemyId": "R1S1StoryVenus6Ultra0",
+        "enemyName": "Draksis, Winter Kell",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryVenus6Ultra0",
+            "headshots": "precisionKillOfR1S1StoryVenus6Ultra0",
+            "deaths": "deathsFromR1S1StoryVenus6Ultra0",
+            "kills": "killsOfR1S1StoryVenus6Ultra0"
+        }
+    },
+    "R1S1StoryVenus7Ultra0": {
+        "enemyId": "R1S1StoryVenus7Ultra0",
+        "enemyName": "Zydron, Gate Lord",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Story",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryVenus7Ultra0",
+            "headshots": "precisionKillOfR1S1StoryVenus7Ultra0",
+            "deaths": "deathsFromR1S1StoryVenus7Ultra0",
+            "kills": "killsOfR1S1StoryVenus7Ultra0"
+        }
+    },
+    "R1S1StrikeCosmo1Ultra0": {
+        "enemyId": "R1S1StrikeCosmo1Ultra0",
+        "enemyName": "Sepiks Prime",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Strike",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeCosmo1Ultra0",
+            "headshots": "precisionKillOfR1S1StrikeCosmo1Ultra0",
+            "deaths": "deathsFromR1S1StrikeCosmo1Ultra0",
+            "kills": "killsOfR1S1StrikeCosmo1Ultra0"
+        }
+    },
+    "R1S2StrikeMars3Ultra0": {
+        "enemyId": "R1S2StrikeMars3Ultra0",
+        "enemyName": "The Undying Mind",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2StrikeMars3Ultra0",
+            "headshots": "precisionKillOfR1S2StrikeMars3Ultra0",
+            "deaths": "deathsFromR1S2StrikeMars3Ultra0",
+            "kills": "killsOfR1S2StrikeMars3Ultra0"
+        }
+    },
+    "R1S1StrikeMars1Major0": {
+        "enemyId": "R1S1StrikeMars1Major0",
+        "enemyName": "Kolar, Psion Flayer",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major0",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major0",
+            "deaths": "deathsFromR1S1StrikeMars1Major0",
+            "kills": "killsOfR1S1StrikeMars1Major0"
+        }
+    },
+    "R1S1StrikeMars1Major1": {
+        "enemyId": "R1S1StrikeMars1Major1",
+        "enemyName": "Vatch, Psion Flayer",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major1",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major1",
+            "deaths": "deathsFromR1S1StrikeMars1Major1",
+            "kills": "killsOfR1S1StrikeMars1Major1"
+        }
+    },
+    "R1S1StrikeMars1Major10": {
+        "enemyId": "R1S1StrikeMars1Major10",
+        "enemyName": "Val Tra'aug",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major10",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major10",
+            "deaths": "deathsFromR1S1StrikeMars1Major10",
+            "kills": "killsOfR1S1StrikeMars1Major10"
+        }
+    },
+    "R1S1StrikeMars1Major2": {
+        "enemyId": "R1S1StrikeMars1Major2",
+        "enemyName": "Numoc, Psion Flayer",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major2",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major2",
+            "deaths": "deathsFromR1S1StrikeMars1Major2",
+            "kills": "killsOfR1S1StrikeMars1Major2"
+        }
+    },
+    "R1S1StrikeMars1Major3": {
+        "enemyId": "R1S1StrikeMars1Major3",
+        "enemyName": "Psion Operant",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major3",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major3",
+            "deaths": "deathsFromR1S1StrikeMars1Major3",
+            "kills": "killsOfR1S1StrikeMars1Major3"
+        }
+    },
+    "R1S1StrikeMars1Major4": {
+        "enemyId": "R1S1StrikeMars1Major4",
+        "enemyName": "Psion Operant",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major4",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major4",
+            "deaths": "deathsFromR1S1StrikeMars1Major4",
+            "kills": "killsOfR1S1StrikeMars1Major4"
+        }
+    },
+    "R1S1StrikeMars1Major5": {
+        "enemyId": "R1S1StrikeMars1Major5",
+        "enemyName": "Psion Operant",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major5",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major5",
+            "deaths": "deathsFromR1S1StrikeMars1Major5",
+            "kills": "killsOfR1S1StrikeMars1Major5"
+        }
+    },
+    "R1S1StrikeMars1Major6": {
+        "enemyId": "R1S1StrikeMars1Major6",
+        "enemyName": "Flayer Guard",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major6",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major6",
+            "deaths": "deathsFromR1S1StrikeMars1Major6",
+            "kills": "killsOfR1S1StrikeMars1Major6"
+        }
+    },
+    "R1S1StrikeMars1Major7": {
+        "enemyId": "R1S1StrikeMars1Major7",
+        "enemyName": "Flayer Guard",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major7",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major7",
+            "deaths": "deathsFromR1S1StrikeMars1Major7",
+            "kills": "killsOfR1S1StrikeMars1Major7"
+        }
+    },
+    "R1S1StrikeMars1Major8": {
+        "enemyId": "R1S1StrikeMars1Major8",
+        "enemyName": "Flayer Guard",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major8",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major8",
+            "deaths": "deathsFromR1S1StrikeMars1Major8",
+            "kills": "killsOfR1S1StrikeMars1Major8"
+        }
+    },
+    "R1S1StrikeMars1Major9": {
+        "enemyId": "R1S1StrikeMars1Major9",
+        "enemyName": "Flayer Guard",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars1Major9",
+            "headshots": "precisionKillOfR1S1StrikeMars1Major9",
+            "deaths": "deathsFromR1S1StrikeMars1Major9",
+            "kills": "killsOfR1S1StrikeMars1Major9"
+        }
+    },
+    "R1S1StrikeMars2Major0": {
+        "enemyId": "R1S1StrikeMars2Major0",
+        "enemyName": "Val Zu'uarc",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars2Major0",
+            "headshots": "precisionKillOfR1S1StrikeMars2Major0",
+            "deaths": "deathsFromR1S1StrikeMars2Major0",
+            "kills": "killsOfR1S1StrikeMars2Major0"
+        }
+    },
+    "R1S1StrikeMars2Major1": {
+        "enemyId": "R1S1StrikeMars2Major1",
+        "enemyName": "Val Bou'urc",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars2Major1",
+            "headshots": "precisionKillOfR1S1StrikeMars2Major1",
+            "deaths": "deathsFromR1S1StrikeMars2Major1",
+            "kills": "killsOfR1S1StrikeMars2Major1"
+        }
+    },
+    "R1S1StrikeMars2Major2": {
+        "enemyId": "R1S1StrikeMars2Major2",
+        "enemyName": "Val Ma'aurg",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars2Major2",
+            "headshots": "precisionKillOfR1S1StrikeMars2Major2",
+            "deaths": "deathsFromR1S1StrikeMars2Major2",
+            "kills": "killsOfR1S1StrikeMars2Major2"
+        }
+    },
+    "R1S1StrikeMars2Ultra0": {
+        "enemyId": "R1S1StrikeMars2Ultra0",
+        "enemyName": "Valus Ta'aurc",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Strike",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMars2Ultra0",
+            "headshots": "precisionKillOfR1S1StrikeMars2Ultra0",
+            "deaths": "deathsFromR1S1StrikeMars2Ultra0",
+            "kills": "killsOfR1S1StrikeMars2Ultra0"
+        }
+    },
+    "R1S1StrikeMoon2Major0": {
+        "enemyId": "R1S1StrikeMoon2Major0",
+        "enemyName": "Mormu, Xol Spawn",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMoon2Major0",
+            "headshots": "precisionKillOfR1S1StrikeMoon2Major0",
+            "deaths": "deathsFromR1S1StrikeMoon2Major0",
+            "kills": "killsOfR1S1StrikeMoon2Major0"
+        }
+    },
+    "R1S1StrikeMoon2Ultra0": {
+        "enemyId": "R1S1StrikeMoon2Ultra0",
+        "enemyName": "Phogoth, the Untamed",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Strike",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeMoon2Ultra0",
+            "headshots": "precisionKillOfR1S1StrikeMoon2Ultra0",
+            "deaths": "deathsFromR1S1StrikeMoon2Ultra0",
+            "kills": "killsOfR1S1StrikeMoon2Ultra0"
+        }
+    },
+    "R1S1StrikeVenus1Ultra0": {
+        "enemyId": "R1S1StrikeVenus1Ultra0",
+        "enemyName": "Sekrion, Nexus Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Strike",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeVenus1Ultra0",
+            "headshots": "precisionKillOfR1S1StrikeVenus1Ultra0",
+            "deaths": "deathsFromR1S1StrikeVenus1Ultra0",
+            "kills": "killsOfR1S1StrikeVenus1Ultra0"
+        }
+    },
+    "R1S1StrikeVenus2Ultra0": {
+        "enemyId": "R1S1StrikeVenus2Ultra0",
+        "enemyName": "Aksor, Archon Priest",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Strike",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeVenus2Ultra0",
+            "headshots": "precisionKillOfR1S1StrikeVenus2Ultra0",
+            "deaths": "deathsFromR1S1StrikeVenus2Ultra0",
+            "kills": "killsOfR1S1StrikeVenus2Ultra0"
+        }
+    },
+    "R1S2RaidMoon0Major0": {
+        "enemyId": "R1S2RaidMoon0Major0",
+        "enemyName": "Ir Y\u00fbt, the Deathsinger",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Moon",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2RaidMoon0Major0",
+            "headshots": "precisionKillOfR1S2RaidMoon0Major0",
+            "deaths": "deathsFromR1S2RaidMoon0Major0",
+            "kills": "killsOfR1S2RaidMoon0Major0"
+        }
+    },
+    "R1S2RaidMoon0Major1": {
+        "enemyId": "R1S2RaidMoon0Major1",
+        "enemyName": "Gatekeeper",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Moon",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2RaidMoon0Major1",
+            "headshots": "precisionKillOfR1S2RaidMoon0Major1",
+            "deaths": "deathsFromR1S2RaidMoon0Major1",
+            "kills": "killsOfR1S2RaidMoon0Major1"
+        }
+    },
+    "R1S2RaidMoon0Major2": {
+        "enemyId": "R1S2RaidMoon0Major2",
+        "enemyName": "Swordbearer",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Moon",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2RaidMoon0Major2",
+            "headshots": "precisionKillOfR1S2RaidMoon0Major2",
+            "deaths": "deathsFromR1S2RaidMoon0Major2",
+            "kills": "killsOfR1S2RaidMoon0Major2"
+        }
+    },
+    "R1S2RaidMoon0Major3": {
+        "enemyId": "R1S2RaidMoon0Major3",
+        "enemyName": "###historicalstats.StatName_assistsAgainstR1S2RaidMoon0Major3###",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Moon",
+        "activityType": "Raid",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2RaidMoon0Major3",
+            "headshots": "precisionKillOfR1S2RaidMoon0Major3",
+            "deaths": "deathsFromR1S2RaidMoon0Major3",
+            "kills": "killsOfR1S2RaidMoon0Major3"
+        }
+    },
+    "R1S2RaidMoon0Ultra0": {
+        "enemyId": "R1S2RaidMoon0Ultra0",
+        "enemyName": "Crota, Son of Oryx",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Moon",
+        "activityType": "Raid",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2RaidMoon0Ultra0",
+            "headshots": "precisionKillOfR1S2RaidMoon0Ultra0",
+            "deaths": "deathsFromR1S2RaidMoon0Ultra0",
+            "kills": "killsOfR1S2RaidMoon0Ultra0"
+        }
+    },
+    "R1S2StrikeCosmo1Major0": {
+        "enemyId": "R1S2StrikeCosmo1Major0",
+        "enemyName": "Omnigul, the Will of Crota",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2StrikeCosmo1Major0",
+            "headshots": "precisionKillOfR1S2StrikeCosmo1Major0",
+            "deaths": "deathsFromR1S2StrikeCosmo1Major0",
+            "kills": "killsOfR1S2StrikeCosmo1Major0"
+        }
+    },
+    "VexGoblin": {
+        "enemyId": "VexGoblin",
+        "enemyName": "Goblin",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexGoblin",
+            "headshots": "precisionKillOfVexGoblin",
+            "deaths": "deathsFromVexGoblin",
+            "kd": "killsDeathsRatioVexGoblin",
+            "kills": "killsOfVexGoblin"
+        }
+    },
+    "VexHarpy": {
+        "enemyId": "VexHarpy",
+        "enemyName": "Harpy",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexHarpy",
+            "headshots": "precisionKillOfVexHarpy",
+            "deaths": "deathsFromVexHarpy",
+            "kd": "killsDeathsRatioVexHarpy",
+            "kills": "killsOfVexHarpy"
+        }
+    },
+    "VexHobgoblin": {
+        "enemyId": "VexHobgoblin",
+        "enemyName": "Hobgoblin",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexHobgoblin",
+            "headshots": "precisionKillOfVexHobgoblin",
+            "deaths": "deathsFromVexHobgoblin",
+            "kd": "killsDeathsRatioVexHobgoblin",
+            "kills": "killsOfVexHobgoblin"
+        }
+    },
+    "VexMinotaur": {
+        "enemyId": "VexMinotaur",
+        "enemyName": "Minotaur",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexMinotaur",
+            "headshots": "precisionKillOfVexMinotaur",
+            "deaths": "deathsFromVexMinotaur",
+            "kd": "killsDeathsRatioVexMinotaur",
+            "kills": "killsOfVexMinotaur"
+        }
+    },
+    "VexMinotaurElite": {
+        "enemyId": "VexMinotaurElite",
+        "enemyName": "Minotaur Zealot",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexMinotaurElite",
+            "headshots": "precisionKillOfVexMinotaurElite",
+            "deaths": "deathsFromVexMinotaurElite",
+            "kills": "killsOfVexMinotaurElite"
+        }
+    },
+    "VexHydra": {
+        "enemyId": "VexHydra",
+        "enemyName": "Hydra",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexHydra",
+            "headshots": "precisionKillOfVexHydra",
+            "deaths": "deathsFromVexHydra",
+            "kd": "killsDeathsRatioVexHydra",
+            "kills": "killsOfVexHydra"
+        }
+    },
+    "VexHydraElite": {
+        "enemyId": "VexHydraElite",
+        "enemyName": "Hydra Zealot",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexHydraElite",
+            "headshots": "precisionKillOfVexHydraElite",
+            "deaths": "deathsFromVexHydraElite",
+            "kills": "killsOfVexHydraElite"
+        }
+    },
+    "CabalMajorCenturionA": {
+        "enemyId": "CabalMajorCenturionA",
+        "enemyName": "Imperial Centurion",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalMajorCenturionA",
+            "headshots": "precisionKillOfCabalMajorCenturionA",
+            "deaths": "deathsFromCabalMajorCenturionA",
+            "kills": "killsOfCabalMajorCenturionA"
+        }
+    },
+    "CabalMajorGladiatorA": {
+        "enemyId": "CabalMajorGladiatorA",
+        "enemyName": "Imperial Colossus",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalMajorGladiatorA",
+            "headshots": "precisionKillOfCabalMajorGladiatorA",
+            "deaths": "deathsFromCabalMajorGladiatorA",
+            "kills": "killsOfCabalMajorGladiatorA"
+        }
+    },
+    "CabalMajorLegionaryA": {
+        "enemyId": "CabalMajorLegionaryA",
+        "enemyName": "Imperial Legionary",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalMajorLegionaryA",
+            "headshots": "precisionKillOfCabalMajorLegionaryA",
+            "deaths": "deathsFromCabalMajorLegionaryA",
+            "kills": "killsOfCabalMajorLegionaryA"
+        }
+    },
+    "CabalMajorPhalanxA": {
+        "enemyId": "CabalMajorPhalanxA",
+        "enemyName": "Imperial Phalanx",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalMajorPhalanxA",
+            "headshots": "precisionKillOfCabalMajorPhalanxA",
+            "deaths": "deathsFromCabalMajorPhalanxA",
+            "kills": "killsOfCabalMajorPhalanxA"
+        }
+    },
+    "CabalMajorPsionA": {
+        "enemyId": "CabalMajorPsionA",
+        "enemyName": "Psion Operant",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalMajorPsionA",
+            "headshots": "precisionKillOfCabalMajorPsionA",
+            "deaths": "deathsFromCabalMajorPsionA",
+            "kills": "killsOfCabalMajorPsionA"
+        }
+    },
+    "CabalUltraCenturionA": {
+        "enemyId": "CabalUltraCenturionA",
+        "enemyName": "Ultra Centurion",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalUltraCenturionA",
+            "headshots": "precisionKillOfCabalUltraCenturionA",
+            "deaths": "deathsFromCabalUltraCenturionA",
+            "kills": "killsOfCabalUltraCenturionA"
+        }
+    },
+    "CabalUltraGladiatorA": {
+        "enemyId": "CabalUltraGladiatorA",
+        "enemyName": "Ultra Colossus",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstCabalUltraGladiatorA",
+            "headshots": "precisionKillOfCabalUltraGladiatorA",
+            "deaths": "deathsFromCabalUltraGladiatorA",
+            "kills": "killsOfCabalUltraGladiatorA"
+        }
+    },
+    "FallenUltraServitorA": {
+        "enemyId": "FallenUltraServitorA",
+        "enemyName": "Ultra Servitor",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenUltraServitorA",
+            "headshots": "precisionKillOfFallenUltraServitorA",
+            "deaths": "deathsFromFallenUltraServitorA",
+            "kills": "killsOfFallenUltraServitorA"
+        }
+    },
+    "FallenUltraCaptainA": {
+        "enemyId": "FallenUltraCaptainA",
+        "enemyName": "Ultra Captain",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenUltraCaptainA",
+            "headshots": "precisionKillOfFallenUltraCaptainA",
+            "deaths": "deathsFromFallenUltraCaptainA",
+            "kills": "killsOfFallenUltraCaptainA"
+        }
+    },
+    "FallenMajorShankA": {
+        "enemyId": "FallenMajorShankA",
+        "enemyName": "Reaver Shank",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorShankA",
+            "headshots": "precisionKillOfFallenMajorShankA",
+            "deaths": "deathsFromFallenMajorShankA",
+            "kills": "killsOfFallenMajorShankA"
+        }
+    },
+    "FallenMajorServitorA": {
+        "enemyId": "FallenMajorServitorA",
+        "enemyName": "High Servitor",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorServitorA",
+            "headshots": "precisionKillOfFallenMajorServitorA",
+            "deaths": "deathsFromFallenMajorServitorA",
+            "kills": "killsOfFallenMajorServitorA"
+        }
+    },
+    "FallenMajorCaptainA": {
+        "enemyId": "FallenMajorCaptainA",
+        "enemyName": "Reaver Captain",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorCaptainA",
+            "headshots": "precisionKillOfFallenMajorCaptainA",
+            "deaths": "deathsFromFallenMajorCaptainA",
+            "kills": "killsOfFallenMajorCaptainA"
+        }
+    },
+    "FallenMajorCaptainAShockBlade": {
+        "enemyId": "FallenMajorCaptainAShockBlade",
+        "enemyName": "Elder Captain",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "ShockBlade",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorCaptainAShockBlade",
+            "headshots": "precisionKillOfFallenMajorCaptainAShockBlade",
+            "deaths": "deathsFromFallenMajorCaptainAShockBlade",
+            "kills": "killsOfFallenMajorCaptainAShockBlade"
+        }
+    },
+    "FallenMajorVandalA": {
+        "enemyId": "FallenMajorVandalA",
+        "enemyName": "Reaver Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorVandalA",
+            "headshots": "precisionKillOfFallenMajorVandalA",
+            "deaths": "deathsFromFallenMajorVandalA",
+            "kills": "killsOfFallenMajorVandalA"
+        }
+    },
+    "FallenMajorVandalAShockBlade": {
+        "enemyId": "FallenMajorVandalAShockBlade",
+        "enemyName": "Stealth Elder Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "ShockBlade",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorVandalAShockBlade",
+            "headshots": "precisionKillOfFallenMajorVandalAShockBlade",
+            "deaths": "deathsFromFallenMajorVandalAShockBlade",
+            "kills": "killsOfFallenMajorVandalAShockBlade"
+        }
+    },
+    "FallenMajorDregAShrapnelLauncher": {
+        "enemyId": "FallenMajorDregAShrapnelLauncher",
+        "enemyName": "Dreg",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "ShrapnelLauncher",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorDregAShrapnelLauncher",
+            "headshots": "precisionKillOfFallenMajorDregAShrapnelLauncher",
+            "deaths": "deathsFromFallenMajorDregAShrapnelLauncher",
+            "kills": "killsOfFallenMajorDregAShrapnelLauncher"
+        }
+    },
+    "FallenMajorDregA": {
+        "enemyId": "FallenMajorDregA",
+        "enemyName": "Reaver Dreg",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorDregA",
+            "headshots": "precisionKillOfFallenMajorDregA",
+            "deaths": "deathsFromFallenMajorDregA",
+            "kills": "killsOfFallenMajorDregA"
+        }
+    },
+    "FallenMajorDregAShockDagger": {
+        "enemyId": "FallenMajorDregAShockDagger",
+        "enemyName": "Dreg",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "ShockDagger",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorDregAShockDagger",
+            "headshots": "precisionKillOfFallenMajorDregAShockDagger",
+            "deaths": "deathsFromFallenMajorDregAShockDagger",
+            "kills": "killsOfFallenMajorDregAShockDagger"
+        }
+    },
+    "R1S1StoryCosmo0Minor0": {
+        "enemyId": "R1S1StoryCosmo0Minor0",
+        "enemyName": "Rahn, Devil Captain",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Story",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryCosmo0Minor0",
+            "headshots": "precisionKillOfR1S1StoryCosmo0Minor0",
+            "deaths": "deathsFromR1S1StoryCosmo0Minor0",
+            "kills": "killsOfR1S1StoryCosmo0Minor0"
+        }
+    },
+    "FallenMajorStealthVandalAWireRifle": {
+        "enemyId": "FallenMajorStealthVandalAWireRifle",
+        "enemyName": "Stealth Elder Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "WireRifle",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorStealthVandalAWireRifle",
+            "headshots": "precisionKillOfFallenMajorStealthVandalAWireRifle",
+            "deaths": "deathsFromFallenMajorStealthVandalAWireRifle",
+            "kills": "killsOfFallenMajorStealthVandalAWireRifle"
+        }
+    },
+    "FallenMajorStealthVandalA": {
+        "enemyId": "FallenMajorStealthVandalA",
+        "enemyName": "Stealth Reaver Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorStealthVandalA",
+            "headshots": "precisionKillOfFallenMajorStealthVandalA",
+            "deaths": "deathsFromFallenMajorStealthVandalA",
+            "kills": "killsOfFallenMajorStealthVandalA"
+        }
+    },
+    "HiveUltraOgreA": {
+        "enemyId": "HiveUltraOgreA",
+        "enemyName": "Ultra Ogre",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveUltraOgreA",
+            "headshots": "precisionKillOfHiveUltraOgreA",
+            "deaths": "deathsFromHiveUltraOgreA",
+            "kills": "killsOfHiveUltraOgreA"
+        }
+    },
+    "HiveUltraKnightA": {
+        "enemyId": "HiveUltraKnightA",
+        "enemyName": "Ultra Knight",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveUltraKnightA",
+            "headshots": "precisionKillOfHiveUltraKnightA",
+            "deaths": "deathsFromHiveUltraKnightA",
+            "kills": "killsOfHiveUltraKnightA"
+        }
+    },
+    "HiveMajorWizardA": {
+        "enemyId": "HiveMajorWizardA",
+        "enemyName": "Hallowed Wizard",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveMajorWizardA",
+            "headshots": "precisionKillOfHiveMajorWizardA",
+            "deaths": "deathsFromHiveMajorWizardA",
+            "kills": "killsOfHiveMajorWizardA"
+        }
+    },
+    "HiveMajorTrooperA": {
+        "enemyId": "HiveMajorTrooperA",
+        "enemyName": "Hallowed Acolyte",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveMajorTrooperA",
+            "headshots": "precisionKillOfHiveMajorTrooperA",
+            "deaths": "deathsFromHiveMajorTrooperA",
+            "kills": "killsOfHiveMajorTrooperA"
+        }
+    },
+    "HiveMajorThrallA": {
+        "enemyId": "HiveMajorThrallA",
+        "enemyName": "Hallowed Thrall",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveMajorThrallA",
+            "headshots": "precisionKillOfHiveMajorThrallA",
+            "deaths": "deathsFromHiveMajorThrallA",
+            "kills": "killsOfHiveMajorThrallA"
+        }
+    },
+    "HiveMajorOgreA": {
+        "enemyId": "HiveMajorOgreA",
+        "enemyName": "Hallowed Ogre",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveMajorOgreA",
+            "headshots": "precisionKillOfHiveMajorOgreA",
+            "deaths": "deathsFromHiveMajorOgreA",
+            "kills": "killsOfHiveMajorOgreA"
+        }
+    },
+    "HiveMajorKnightA": {
+        "enemyId": "HiveMajorKnightA",
+        "enemyName": "Hallowed Knight",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstHiveMajorKnightA",
+            "headshots": "precisionKillOfHiveMajorKnightA",
+            "deaths": "deathsFromHiveMajorKnightA",
+            "kills": "killsOfHiveMajorKnightA"
+        }
+    },
+    "HiveMajorKnightACleaver": {
+        "enemyId": "HiveMajorKnightACleaver",
+        "enemyName": "Chosen Knight",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "Cleaver",
+        "stats": {
+            "assists": "assistsAgainstHiveMajorKnightACleaver",
+            "headshots": "precisionKillOfHiveMajorKnightACleaver",
+            "deaths": "deathsFromHiveMajorKnightACleaver",
+            "kills": "killsOfHiveMajorKnightACleaver"
+        }
+    },
+    "R1S1StoryMoon1Major0": {
+        "enemyId": "R1S1StoryMoon1Major0",
+        "enemyName": "Vurok, Eir Spawn",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon1Major0",
+            "headshots": "precisionKillOfR1S1StoryMoon1Major0",
+            "deaths": "deathsFromR1S1StoryMoon1Major0",
+            "kills": "killsOfR1S1StoryMoon1Major0"
+        }
+    },
+    "UltraTitanA": {
+        "enemyId": "UltraTitanA",
+        "enemyName": "Ultra Hydra",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstUltraTitanA",
+            "headshots": "precisionKillOfUltraTitanA",
+            "deaths": "deathsFromUltraTitanA",
+            "kills": "killsOfUltraTitanA"
+        }
+    },
+    "VexUltraMinotaurA": {
+        "enemyId": "VexUltraMinotaurA",
+        "enemyName": "Ultra Minotaur",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexUltraMinotaurA",
+            "headshots": "precisionKillOfVexUltraMinotaurA",
+            "deaths": "deathsFromVexUltraMinotaurA",
+            "kills": "killsOfVexUltraMinotaurA"
+        }
+    },
+    "MajorTitanA": {
+        "enemyId": "MajorTitanA",
+        "enemyName": "Axis Hydra",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstMajorTitanA",
+            "headshots": "precisionKillOfMajorTitanA",
+            "deaths": "deathsFromMajorTitanA",
+            "kills": "killsOfMajorTitanA"
+        }
+    },
+    "R1S1RaidVenus0HarpyMissile": {
+        "enemyId": "R1S1RaidVenus0HarpyMissile",
+        "enemyName": "Supplicant",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0HarpyMissile",
+            "headshots": "precisionKillOfR1S1RaidVenus0HarpyMissile",
+            "deaths": "deathsFromR1S1RaidVenus0HarpyMissile",
+            "kills": "killsOfR1S1RaidVenus0HarpyMissile"
+        }
+    },
+    "R1S1RaidVenus0BobgoblinFuture": {
+        "enemyId": "R1S1RaidVenus0BobgoblinFuture",
+        "enemyName": "Precursor Hobgoblin",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0BobgoblinFuture",
+            "headshots": "precisionKillOfR1S1RaidVenus0BobgoblinFuture",
+            "deaths": "deathsFromR1S1RaidVenus0BobgoblinFuture",
+            "kills": "killsOfR1S1RaidVenus0BobgoblinFuture"
+        }
+    },
+    "VexMajorMinotaurA": {
+        "enemyId": "VexMajorMinotaurA",
+        "enemyName": "Axis Minotaur",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexMajorMinotaurA",
+            "headshots": "precisionKillOfVexMajorMinotaurA",
+            "deaths": "deathsFromVexMajorMinotaurA",
+            "kills": "killsOfVexMajorMinotaurA"
+        }
+    },
+    "VexMajorHobgoblinA": {
+        "enemyId": "VexMajorHobgoblinA",
+        "enemyName": "Axis Hobgoblin",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexMajorHobgoblinA",
+            "headshots": "precisionKillOfVexMajorHobgoblinA",
+            "deaths": "deathsFromVexMajorHobgoblinA",
+            "kills": "killsOfVexMajorHobgoblinA"
+        }
+    },
+    "VexMajorHarpyA": {
+        "enemyId": "VexMajorHarpyA",
+        "enemyName": "Axis Harpy",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexMajorHarpyA",
+            "headshots": "precisionKillOfVexMajorHarpyA",
+            "deaths": "deathsFromVexMajorHarpyA",
+            "kills": "killsOfVexMajorHarpyA"
+        }
+    },
+    "VexMajorGoblinA": {
+        "enemyId": "VexMajorGoblinA",
+        "enemyName": "Axis Goblin",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstVexMajorGoblinA",
+            "headshots": "precisionKillOfVexMajorGoblinA",
+            "deaths": "deathsFromVexMajorGoblinA",
+            "kills": "killsOfVexMajorGoblinA"
+        }
+    },
+    "R1S1EventCosmoMajor0": {
+        "enemyId": "R1S1EventCosmoMajor0",
+        "enemyName": "Captain",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor0",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor0",
+            "deaths": "deathsFromR1S1EventCosmoMajor0",
+            "kills": "killsOfR1S1EventCosmoMajor0"
+        }
+    },
+    "R1S1EventCosmoMajor1": {
+        "enemyId": "R1S1EventCosmoMajor1",
+        "enemyName": "Commander",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor1",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor1",
+            "deaths": "deathsFromR1S1EventCosmoMajor1",
+            "kills": "killsOfR1S1EventCosmoMajor1"
+        }
+    },
+    "R1S1EventCosmoMajor2": {
+        "enemyId": "R1S1EventCosmoMajor2",
+        "enemyName": "Renegade Captain",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor2",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor2",
+            "deaths": "deathsFromR1S1EventCosmoMajor2",
+            "kills": "killsOfR1S1EventCosmoMajor2"
+        }
+    },
+    "R1S1EventCosmoMajor6": {
+        "enemyId": "R1S1EventCosmoMajor6",
+        "enemyName": "Nulsis, Lost to Winter",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor6",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor6",
+            "deaths": "deathsFromR1S1EventCosmoMajor6",
+            "kills": "killsOfR1S1EventCosmoMajor6"
+        }
+    },
+    "R1S1EventCosmoMajor7": {
+        "enemyId": "R1S1EventCosmoMajor7",
+        "enemyName": "Lisknis, Devil Enforcer",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor7",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor7",
+            "deaths": "deathsFromR1S1EventCosmoMajor7",
+            "kills": "killsOfR1S1EventCosmoMajor7"
+        }
+    },
+    "R1S1EventCosmoMajor8": {
+        "enemyId": "R1S1EventCosmoMajor8",
+        "enemyName": "Shipbreaker Scout",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventCosmoMajor8",
+            "headshots": "precisionKillOfR1S1EventCosmoMajor8",
+            "deaths": "deathsFromR1S1EventCosmoMajor8",
+            "kills": "killsOfR1S1EventCosmoMajor8"
+        }
+    },
+    "R1S1StoryMoon4Major2": {
+        "enemyId": "R1S1StoryMoon4Major2",
+        "enemyName": "Dakoor, Yul Prince",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon4Major2",
+            "headshots": "precisionKillOfR1S1StoryMoon4Major2",
+            "deaths": "deathsFromR1S1StoryMoon4Major2",
+            "kills": "killsOfR1S1StoryMoon4Major2"
+        }
+    },
+    "R1S1StoryMoon4Major3": {
+        "enemyId": "R1S1StoryMoon4Major3",
+        "enemyName": "Garok, Xol Prince",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryMoon4Major3",
+            "headshots": "precisionKillOfR1S1StoryMoon4Major3",
+            "deaths": "deathsFromR1S1StoryMoon4Major3",
+            "kills": "killsOfR1S1StoryMoon4Major3"
+        }
+    },
+    "FallenMajorStealthVandalAShockBlade": {
+        "enemyId": "FallenMajorStealthVandalAShockBlade",
+        "enemyName": "Stealth Elder Vandal",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "ShockBlade",
+        "stats": {
+            "assists": "assistsAgainstFallenMajorStealthVandalAShockBlade",
+            "headshots": "precisionKillOfFallenMajorStealthVandalAShockBlade",
+            "deaths": "deathsFromFallenMajorStealthVandalAShockBlade",
+            "kills": "killsOfFallenMajorStealthVandalAShockBlade"
+        }
+    },
+    "R1S1StoryCosmo1Major1": {
+        "enemyId": "R1S1StoryCosmo1Major1",
+        "enemyName": "Gotra, Eir Spawn",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StoryCosmo1Major1",
+            "headshots": "precisionKillOfR1S1StoryCosmo1Major1",
+            "deaths": "deathsFromR1S1StoryCosmo1Major1",
+            "kills": "killsOfR1S1StoryCosmo1Major1"
+        }
+    },
+    "R1S3StoryCosmo7Major2": {
+        "enemyId": "R1S3StoryCosmo7Major2",
+        "enemyName": "Paskin, King Baron",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Cosmo",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3StoryCosmo7Major2",
+            "headshots": "precisionKillOfR1S3StoryCosmo7Major2",
+            "deaths": "deathsFromR1S3StoryCosmo7Major2",
+            "kills": "killsOfR1S3StoryCosmo7Major2"
+        }
+    },
+    "R1S3StoryCosmo7Major1": {
+        "enemyId": "R1S3StoryCosmo7Major1",
+        "enemyName": "Yavek, Wolf Baron",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Cosmo",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3StoryCosmo7Major1",
+            "headshots": "precisionKillOfR1S3StoryCosmo7Major1",
+            "deaths": "deathsFromR1S3StoryCosmo7Major1",
+            "kills": "killsOfR1S3StoryCosmo7Major1"
+        }
+    },
+    "R1S3StoryCosmo7Major0": {
+        "enemyId": "R1S3StoryCosmo7Major0",
+        "enemyName": "Vekis, King Baron",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Cosmo",
+        "activityType": "Story",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3StoryCosmo7Major0",
+            "headshots": "precisionKillOfR1S3StoryCosmo7Major0",
+            "deaths": "deathsFromR1S3StoryCosmo7Major0",
+            "kills": "killsOfR1S3StoryCosmo7Major0"
+        }
+    },
+    "R1S3ArenaReefUltra1": {
+        "enemyId": "R1S3ArenaReefUltra1",
+        "enemyName": "Pilot Servitor",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra1",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra1",
+            "deaths": "deathsFromR1S3ArenaReefUltra1",
+            "kills": "killsOfR1S3ArenaReefUltra1"
+        }
+    },
+    "R1S3ArenaReefUltra8": {
+        "enemyId": "R1S3ArenaReefUltra8",
+        "enemyName": "Kaliks Reborn",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra8",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra8",
+            "deaths": "deathsFromR1S3ArenaReefUltra8",
+            "kills": "killsOfR1S3ArenaReefUltra8"
+        }
+    },
+    "R1S3StrikeMoonUltra1": {
+        "enemyId": "R1S3StrikeMoonUltra1",
+        "enemyName": "Taniks, the Scarred",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Moon",
+        "activityType": "Strike",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3StrikeMoonUltra1",
+            "headshots": "precisionKillOfR1S3StrikeMoonUltra1",
+            "deaths": "deathsFromR1S3StrikeMoonUltra1",
+            "kills": "killsOfR1S3StrikeMoonUltra1"
+        }
+    },
+    "R1S3ArenaReefUltra4": {
+        "enemyId": "R1S3ArenaReefUltra4",
+        "enemyName": "Wretched Knight",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra4",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra4",
+            "deaths": "deathsFromR1S3ArenaReefUltra4",
+            "kills": "killsOfR1S3ArenaReefUltra4"
+        }
+    },
+    "R1S3ArenaReefUltra5": {
+        "enemyId": "R1S3ArenaReefUltra5",
+        "enemyName": "Urrox, Flame Prince",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra5",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra5",
+            "deaths": "deathsFromR1S3ArenaReefUltra5",
+            "kills": "killsOfR1S3ArenaReefUltra5"
+        }
+    },
+    "R1S3ArenaReefUltra6": {
+        "enemyId": "R1S3ArenaReefUltra6",
+        "enemyName": "Gulrot, Unclean",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra6",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra6",
+            "deaths": "deathsFromR1S3ArenaReefUltra6",
+            "kills": "killsOfR1S3ArenaReefUltra6"
+        }
+    },
+    "R1S3ArenaReefUltra3": {
+        "enemyId": "R1S3ArenaReefUltra3",
+        "enemyName": "Overmind Minotaur",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra3",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra3",
+            "deaths": "deathsFromR1S3ArenaReefUltra3",
+            "kills": "killsOfR1S3ArenaReefUltra3"
+        }
+    },
+    "R1S3ArenaReefUltra9": {
+        "enemyId": "R1S3ArenaReefUltra9",
+        "enemyName": "Qodron, Gate Lord",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra9",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra9",
+            "deaths": "deathsFromR1S3ArenaReefUltra9",
+            "kills": "killsOfR1S3ArenaReefUltra9"
+        }
+    },
+    "R1S3ArenaReefUltra2": {
+        "enemyId": "R1S3ArenaReefUltra2",
+        "enemyName": "###historicalstats.StatName_assistsAgainstR1S3ArenaReefUltra2###",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra2",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra2",
+            "deaths": "deathsFromR1S3ArenaReefUltra2",
+            "kills": "killsOfR1S3ArenaReefUltra2"
+        }
+    },
+    "R1S3ArenaReefUltra11": {
+        "enemyId": "R1S3ArenaReefUltra11",
+        "enemyName": "Valus Trau'ug",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra11",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra11",
+            "deaths": "deathsFromR1S3ArenaReefUltra11",
+            "kills": "killsOfR1S3ArenaReefUltra11"
+        }
+    },
+    "R1S3ArenaReefUltra12": {
+        "enemyId": "R1S3ArenaReefUltra12",
+        "enemyName": "Skolas, Kell of Kells",
+        "enemyRace": "",
+        "expansion": "R1S3",
+        "destination": "Reef",
+        "activityType": "Arena",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S3ArenaReefUltra12",
+            "headshots": "precisionKillOfR1S3ArenaReefUltra12",
+            "deaths": "deathsFromR1S3ArenaReefUltra12",
+            "kills": "killsOfR1S3ArenaReefUltra12"
+        }
+    },
+    "R1S2BountyCosmoMajor0": {
+        "enemyId": "R1S2BountyCosmoMajor0",
+        "enemyName": "Sardon, Fist of Crota",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyCosmoMajor0",
+            "headshots": "precisionKillOfR1S2BountyCosmoMajor0",
+            "deaths": "deathsFromR1S2BountyCosmoMajor0",
+            "kills": "killsOfR1S2BountyCosmoMajor0"
+        }
+    },
+    "R1S2BountyCosmoMajor1": {
+        "enemyId": "R1S2BountyCosmoMajor1",
+        "enemyName": "###historicalstats.StatName_assistsAgainstR1S2BountyCosmoMajor1###",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyCosmoMajor1",
+            "headshots": "precisionKillOfR1S2BountyCosmoMajor1",
+            "deaths": "deathsFromR1S2BountyCosmoMajor1",
+            "kills": "killsOfR1S2BountyCosmoMajor1"
+        }
+    },
+    "R1S2BountyCosmoUltra0": {
+        "enemyId": "R1S2BountyCosmoUltra0",
+        "enemyName": "Might of Crota",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyCosmoUltra0",
+            "headshots": "precisionKillOfR1S2BountyCosmoUltra0",
+            "deaths": "deathsFromR1S2BountyCosmoUltra0",
+            "kills": "killsOfR1S2BountyCosmoUltra0"
+        }
+    },
+    "R1S2BountyCosmoMajor2": {
+        "enemyId": "R1S2BountyCosmoMajor2",
+        "enemyName": "Hand of Crota",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyCosmoMajor2",
+            "headshots": "precisionKillOfR1S2BountyCosmoMajor2",
+            "deaths": "deathsFromR1S2BountyCosmoMajor2",
+            "kills": "killsOfR1S2BountyCosmoMajor2"
+        }
+    },
+    "R1S2BountyCosmoMajor7": {
+        "enemyId": "R1S2BountyCosmoMajor7",
+        "enemyName": "Eyes of Crota",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyCosmoMajor7",
+            "headshots": "precisionKillOfR1S2BountyCosmoMajor7",
+            "deaths": "deathsFromR1S2BountyCosmoMajor7",
+            "kills": "killsOfR1S2BountyCosmoMajor7"
+        }
+    },
+    "R1S2BountyCosmoMajor4": {
+        "enemyId": "R1S2BountyCosmoMajor4",
+        "enemyName": "Heart of Crota",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyCosmoMajor4",
+            "headshots": "precisionKillOfR1S2BountyCosmoMajor4",
+            "deaths": "deathsFromR1S2BountyCosmoMajor4",
+            "kills": "killsOfR1S2BountyCosmoMajor4"
+        }
+    },
+    "R1S2BountyCosmoMajor5": {
+        "enemyId": "R1S2BountyCosmoMajor5",
+        "enemyName": "###historicalstats.StatName_assistsAgainstR1S2BountyCosmoMajor5###",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Cosmo",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyCosmoMajor5",
+            "headshots": "precisionKillOfR1S2BountyCosmoMajor5",
+            "deaths": "deathsFromR1S2BountyCosmoMajor5",
+            "kills": "killsOfR1S2BountyCosmoMajor5"
+        }
+    },
+    "R1S2BountyMoonUltra0": {
+        "enemyId": "R1S2BountyMoonUltra0",
+        "enemyName": "###historicalstats.StatName_assistsAgainstR1S2BountyMoonUltra0###",
+        "enemyRace": "",
+        "expansion": "R1S2",
+        "destination": "Moon",
+        "activityType": "",
+        "enemyType": "Ultra",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S2BountyMoonUltra0",
+            "headshots": "precisionKillOfR1S2BountyMoonUltra0",
+            "deaths": "deathsFromR1S2BountyMoonUltra0",
+            "kills": "killsOfR1S2BountyMoonUltra0"
+        }
+    },
+    "Cabal": {
+        "enemyId": "Cabal",
+        "enemyName": "Cabal",
+        "enemyRace": "Cabal",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromCabal",
+            "kd": "killsDeathsRatioCabal",
+            "kills": "killsOfCabal"
+        }
+    },
+    "Fallen": {
+        "enemyId": "Fallen",
+        "enemyName": "Fallen",
+        "enemyRace": "Fallen",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromFallen",
+            "kd": "killsDeathsRatioFallen",
+            "kills": "killsOfFallen"
+        }
+    },
+    "Hive": {
+        "enemyId": "Hive",
+        "enemyName": "Hive",
+        "enemyRace": "Hive",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromHive",
+            "kd": "killsDeathsRatioHive",
+            "kills": "killsOfHive"
+        }
+    },
+    "TheGorgons": {
+        "enemyId": "TheGorgons",
+        "enemyName": "Gorgon",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromTheGorgons",
+            "kills": "killsOfTheGorgons"
+        }
+    },
+    "DustPalaceBosses": {
+        "enemyId": "DustPalaceBosses",
+        "enemyName": "Dust Palace Bosses",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromDustPalaceBosses"
+        }
+    },
+    "ThePsionFlayers": {
+        "enemyId": "ThePsionFlayers",
+        "enemyName": "The Psion Flayers",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromThePsionFlayers"
+        }
+    },
+    "killsOfThePsionFlayers": {
+        "enemyId": "killsOfThePsionFlayers",
+        "enemyName": "The Psion Flayers Kills",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "killsOfThePsionFlayers"
+        }
+    },
+    "Vex": {
+        "enemyId": "Vex",
+        "enemyName": "Vex",
+        "enemyRace": "Vex",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromVex",
+            "kd": "killsDeathsRatioVex",
+            "kills": "killsOfVex"
+        }
+    },
+    "SwarmPrinces": {
+        "enemyId": "SwarmPrinces",
+        "enemyName": "Swarm Princes",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "deaths": "deathsFromSwarmPrinces",
+            "kills": "killsOfSwarmPrinces"
+        }
+    },
+    "BossesAtVaultOfGlass": {
+        "enemyId": "BossesAtVaultOfGlass",
+        "enemyName": "The Vault of Glass Bosses",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "kills": "killsOfBossesAtVaultOfGlass"
+        }
+    },
+    "RaidBosses": {
+        "enemyId": "RaidBosses",
+        "enemyName": "Raid Bosses",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "Raid",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "kills": "killsOfRaidBosses"
+        }
+    },
+    "SolProgeny": {
+        "enemyId": "SolProgeny",
+        "enemyName": "Primeval Mind",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "kills": "killsOfSolProgeny",
+            "deaths": "deathsFromSolProgeny"
+        }
+    },
+    "R1S1BountyMoon2Major0": {
+        "enemyId": "R1S1BountyMoon2Major0",
+        "enemyName": "Xyor, the Unwed",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Moon",
+        "activityType": "",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "kills": "killsOfR1S1BountyMoon2Major0"
+        }
+    },
+    "EliteHobgoblinA": {
+        "enemyId": "EliteHobgoblinA",
+        "enemyName": "Hobgoblin Zealot",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstEliteHobgoblinA",
+            "deaths": "deathsFromEliteHobgoblinA",
+            "kills": "killsOfEliteHobgoblinA",
+            "headshots": "precisionKillsOfEliteHobgoblinA"
+        }
+    },
+    "EliteWizardA": {
+        "enemyId": "EliteWizardA",
+        "enemyName": "Ascendant Wizard",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Elite",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstEliteWizardA",
+            "deaths": "deathsFromEliteWizardA",
+            "kills": "killsOfEliteWizardA",
+            "headshots": "precisionKillsOfEliteWizardA"
+        }
+    },
+    "R1S1EventMarsMajor4": {
+        "enemyId": "R1S1EventMarsMajor4",
+        "enemyName": "Headless Hobgoblin",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Mars",
+        "activityType": "Event",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1EventMarsMajor4",
+            "deaths": "deathsFromR1S1EventMarsMajor4",
+            "kills": "killsOfR1S1EventMarsMajor4",
+            "headshots": "precisionKillsOfR1S1EventMarsMajor4"
+        }
+    },
+    "R1S1RaidVenus0GoblinFuture": {
+        "enemyId": "R1S1RaidVenus0GoblinFuture",
+        "enemyName": "Precursor Goblin",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0GoblinFuture",
+            "deaths": "deathsFromR1S1RaidVenus0GoblinFuture",
+            "kills": "killsOfR1S1RaidVenus0GoblinFuture",
+            "headshots": "precisionKillsOfR1S1RaidVenus0GoblinFuture"
+        }
+    },
+    "r1S1RaidVenus0GoblinHeadless": {
+        "enemyId": "r1S1RaidVenus0GoblinHeadless",
+        "enemyName": "Fanatic",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstr1S1RaidVenus0GoblinHeadless",
+            "deaths": "deathsFromr1S1RaidVenus0GoblinHeadless",
+            "kills": "killsOfr1S1RaidVenus0GoblinHeadless",
+            "headshots": "precisionKillsOfr1S1RaidVenus0GoblinHeadless"
+        }
+    },
+    "R1S1RaidVenus0GoblinPast": {
+        "enemyId": "R1S1RaidVenus0GoblinPast",
+        "enemyName": "Descendant Goblin",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0GoblinPast",
+            "deaths": "deathsFromR1S1RaidVenus0GoblinPast",
+            "kills": "killsOfR1S1RaidVenus0GoblinPast",
+            "headshots": "precisionKillsOfR1S1RaidVenus0GoblinPast"
+        }
+    },
+    "R1S1RaidVenus0HobgoblinPast": {
+        "enemyId": "R1S1RaidVenus0HobgoblinPast",
+        "enemyName": "Descendant Hobgoblin",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Venus",
+        "activityType": "Raid",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1RaidVenus0HobgoblinPast",
+            "deaths": "deathsFromR1S1RaidVenus0HobgoblinPast",
+            "kills": "killsOfR1S1RaidVenus0HobgoblinPast",
+            "headshots": "precisionKillsOfR1S1RaidVenus0HobgoblinPast"
+        }
+    },
+    "R1S1StrikeCosmo1Major0": {
+        "enemyId": "R1S1StrikeCosmo1Major0",
+        "enemyName": "Naksis, Devil Baron",
+        "enemyRace": "",
+        "expansion": "R1S1",
+        "destination": "Cosmo",
+        "activityType": "Strike",
+        "enemyType": "Major",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstR1S1StrikeCosmo1Major0",
+            "deaths": "deathsFromR1S1StrikeCosmo1Major0",
+            "kills": "killsOfR1S1StrikeCosmo1Major0",
+            "headshots": "precisionKillsOfR1S1StrikeCosmo1Major0"
+        }
+    },
+    "Unknown": {
+        "enemyId": "Unknown",
+        "enemyName": "Unknown",
+        "enemyRace": "Unknown",
+        "expansion": "R1S1",
+        "destination": "",
+        "activityType": "",
+        "enemyType": "Normal",
+        "enemyWeapon": "",
+        "stats": {
+            "assists": "assistsAgainstUnknown",
+            "deaths": "deathsFromUnknown",
+            "kills": "killsOfUnknown",
+            "headshots": "precisionKillsOfUnknown"
+        }
+    }
+}
