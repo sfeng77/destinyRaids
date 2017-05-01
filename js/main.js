@@ -62,7 +62,6 @@ function findUser() {
   if (username === '') {
     $('#usernameform').addClass('has-danger');
     $('#feedback').text(emptyFormText);
-
     return;
   }
 
@@ -144,17 +143,14 @@ function getAccountSummary(mid) {
       var timePlayed = mergedStats.merged.allTime.totalActivityDurationSeconds.basic.displayValue;
       addStat('Time Played', timePlayed);
 
-      var pveKills = mergedStats.results.allPvE.allTime.kills.basic.displayValue;
-      var pvpKDR = mergedStats.results.allPvP.allTime.killsDeathsRatio.basic.displayValue;
+      var pveStats = mergedStats.results.allPvE.allTime;
+      var pvpStats = mergedStats.results.allPvP.allTime;
 
-      addStat('PvE Kills', pveKills);
-      addStat('PvP K/D', pvpKDR);
+      addStat('PvE Kills', pveStats.kills.basic.displayValue);
+      addStat('PvP K/D', pvpStats.killsDeathsRatio.basic.displayValue);
 
-      var pveKillDistance = mergedStats.results.allPvE.allTime.averageKillDistance.basic.displayValue;
-      var pvpKillDistance = mergedStats.results.allPvP.allTime.averageKillDistance.basic.displayValue;
-
-      addStat('PvE Avg. Kill Distance', pveKillDistance);
-      addStat('PvP Avg. Kill Distance', pvpKillDistance);
+      addStat('PvE Avg. Kill Distance', pveStats.averageKillDistance.basic.displayValue);
+      addStat('PvP Avg. Kill Distance', pvpStats.averageKillDistance.basic.displayValue);
 
       weaponKills("PvE Kills Breakdown", mergedStats.results.allPvE.allTime);
       weaponKills("PvP Kills Breakdown", mergedStats.results.allPvP.allTime);
@@ -165,7 +161,6 @@ function getAccountSummary(mid) {
     }
   });
 }
-
 
 function getRecent(mid, cid, desc) {
   var req = bungieStuff + 'Stats/ActivityHistory/' + selectedAccountType + '/' + mid + '/' + cid + '/?mode=raid&definitions=true&count=5';
@@ -233,7 +228,7 @@ function getRequest(req) {
 }
 
 function gameReportTable(report, chbox, idx) {
-  console.log(report);
+  // console.log(report);
   var n = report.standing.length;
   var names = new Array(n),
     kills = new Array(n),
@@ -285,8 +280,7 @@ function gameReportTable(report, chbox, idx) {
 }
 
 function weaponKills(statName, stats) {
-
-  n = weaponKillsId.length;
+  var n = weaponKillsId.length;
   var kills = new Array(n).fill(0);
   var colors = new Array(n);
 
@@ -309,7 +303,6 @@ function weaponKills(statName, stats) {
   };
 
   mydiv = document.createElement('div');
-  mydiv.className = 'responsive-plot';
   $('#charts').append(mydiv);
   Plotly.newPlot(mydiv, data, layout);
 }
@@ -451,11 +444,7 @@ function tableCreate(completions, timePlayed, title) {
 function summary() {
   $('#usernameform').removeClass('has-danger has-success');
   $('#feedback').text(waitText);
-  $('#summary').empty();
-  $('#chstats').empty();
-  $('#charts').empty();
-  $('#recentgames').empty();
-  $('#deletedchstats').empty();
+  $('.data-pane').empty();
   $('.nav-tabs a[href="#raids"]').tab('show');
   $('#deletedTab').hide(100);
 
@@ -464,6 +453,7 @@ function summary() {
 
 $(document).ready(function () {
   $('#deletedTab').hide();
+  $('.data-pane').text("Guardian, type your PSN username to get started.");
   $('#usernameform').submit(function (e) {
     e.preventDefault();
     summary();
