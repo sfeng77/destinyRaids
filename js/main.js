@@ -175,7 +175,7 @@ function getRecent(mid, cid, desc) {
     },
     datatype: 'json',
     success: function (data) {
-      //console.log(data);
+      console.log(data);
       var chbox = document.createElement('div');
       chbox.className = 'card';
       var heading = document.createElement('h5');
@@ -207,6 +207,7 @@ function getRecent(mid, cid, desc) {
       var gameReports = [];
       $.when.apply($, gameXHRs).done(function () {
         $.each(arguments, function (index, arg) {
+          // console.log(arg);
           gameReports[index] = {
             standing: arg[2].responseJSON.Response.data.entries,
             gameTitle: gametitle[index],
@@ -241,11 +242,11 @@ function gameReportTable(reports, chbox) {
   tbl.className = 'table table-sm table-hover';
 
   $.each(reports, function (index, report) {
-    console.log(report);
+    // console.log(report);
     var tbody = document.createElement("tbody");
     tbl.append(tbody);
     tr = tbody.insertRow();
-    tr.className = "clickable "+['table-danger', 'table-success'][report.completed];
+    tr.className = "clickable table-info";  //+['table-danger', 'table-success'][report.completed];
     tr.setAttribute("data-toggle", "collapse");
     tr.setAttribute("data-target", '#'+report.gameId);
 
@@ -271,14 +272,44 @@ function gameReportTable(reports, chbox) {
     td = tr.insertCell();
     td.innerHTML = ('<b>Deaths</b>');
 
-    $.each(report.standing, function (index, player){
+    var playersId = [];
+    var playerStat = {};
+
+    $.each(report.standing, function(index, st){
+      var mid = st.player.destinyUserInfo.membershipId;
+      if(mid in playerStat){
+        playerStat[mid].kill += st.values.kills.basic.value;
+        playerStat[mid].death += st.values.deaths.basic.value;
+        playerStat[mid].completed |= st.values.completed.basic.value;
+      } else{
+        playersId.push(mid);
+        playerStat[mid] = {
+          name : st.player.destinyUserInfo.displayName,
+          kill : st.values.kills.basic.value,
+          death : st.values.deaths.basic.value,
+          completed : st.values.completed.basic.value
+        };
+      }
+
+    });
+
+    playersId.sort(function(a, b){
+      if (playerStat[a].completed === playerStat[b].completed)
+        return - playerStat[a].kill + playerStat[b].kill;
+      else
+        return - playerStat[a].completed + playerStat[b].completed;
+    });
+
+    $.each(playersId, function (index, mid){
+      pstat = playerStat[mid];
       tr = tbody.insertRow();
+      tr.className = ['table-danger', 'table'][pstat.completed];
       td = tr.insertCell();
-      td.appendChild(document.createTextNode(player.player.destinyUserInfo.displayName));
+      td.appendChild(document.createTextNode(pstat.name));
       td = tr.insertCell();
-      td.appendChild(document.createTextNode(player.values.kills.basic.displayValue));
+      td.appendChild(document.createTextNode(pstat.kill));
       td = tr.insertCell();
-      td.appendChild(document.createTextNode(player.values.deaths.basic.displayValue));
+      td.appendChild(document.createTextNode(pstat.death));
     });
   });
 
