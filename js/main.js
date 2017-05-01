@@ -37,7 +37,7 @@ var weaponKillsId = [
 
 var weaponKillsLabel = [
   'AutoRifle', 'HandCannon', 'PulseRifle', 'ScoutRifle',
-  'FusionRifle', 'Shotgun', 'SideArm','Sniper',
+  'FusionRifle', 'Shotgun', 'SideArm', 'Sniper',
   'RocketLauncher', 'Machinegun', 'Sword',
   'Grenade', 'Melee', 'Super', 'Relic'
 ]
@@ -112,6 +112,8 @@ function getAccountSummary(mid) {
         var cid = characters[i].characterBase.characterId
         var desc = characterDscr(characters[i].characterBase)
         getActivities(mid, cid, desc)
+        getRecent(mid, cid, desc)
+
       }
 
       var grimoire = data.Response.data.grimoireScore
@@ -132,7 +134,7 @@ function getAccountSummary(mid) {
     },
     datatype: 'json',
     success: function (data) {
-      console.log(data)
+      // console.log(data)
       var characters = data.Response.characters
       for (var i = 0; i < characters.length; i++) {
         if (characters[i].deleted === true) {
@@ -167,6 +169,116 @@ function getAccountSummary(mid) {
   })
 }
 
+
+function getRecent(mid, cid, desc) {
+  var req = bungieStuff + 'Stats/ActivityHistory/' + selectedAccountType + '/' + mid + '/' + cid + '/?mode=raid&definitions=true&count=5'
+  $.ajax({
+    method: 'get',
+    url: req,
+    headers: {
+      'X-API-Key': apiKey
+    },
+    datatype: 'json',
+    success: function (data) {
+      console.log(data)
+
+      var chbox = document.createElement('div')
+      chbox.className = 'container'
+      var heading = document.createElement('h5')
+      heading.innerHTML = desc
+      chbox.append(heading)
+      var chCol = document.createElement('div')
+      chCol.className = 'col-xs-12 col-md-6 col-lg-4'
+      chCol.append(chbox)
+      $('#recentgames').append(chCol)
+
+      var acts = data.Response.data.activities
+      for (var i = 0; i < acts.length; i++) {
+        var actHash = acts[i].activityDetails.referenceId
+        var actTitle = data.Response.definitions.activities[actHash].activityName
+        var completed = acts[i].values.completed.basic.value
+        var actLength = acts[i].values.activityDurationSeconds.basic.displayValue
+        getActivityReport(acts[i].activityDetails.instanceId, chbox, actTitle, completed, actLength, i)
+      }
+    },
+    error: function (err) {
+      console.log(err)
+    }
+  })
+}
+
+
+function getActivityReport(activityID, chbox, title, completed, actLength, idx) {
+
+  var req = bungieStuff + 'Stats/PostGameCarnageReport/' + activityID + '/'
+  $.ajax({
+    method: 'get',
+    url: req,
+    headers: {
+      'X-API-Key': apiKey
+    },
+    datatype: 'json',
+    success: function (data) {
+      console.log(data)
+      gameReportTable(data.Response.data.entries, chbox, title, completed, actLength, idx)
+    },
+    error: function (err) {
+      console.log(err)
+    }
+  })
+}
+
+
+function gameReportTable(stats, chbox, title, completed, actLength, idx) {
+  var n = stats.length
+  var names = new Array(n),
+    kills = new Array(n),
+    deaths = new Array(n)
+
+  for (var i = 0; i < n; i++) {
+    names[i] = stats[i].player.destinyUserInfo.displayName
+    kills[i] = stats[i].values.kills.basic.displayValue
+    deaths[i] = stats[i].values.deaths.basic.displayValue
+  }
+
+  var gameCard = document.createElement('div')
+  gameCard.className = 'card'
+
+  var tbl = document.createElement('table')
+  tbl.className = 'table table-sm table-hover'
+
+  var titleDiv = document.createElement('div')
+  titleDiv.className = 'card-header'
+  titleDiv.innerHTML = '<h5>' + title +'</h5>' + actLength
+  if (completed === 0)
+    titleDiv.innerHTML += ', DNF'
+  gameCard.append(titleDiv)
+
+  var th = tbl.createTHead();
+  var tr = th.insertRow(0);
+  var td = tr.insertCell()
+  td.innerHTML = "Player"
+  td = tr.insertCell()
+  td.innerHTML = "Kills"
+  td = tr.insertCell()
+  td.innerHTML = "Deaths"
+
+  for (var i = 0; i < stats.length; i++) {
+
+    tr = tbl.insertRow()
+    td = tr.insertCell()
+    td.appendChild(document.createTextNode(names[i]))
+
+    td = tr.insertCell()
+    td.appendChild(document.createTextNode(kills[i]))
+
+    td = tr.insertCell()
+    td.appendChild(document.createTextNode(deaths[i]))
+  }
+  gameCard.appendChild(tbl)
+  chbox.append(gameCard)
+
+}
 
 function weaponKills(statName, stats) {
 
@@ -340,6 +452,7 @@ function summary() {
   $('#summary').empty()
   $('#chstats').empty()
   $('#charts').empty()
+  $('#recentgames').empty()
   $('#deletedchstats').empty()
   $('.nav-tabs a[href="#raids"]').tab('show')
   $('#deletedTab').hide(100)
