@@ -6,6 +6,9 @@ var waitText = 'Ghost is trying to open the door...';
 var successText = 'Guardians make their own fate.';
 var notFoundText = ' is forever lost in the dark corners of time.';
 var emptyFormText = 'I don\'t have time to explain why I need your username.';
+var emptyDataText = "Guardian, type your PSN username to get started.";
+
+var raidCompleteText = ["DNF", "Complete"];
 
 var deletedCharacterName = 'Deleted Character';
 
@@ -174,8 +177,9 @@ function getRecent(mid, cid, desc) {
     success: function (data) {
       //console.log(data);
       var chbox = document.createElement('div');
-      chbox.className = 'container';
+      chbox.className = 'card';
       var heading = document.createElement('h5');
+      heading.className = 'card-header';
       heading.innerHTML = desc;
       chbox.append(heading);
       var chCol = document.createElement('div');
@@ -187,28 +191,32 @@ function getRecent(mid, cid, desc) {
       var gameXHRs = [],
         gametitle = [],
         gamelength = [],
-        gamecompletion = [];
+        gamecompletion = [],
+        activityID = [];
 
       $.each(acts, function (index, value) {
         var actHash = value.activityDetails.referenceId;
         gametitle[index] = data.Response.definitions.activities[actHash].activityName;
         gamecompletion[index] = value.values.completed.basic.value;
         gamelength[index] = value.values.activityDurationSeconds.basic.displayValue;
-        activityID = value.activityDetails.instanceId;
-        var req = bungieStuff + 'Stats/PostGameCarnageReport/' + activityID + '/';
+        activityID[index] = value.activityDetails.instanceId;
+        var req = bungieStuff + 'Stats/PostGameCarnageReport/' + activityID[index] + '/';
         gameXHRs[index] = getRequest(req);
       });
 
+      var gameReports = [];
       $.when.apply($, gameXHRs).done(function () {
         $.each(arguments, function (index, arg) {
-          var gameReport = {
+          gameReports[index] = {
             standing: arg[2].responseJSON.Response.data.entries,
             gameTitle: gametitle[index],
             completed: gamecompletion[index],
-            length: gamelength[index]
+            length: gamelength[index],
+            gameId: cid+activityID[index]
           };
-          gameReportTable(gameReport, chbox, index);
         });
+        gameReportTable(gameReports, chbox);
+
       });
     },
     error: function (err) {
@@ -227,56 +235,54 @@ function getRequest(req) {
   });
 }
 
-function gameReportTable(report, chbox, idx) {
-  // console.log(report);
-  var n = report.standing.length;
-  var names = new Array(n),
-    kills = new Array(n),
-    deaths = new Array(n);
-
-  $.each(report.standing, function (index, value) {
-    names[index] = value.player.destinyUserInfo.displayName;
-    kills[index] = value.values.kills.basic.displayValue;
-    deaths[index] = value.values.deaths.basic.displayValue;
-  });
-
-  var gameCard = document.createElement('div');
-  gameCard.className = 'card';
+function gameReportTable(reports, chbox) {
 
   var tbl = document.createElement('table');
   tbl.className = 'table table-sm table-hover';
 
-  var titleDiv = document.createElement('div');
-  titleDiv.className = 'card-header';
-  titleDiv.innerHTML = '<h5>' + report.gameTitle + '</h5>' + report.length;
-  if (report.completed === 0)
-    titleDiv.innerHTML += ', DNF';
-  gameCard.append(titleDiv);
-
-  var th = tbl.createTHead();
-  var tr = th.insertRow(0);
-  var td = tr.insertCell();
-  td.innerHTML = "Player";
-  td = tr.insertCell();
-  td.innerHTML = "Kills";
-  td = tr.insertCell();
-  td.innerHTML = "Deaths";
-
-  for (var i = 0; i < n; i++) {
-
-    tr = tbl.insertRow();
-    td = tr.insertCell();
-    td.appendChild(document.createTextNode(names[i]));
+  $.each(reports, function (index, report) {
+    console.log(report);
+    var tbody = document.createElement("tbody");
+    tbl.append(tbody);
+    tr = tbody.insertRow();
+    tr.className = "clickable "+['table-danger', 'table-success'][report.completed];
+    tr.setAttribute("data-toggle", "collapse");
+    tr.setAttribute("data-target", '#'+report.gameId);
 
     td = tr.insertCell();
-    td.appendChild(document.createTextNode(kills[i]));
-
+    var raidtitle = document.createElement('b');
+    raidtitle.innerHTML = report.gameTitle;
+    td.appendChild(raidtitle);
     td = tr.insertCell();
-    td.appendChild(document.createTextNode(deaths[i]));
-  }
+    td.appendChild(document.createTextNode(raidCompleteText[report.completed]));
+    td = tr.insertCell();
+    td.appendChild(document.createTextNode(report.length));
 
-  gameCard.appendChild(tbl);
-  chbox.append(gameCard);
+    tbody = document.createElement("tbody");
+    tbl.append(tbody);
+    tbody.className = "collapse";
+    tbody.id = report.gameId;
+
+    tr = tbody.insertRow();
+    td = tr.insertCell();
+    td.appendChild(document.createTextNode('Guardian'));
+    td = tr.insertCell();
+    td.appendChild(document.createTextNode('Kills'));
+    td = tr.insertCell();
+    td.appendChild(document.createTextNode('Deaths'));
+
+    $.each(report.standing, function (index, player){
+      tr = tbody.insertRow();
+      td = tr.insertCell();
+      td.appendChild(document.createTextNode(player.player.destinyUserInfo.displayName));
+      td = tr.insertCell();
+      td.appendChild(document.createTextNode(player.values.kills.basic.displayValue));
+      td = tr.insertCell();
+      td.appendChild(document.createTextNode(player.values.deaths.basic.displayValue));
+    });
+  });
+
+  chbox.append(tbl);
 }
 
 function weaponKills(statName, stats) {
@@ -453,7 +459,7 @@ function summary() {
 
 $(document).ready(function () {
   $('#deletedTab').hide();
-  $('.data-pane').text("Guardian, type your PSN username to get started.");
+  $('.data-pane').text(emptyDataText);
   $('#usernameform').submit(function (e) {
     e.preventDefault();
     summary();
