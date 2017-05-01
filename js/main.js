@@ -265,11 +265,11 @@ function gameReportTable(reports, chbox) {
 
     tr = tbody.insertRow();
     td = tr.insertCell();
-    td.appendChild(document.createTextNode('Guardian'));
+    td.innerHTML = ('<b>Guardian</b>');
     td = tr.insertCell();
-    td.appendChild(document.createTextNode('Kills'));
+    td.innerHTML = ('<b>Kills</b>');
     td = tr.insertCell();
-    td.appendChild(document.createTextNode('Deaths'));
+    td.innerHTML = ('<b>Deaths</b>');
 
     $.each(report.standing, function (index, player){
       tr = tbody.insertRow();
