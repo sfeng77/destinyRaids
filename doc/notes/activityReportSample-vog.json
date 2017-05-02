@@ -1,1 +1,3540 @@
-{"Response":{"data":{"period":"2017-04-23T17:49:57Z","activityDetails":{"referenceId":4038697181,"instanceId":"6372699231","mode":4,"activityTypeHashOverride":2043403989,"isPrivate":false},"entries":[{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/9979961d2e5409df64131f2b092b7007.jpg","membershipType":2,"membershipId":"4611686018434658536","displayName":"zhtaodragon"},"characterClass":"Titan","characterLevel":40,"lightLevel":400,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/bungieday_07.jpg","membershipType":254,"membershipId":"4265381","displayName":"zhtaodragon"}},"characterId":"2305843009218759947","values":{"assists":{"basic":{"value":24.0,"displayValue":"24"}},"completed":{"basic":{"value":0.0,"displayValue":"No"}},"deaths":{"basic":{"value":15.0,"displayValue":"15"}},"kills":{"basic":{"value":33.0,"displayValue":"33"}},"killsDeathsRatio":{"basic":{"value":2.2,"displayValue":"2.20"}},"killsDeathsAssists":{"basic":{"value":3.0,"displayValue":"3.00"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"weapons":[{"referenceId":306958364,"values":{"uniqueWeaponKills":{"basic":{"value":29.0,"displayValue":"29"}},"uniqueWeaponPrecisionKills":{"basic":{"value":18.0,"displayValue":"18"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.62068965517241381,"displayValue":"62%"}}}},{"referenceId":1170904292,"values":{"uniqueWeaponKills":{"basic":{"value":4.0,"displayValue":"4"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}}],"values":{"assistsAgainstR1S1RaidVenus0Ultra0":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstVexHarpy":{"basic":{"value":21.0,"displayValue":"21"}},"assistsAgainstVexMinotaur":{"basic":{"value":2.0,"displayValue":"2"}},"totalKillDistance":{"basic":{"value":1322.0,"displayValue":"1322.0"}},"kills":{"basic":{"value":33.0,"displayValue":"33"}},"averageKillDistance":{"basic":{"value":40.060606060606062,"displayValue":"40.1"}},"secondsPlayed":{"basic":{"value":3703.0,"displayValue":"1h 1m"}},"deaths":{"basic":{"value":15.0,"displayValue":"15"}},"averageLifespan":{"basic":{"value":231.4375,"displayValue":"3m 51s"}},"precisionKillOfVexHarpy":{"basic":{"value":18.0,"displayValue":"18"}},"deathsFromR1S1RaidVenus0Ultra0":{"basic":{"value":3.0,"displayValue":"3"}},"deathsFromVexHarpy":{"basic":{"value":2.0,"displayValue":"2"}},"deathsFromVexMinotaur":{"basic":{"value":3.0,"displayValue":"3"}},"deathsFromVex":{"basic":{"value":5.0,"displayValue":"5"}},"killsOfVexHarpy":{"basic":{"value":33.0,"displayValue":"33"}},"killsOfVex":{"basic":{"value":33.0,"displayValue":"33"}},"precisionKills":{"basic":{"value":18.0,"displayValue":"18"}},"suicides":{"basic":{"value":3.0,"displayValue":"3"}},"weaponPrecisionKillsScoutRifle":{"basic":{"value":18.0,"displayValue":"18"}},"weaponKillsRocketLauncher":{"basic":{"value":4.0,"displayValue":"4"}},"weaponKillsScoutRifle":{"basic":{"value":29.0,"displayValue":"29"}},"weaponBestType":{"basic":{"value":3.0,"displayValue":"Scout Rifle"}},"weaponKillsPrecisionKillsScoutRifle":{"basic":{"value":0.62068965517241381,"displayValue":"62%"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":6.0,"displayValue":"6"}},"longestSingleLife":{"basic":{"value":371.0,"displayValue":"6m 11s"}},"orbsDropped":{"basic":{"value":20.0,"displayValue":"20"}},"orbsGathered":{"basic":{"value":26.0,"displayValue":"26"}},"remainingTimeAfterQuitSeconds":{"basic":{"value":1126.0,"displayValue":"18m 46s"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/7b3b71821ce26e7d78269248493ea0f3.jpg","membershipType":2,"membershipId":"4611686018436759322","displayName":"hahje1"},"characterClass":"Hunter","characterLevel":40,"lightLevel":0,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/e2015_14.jpg","membershipType":254,"membershipId":"8352895","displayName":"hahje1"}},"characterId":"2305843009224116411","values":{"assists":{"basic":{"value":6.0,"displayValue":"6"}},"completed":{"basic":{"value":1.0,"displayValue":"Yes"}},"deaths":{"basic":{"value":6.0,"displayValue":"6"}},"kills":{"basic":{"value":19.0,"displayValue":"19"}},"killsDeathsRatio":{"basic":{"value":3.1666666666666665,"displayValue":"3.17"}},"killsDeathsAssists":{"basic":{"value":3.6666666666666665,"displayValue":"3.67"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"weapons":[{"referenceId":3052681344,"values":{"uniqueWeaponKills":{"basic":{"value":4.0,"displayValue":"4"}},"uniqueWeaponPrecisionKills":{"basic":{"value":1.0,"displayValue":"1"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.25,"displayValue":"25%"}}}},{"referenceId":2001493563,"values":{"uniqueWeaponKills":{"basic":{"value":2.0,"displayValue":"2"}},"uniqueWeaponPrecisionKills":{"basic":{"value":1.0,"displayValue":"1"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.5,"displayValue":"50%"}}}},{"referenceId":3012398149,"values":{"uniqueWeaponKills":{"basic":{"value":1.0,"displayValue":"1"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}}],"values":{"assistsAgainstR1S1RaidVenus0Major7":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstVexMinotaur":{"basic":{"value":2.0,"displayValue":"2"}},"totalKillDistance":{"basic":{"value":232.0,"displayValue":"232.0"}},"kills":{"basic":{"value":19.0,"displayValue":"19"}},"averageKillDistance":{"basic":{"value":12.210526315789474,"displayValue":"12.2"}},"secondsPlayed":{"basic":{"value":1113.0,"displayValue":"18m 33s"}},"deaths":{"basic":{"value":6.0,"displayValue":"6"}},"averageLifespan":{"basic":{"value":159.0,"displayValue":"2m 39s"}},"precisionKillOfR1S1RaidVenus0Major7":{"basic":{"value":1.0,"displayValue":"1"}},"precisionKillOfVexGoblin":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromR1S1RaidVenus0Major2":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromTheGorgons":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromVexMinotaur":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVex":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0Major3":{"basic":{"value":2.0,"displayValue":"2"}},"killsOfR1S1RaidVenus0Major7":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0Major8":{"basic":{"value":2.0,"displayValue":"2"}},"killsOfBossesAtVaultOfGlass":{"basic":{"value":3.0,"displayValue":"3"}},"killsOfRaidBosses":{"basic":{"value":3.0,"displayValue":"3"}},"killsOfVexGoblin":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfVexMinotaur":{"basic":{"value":7.0,"displayValue":"7"}},"killsOfVex":{"basic":{"value":8.0,"displayValue":"8"}},"precisionKills":{"basic":{"value":2.0,"displayValue":"2"}},"suicides":{"basic":{"value":1.0,"displayValue":"1"}},"weaponPrecisionKillsHandCannon":{"basic":{"value":1.0,"displayValue":"1"}},"weaponPrecisionKillsSniper":{"basic":{"value":1.0,"displayValue":"1"}},"weaponKillsFusionRifle":{"basic":{"value":1.0,"displayValue":"1"}},"weaponKillsHandCannon":{"basic":{"value":4.0,"displayValue":"4"}},"weaponKillsSniper":{"basic":{"value":2.0,"displayValue":"2"}},"weaponKillsRelic":{"basic":{"value":12.0,"displayValue":"12"}},"weaponBestType":{"basic":{"value":12.0,"displayValue":"Relic"}},"weaponKillsPrecisionKillsHandCannon":{"basic":{"value":0.25,"displayValue":"25%"}},"weaponKillsPrecisionKillsSniper":{"basic":{"value":0.5,"displayValue":"50%"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"assistsAgainstR1S1RaidVenus0GoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0HobgoblinPast":{"basic":{"value":2.0,"displayValue":"2"}},"killsOfR1S1RaidVenus0GoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0GoblinPast":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfR1S1RaidVenus0HobgoblinPast":{"basic":{"value":1.0,"displayValue":"1"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":11.0,"displayValue":"11"}},"longestSingleLife":{"basic":{"value":267.0,"displayValue":"4m 27s"}},"orbsDropped":{"basic":{"value":4.0,"displayValue":"4"}},"orbsGathered":{"basic":{"value":18.0,"displayValue":"18"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/9979961d2e5409df64131f2b092b7007.jpg","membershipType":2,"membershipId":"4611686018439109105","displayName":"BlazinPinoy3"},"characterClass":"Titan","characterLevel":40,"lightLevel":400,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/e2015_15.jpg","membershipType":254,"membershipId":"8190165","displayName":"BlazinPinoy3"}},"characterId":"2305843009240806012","values":{"assists":{"basic":{"value":30.0,"displayValue":"30"}},"completed":{"basic":{"value":1.0,"displayValue":"Yes"}},"deaths":{"basic":{"value":23.0,"displayValue":"23"}},"kills":{"basic":{"value":64.0,"displayValue":"64"}},"killsDeathsRatio":{"basic":{"value":2.7826086956521738,"displayValue":"2.78"}},"killsDeathsAssists":{"basic":{"value":3.4347826086956523,"displayValue":"3.43"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"weapons":[{"referenceId":306958364,"values":{"uniqueWeaponKills":{"basic":{"value":47.0,"displayValue":"47"}},"uniqueWeaponPrecisionKills":{"basic":{"value":26.0,"displayValue":"26"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.55319148936170215,"displayValue":"55%"}}}},{"referenceId":1170904292,"values":{"uniqueWeaponKills":{"basic":{"value":7.0,"displayValue":"7"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}},{"referenceId":2001493563,"values":{"uniqueWeaponKills":{"basic":{"value":2.0,"displayValue":"2"}},"uniqueWeaponPrecisionKills":{"basic":{"value":1.0,"displayValue":"1"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.5,"displayValue":"50%"}}}}],"values":{"assistsAgainstR1S1RaidVenus0Major4":{"basic":{"value":2.0,"displayValue":"2"}},"assistsAgainstR1S1RaidVenus0Major7":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0Ultra0":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstVexGoblin":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstVexHarpy":{"basic":{"value":21.0,"displayValue":"21"}},"assistsAgainstR1S1RaidVenus0HarpyMissile":{"basic":{"value":3.0,"displayValue":"3"}},"totalKillDistance":{"basic":{"value":1944.0,"displayValue":"1944.0"}},"kills":{"basic":{"value":64.0,"displayValue":"64"}},"averageKillDistance":{"basic":{"value":30.375,"displayValue":"30.4"}},"secondsPlayed":{"basic":{"value":4996.0,"displayValue":"1h 23m"}},"deaths":{"basic":{"value":23.0,"displayValue":"23"}},"averageLifespan":{"basic":{"value":208.16666666666666,"displayValue":"3m 28s"}},"precisionKillOfR1S1RaidVenus0Major7":{"basic":{"value":1.0,"displayValue":"1"}},"precisionKillOfVexGoblin":{"basic":{"value":5.0,"displayValue":"5"}},"precisionKillOfVexHarpy":{"basic":{"value":14.0,"displayValue":"14"}},"precisionKillOfR1S1RaidVenus0HarpyMissile":{"basic":{"value":4.0,"displayValue":"4"}},"precisionKillOfR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":2.0,"displayValue":"2"}},"deathsFromR1S1RaidVenus0Major2":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromTheGorgons":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromR1S1RaidVenus0Ultra0":{"basic":{"value":6.0,"displayValue":"6"}},"deathsFromR1S1RaidVenus0Ultra1":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexMinotaur":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVex":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0HarpyMissile":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":2.0,"displayValue":"2"}},"killsOfR1S1RaidVenus0Major7":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfBossesAtVaultOfGlass":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfRaidBosses":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0Ultra1":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfVexGoblin":{"basic":{"value":12.0,"displayValue":"12"}},"killsOfVexHarpy":{"basic":{"value":32.0,"displayValue":"32"}},"killsOfVexMinotaur":{"basic":{"value":5.0,"displayValue":"5"}},"killsOfVex":{"basic":{"value":49.0,"displayValue":"49"}},"precisionKills":{"basic":{"value":27.0,"displayValue":"27"}},"resurrectionsReceived":{"basic":{"value":1.0,"displayValue":"1"}},"suicides":{"basic":{"value":5.0,"displayValue":"5"}},"weaponPrecisionKillsScoutRifle":{"basic":{"value":26.0,"displayValue":"26"}},"weaponPrecisionKillsSniper":{"basic":{"value":1.0,"displayValue":"1"}},"weaponKillsMelee":{"basic":{"value":1.0,"displayValue":"1"}},"weaponKillsRocketLauncher":{"basic":{"value":7.0,"displayValue":"7"}},"weaponKillsScoutRifle":{"basic":{"value":47.0,"displayValue":"47"}},"weaponKillsSniper":{"basic":{"value":2.0,"displayValue":"2"}},"weaponKillsRelic":{"basic":{"value":7.0,"displayValue":"7"}},"weaponBestType":{"basic":{"value":3.0,"displayValue":"Scout Rifle"}},"weaponKillsPrecisionKillsScoutRifle":{"basic":{"value":0.55319148936170215,"displayValue":"55%"}},"weaponKillsPrecisionKillsSniper":{"basic":{"value":0.5,"displayValue":"50%"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"assistsAgainstR1S1RaidVenus0GoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0GoblinFuture":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfR1S1RaidVenus0HobgoblinPast":{"basic":{"value":3.0,"displayValue":"3"}},"precisionKillsOfR1S1RaidVenus0HobgoblinPast":{"basic":{"value":1.0,"displayValue":"1"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":15.0,"displayValue":"15"}},"longestSingleLife":{"basic":{"value":371.0,"displayValue":"6m 11s"}},"orbsDropped":{"basic":{"value":26.0,"displayValue":"26"}},"orbsGathered":{"basic":{"value":23.0,"displayValue":"23"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/9979961d2e5409df64131f2b092b7007.jpg","membershipType":2,"membershipId":"4611686018432100162","displayName":"MolecularZombiez"},"characterClass":"Hunter","characterLevel":40,"lightLevel":399,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/e2015_13.jpg","membershipType":254,"membershipId":"6496174","displayName":"MolecularZombie"}},"characterId":"2305843009242075973","values":{"assists":{"basic":{"value":27.0,"displayValue":"27"}},"completed":{"basic":{"value":1.0,"displayValue":"Yes"}},"deaths":{"basic":{"value":20.0,"displayValue":"20"}},"kills":{"basic":{"value":47.0,"displayValue":"47"}},"killsDeathsRatio":{"basic":{"value":2.35,"displayValue":"2.35"}},"killsDeathsAssists":{"basic":{"value":3.025,"displayValue":"3.03"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"weapons":[{"referenceId":2297964387,"values":{"uniqueWeaponKills":{"basic":{"value":16.0,"displayValue":"16"}},"uniqueWeaponPrecisionKills":{"basic":{"value":8.0,"displayValue":"8"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.5,"displayValue":"50%"}}}}],"values":{"assistsAgainstR1S1RaidVenus0Major3":{"basic":{"value":2.0,"displayValue":"2"}},"assistsAgainstR1S1RaidVenus0Major5":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0Major7":{"basic":{"value":2.0,"displayValue":"2"}},"assistsAgainstR1S1RaidVenus0Ultra1":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstVexHarpy":{"basic":{"value":15.0,"displayValue":"15"}},"assistsAgainstR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":2.0,"displayValue":"2"}},"totalKillDistance":{"basic":{"value":1843.0,"displayValue":"1843.0"}},"kills":{"basic":{"value":47.0,"displayValue":"47"}},"averageKillDistance":{"basic":{"value":39.212765957446805,"displayValue":"39.2"}},"secondsPlayed":{"basic":{"value":4606.0,"displayValue":"1h 16m"}},"deaths":{"basic":{"value":20.0,"displayValue":"20"}},"averageLifespan":{"basic":{"value":219.33333333333334,"displayValue":"3m 39s"}},"precisionKillOfVexHarpy":{"basic":{"value":6.0,"displayValue":"6"}},"precisionKillOfR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromR1S1RaidVenus0Major2":{"basic":{"value":3.0,"displayValue":"3"}},"deathsFromTheGorgons":{"basic":{"value":3.0,"displayValue":"3"}},"deathsFromR1S1RaidVenus0Ultra0":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexHarpy":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexMinotaur":{"basic":{"value":2.0,"displayValue":"2"}},"deathsFromVex":{"basic":{"value":3.0,"displayValue":"3"}},"killsOfR1S1RaidVenus0HarpyMissile":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0Ultra0":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfBossesAtVaultOfGlass":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfRaidBosses":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfVexGoblin":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfVexHarpy":{"basic":{"value":38.0,"displayValue":"38"}},"killsOfVexMinotaur":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfVex":{"basic":{"value":40.0,"displayValue":"40"}},"precisionKills":{"basic":{"value":8.0,"displayValue":"8"}},"suicides":{"basic":{"value":3.0,"displayValue":"3"}},"weaponPrecisionKillsPulseRifle":{"basic":{"value":8.0,"displayValue":"8"}},"weaponKillsGrenade":{"basic":{"value":1.0,"displayValue":"1"}},"weaponKillsMelee":{"basic":{"value":1.0,"displayValue":"1"}},"weaponKillsPulseRifle":{"basic":{"value":16.0,"displayValue":"16"}},"weaponKillsRelic":{"basic":{"value":29.0,"displayValue":"29"}},"weaponBestType":{"basic":{"value":12.0,"displayValue":"Relic"}},"weaponKillsPrecisionKillsPulseRifle":{"basic":{"value":0.5,"displayValue":"50%"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"assistsAgainstR1S1RaidVenus0GoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0GoblinPast":{"basic":{"value":2.0,"displayValue":"2"}},"assistsAgainstR1S1RaidVenus0HobgoblinPast":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromR1S1RaidVenus0GoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0GoblinFuture":{"basic":{"value":4.0,"displayValue":"4"}},"precisionKillsOfR1S1RaidVenus0GoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":9.0,"displayValue":"9"}},"longestSingleLife":{"basic":{"value":525.0,"displayValue":"8m 45s"}},"orbsDropped":{"basic":{"value":32.0,"displayValue":"32"}},"orbsGathered":{"basic":{"value":23.0,"displayValue":"23"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/ff1ca3e58f41b13bc17c9bb711844f64.jpg","membershipType":2,"membershipId":"4611686018439336998","displayName":"RyanEleven"},"characterClass":"Warlock","characterLevel":40,"lightLevel":399,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/bungieday_13.jpg","membershipType":254,"membershipId":"5870579","displayName":"DrugFree"}},"characterId":"2305843009265692952","values":{"assists":{"basic":{"value":25.0,"displayValue":"25"}},"completed":{"basic":{"value":0.0,"displayValue":"No"}},"deaths":{"basic":{"value":15.0,"displayValue":"15"}},"kills":{"basic":{"value":29.0,"displayValue":"29"}},"killsDeathsRatio":{"basic":{"value":1.9333333333333333,"displayValue":"1.93"}},"killsDeathsAssists":{"basic":{"value":2.7666666666666666,"displayValue":"2.77"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"weapons":[{"referenceId":1475134443,"values":{"uniqueWeaponKills":{"basic":{"value":18.0,"displayValue":"18"}},"uniqueWeaponPrecisionKills":{"basic":{"value":13.0,"displayValue":"13"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.72222222222222221,"displayValue":"72%"}}}},{"referenceId":3008445140,"values":{"uniqueWeaponKills":{"basic":{"value":3.0,"displayValue":"3"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}},{"referenceId":1170904292,"values":{"uniqueWeaponKills":{"basic":{"value":2.0,"displayValue":"2"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}}],"values":{"assistsAgainstVexHarpy":{"basic":{"value":24.0,"displayValue":"24"}},"assistsAgainstVexMinotaur":{"basic":{"value":1.0,"displayValue":"1"}},"totalKillDistance":{"basic":{"value":853.0,"displayValue":"853.0"}},"kills":{"basic":{"value":29.0,"displayValue":"29"}},"averageKillDistance":{"basic":{"value":29.413793103448278,"displayValue":"29.4"}},"secondsPlayed":{"basic":{"value":2944.0,"displayValue":"49m 4s"}},"deaths":{"basic":{"value":15.0,"displayValue":"15"}},"averageLifespan":{"basic":{"value":184.0,"displayValue":"3m 4s"}},"precisionKillOfVexHarpy":{"basic":{"value":13.0,"displayValue":"13"}},"deathsFromR1S1RaidVenus0Ultra0":{"basic":{"value":3.0,"displayValue":"3"}},"deathsFromVexHarpy":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexMinotaur":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromVex":{"basic":{"value":5.0,"displayValue":"5"}},"killsOfVexHarpy":{"basic":{"value":28.0,"displayValue":"28"}},"killsOfVexMinotaur":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfVex":{"basic":{"value":29.0,"displayValue":"29"}},"precisionKills":{"basic":{"value":13.0,"displayValue":"13"}},"suicides":{"basic":{"value":1.0,"displayValue":"1"}},"weaponPrecisionKillsScoutRifle":{"basic":{"value":13.0,"displayValue":"13"}},"weaponKillsFusionRifle":{"basic":{"value":3.0,"displayValue":"3"}},"weaponKillsMelee":{"basic":{"value":6.0,"displayValue":"6"}},"weaponKillsRocketLauncher":{"basic":{"value":2.0,"displayValue":"2"}},"weaponKillsScoutRifle":{"basic":{"value":18.0,"displayValue":"18"}},"weaponBestType":{"basic":{"value":3.0,"displayValue":"Scout Rifle"}},"weaponKillsPrecisionKillsScoutRifle":{"basic":{"value":0.72222222222222221,"displayValue":"72%"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":7.0,"displayValue":"7"}},"longestSingleLife":{"basic":{"value":372.0,"displayValue":"6m 12s"}},"orbsDropped":{"basic":{"value":2.0,"displayValue":"2"}},"orbsGathered":{"basic":{"value":12.0,"displayValue":"12"}},"remainingTimeAfterQuitSeconds":{"basic":{"value":1884.0,"displayValue":"31m 24s"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/8e60e8942fe545f9f6d68d0cbd907800.jpg","membershipType":2,"membershipId":"4611686018432959294","displayName":"MVP_EL1T3z"},"characterClass":"Titan","characterLevel":40,"lightLevel":400,"bungieNetUserInfo":{"iconPath":"/common/destiny_content/icons/7ac15d5937061a4909728831cb2be0f7.jpg","membershipType":254,"membershipId":"10265405","displayName":"rezo"}},"characterId":"2305843009266173878","values":{"assists":{"basic":{"value":16.0,"displayValue":"16"}},"completed":{"basic":{"value":1.0,"displayValue":"Yes"}},"deaths":{"basic":{"value":20.0,"displayValue":"20"}},"kills":{"basic":{"value":106.0,"displayValue":"106"}},"killsDeathsRatio":{"basic":{"value":5.3,"displayValue":"5.30"}},"killsDeathsAssists":{"basic":{"value":5.7,"displayValue":"5.70"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"weapons":[{"referenceId":306958364,"values":{"uniqueWeaponKills":{"basic":{"value":29.0,"displayValue":"29"}},"uniqueWeaponPrecisionKills":{"basic":{"value":12.0,"displayValue":"12"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.41379310344827586,"displayValue":"41%"}}}},{"referenceId":1170904292,"values":{"uniqueWeaponKills":{"basic":{"value":16.0,"displayValue":"16"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}},{"referenceId":3172428255,"values":{"uniqueWeaponKills":{"basic":{"value":2.0,"displayValue":"2"}},"uniqueWeaponPrecisionKills":{"basic":{"value":1.0,"displayValue":"1"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.5,"displayValue":"50%"}}}},{"referenceId":3490124916,"values":{"uniqueWeaponKills":{"basic":{"value":9.0,"displayValue":"9"}},"uniqueWeaponPrecisionKills":{"basic":{"value":1.0,"displayValue":"1"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.1111111111111111,"displayValue":"11%"}}}},{"referenceId":3895707031,"values":{"uniqueWeaponKills":{"basic":{"value":2.0,"displayValue":"2"}},"uniqueWeaponPrecisionKills":{"basic":{"value":1.0,"displayValue":"1"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.5,"displayValue":"50%"}}}}],"values":{"assistsAgainstR1S1RaidVenus0Major3":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0Major7":{"basic":{"value":2.0,"displayValue":"2"}},"assistsAgainstR1S1RaidVenus0Ultra0":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0Ultra1":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstVexHarpy":{"basic":{"value":7.0,"displayValue":"7"}},"assistsAgainstVexMinotaur":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"totalKillDistance":{"basic":{"value":1646.0,"displayValue":"1646.0"}},"kills":{"basic":{"value":106.0,"displayValue":"106"}},"averageKillDistance":{"basic":{"value":15.528301886792454,"displayValue":"15.5"}},"secondsPlayed":{"basic":{"value":4550.0,"displayValue":"1h 15m"}},"deaths":{"basic":{"value":20.0,"displayValue":"20"}},"averageLifespan":{"basic":{"value":216.66666666666666,"displayValue":"3m 36s"}},"precisionKillOfVexGoblin":{"basic":{"value":1.0,"displayValue":"1"}},"precisionKillOfVexHarpy":{"basic":{"value":11.0,"displayValue":"11"}},"deathsFromR1S1RaidVenus0Major2":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromTheGorgons":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromR1S1RaidVenus0Ultra0":{"basic":{"value":6.0,"displayValue":"6"}},"deathsFromR1S1RaidVenus0Ultra1":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexHarpy":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexMinotaur":{"basic":{"value":3.0,"displayValue":"3"}},"deathsFromVex":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfR1S1RaidVenus0BobgoblinFuture":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0Major3":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0Major6":{"basic":{"value":2.0,"displayValue":"2"}},"killsOfBossesAtVaultOfGlass":{"basic":{"value":3.0,"displayValue":"3"}},"killsOfRaidBosses":{"basic":{"value":3.0,"displayValue":"3"}},"killsOfVexGoblin":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfVexHarpy":{"basic":{"value":81.0,"displayValue":"81"}},"killsOfVexMinotaur":{"basic":{"value":3.0,"displayValue":"3"}},"killsOfVex":{"basic":{"value":88.0,"displayValue":"88"}},"precisionKills":{"basic":{"value":15.0,"displayValue":"15"}},"suicides":{"basic":{"value":1.0,"displayValue":"1"}},"weaponPrecisionKillsHandCannon":{"basic":{"value":1.0,"displayValue":"1"}},"weaponPrecisionKillsScoutRifle":{"basic":{"value":13.0,"displayValue":"13"}},"weaponPrecisionKillsSniper":{"basic":{"value":1.0,"displayValue":"1"}},"weaponKillsGrenade":{"basic":{"value":8.0,"displayValue":"8"}},"weaponKillsHandCannon":{"basic":{"value":2.0,"displayValue":"2"}},"weaponKillsRocketLauncher":{"basic":{"value":16.0,"displayValue":"16"}},"weaponKillsScoutRifle":{"basic":{"value":38.0,"displayValue":"38"}},"weaponKillsSniper":{"basic":{"value":2.0,"displayValue":"2"}},"weaponKillsRelic":{"basic":{"value":40.0,"displayValue":"40"}},"weaponBestType":{"basic":{"value":12.0,"displayValue":"Relic"}},"weaponKillsPrecisionKillsHandCannon":{"basic":{"value":0.5,"displayValue":"50%"}},"weaponKillsPrecisionKillsScoutRifle":{"basic":{"value":0.34210526315789475,"displayValue":"34%"}},"weaponKillsPrecisionKillsSniper":{"basic":{"value":0.5,"displayValue":"50%"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"assistsAgainstR1S1RaidVenus0HobgoblinPast":{"basic":{"value":2.0,"displayValue":"2"}},"deathsFromR1S1RaidVenus0GoblinPast":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfR1S1RaidVenus0GoblinPast":{"basic":{"value":12.0,"displayValue":"12"}},"killsOfR1S1RaidVenus0HobgoblinPast":{"basic":{"value":2.0,"displayValue":"2"}},"precisionKillsOfR1S1RaidVenus0GoblinPast":{"basic":{"value":3.0,"displayValue":"3"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":19.0,"displayValue":"19"}},"longestSingleLife":{"basic":{"value":529.0,"displayValue":"8m 49s"}},"orbsDropped":{"basic":{"value":22.0,"displayValue":"22"}},"orbsGathered":{"basic":{"value":16.0,"displayValue":"16"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/78aa7e3f57549c484dce30e311c12234.jpg","membershipType":2,"membershipId":"4611686018436759322","displayName":"hahje1"},"characterClass":"Titan","characterLevel":40,"lightLevel":400,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/e2015_14.jpg","membershipType":254,"membershipId":"8352895","displayName":"hahje1"}},"characterId":"2305843009292889053","values":{"assists":{"basic":{"value":1.0,"displayValue":"1"}},"completed":{"basic":{"value":0.0,"displayValue":"No"}},"deaths":{"basic":{"value":1.0,"displayValue":"1"}},"kills":{"basic":{"value":8.0,"displayValue":"8"}},"killsDeathsRatio":{"basic":{"value":8.0,"displayValue":"8.00"}},"killsDeathsAssists":{"basic":{"value":8.5,"displayValue":"8.50"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"values":{"assistsAgainstR1S1RaidVenus0Ultra0":{"basic":{"value":1.0,"displayValue":"1"}},"totalKillDistance":{"basic":{"value":17.0,"displayValue":"17.0"}},"kills":{"basic":{"value":8.0,"displayValue":"8"}},"averageKillDistance":{"basic":{"value":2.125,"displayValue":"2.1"}},"secondsPlayed":{"basic":{"value":506.0,"displayValue":"8m 26s"}},"deaths":{"basic":{"value":1.0,"displayValue":"1"}},"averageLifespan":{"basic":{"value":253.0,"displayValue":"4m 13s"}},"deathsFromR1S1RaidVenus0Ultra0":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfVexHarpy":{"basic":{"value":8.0,"displayValue":"8"}},"killsOfVex":{"basic":{"value":8.0,"displayValue":"8"}},"weaponKillsRelic":{"basic":{"value":8.0,"displayValue":"8"}},"weaponBestType":{"basic":{"value":12.0,"displayValue":"Relic"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":4.0,"displayValue":"4"}},"longestSingleLife":{"basic":{"value":283.0,"displayValue":"4m 43s"}},"orbsGathered":{"basic":{"value":2.0,"displayValue":"2"}},"remainingTimeAfterQuitSeconds":{"basic":{"value":1159.0,"displayValue":"19m 19s"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/f9fbcad29097c102e7df0b7dd97a63cd.jpg","membershipType":2,"membershipId":"4611686018434658536","displayName":"zhtaodragon"},"characterClass":"Hunter","characterLevel":40,"lightLevel":400,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/bungieday_07.jpg","membershipType":254,"membershipId":"4265381","displayName":"zhtaodragon"}},"characterId":"2305843009340329188","values":{"assists":{"basic":{"value":0.0,"displayValue":"0"}},"completed":{"basic":{"value":0.0,"displayValue":"No"}},"deaths":{"basic":{"value":2.0,"displayValue":"2"}},"kills":{"basic":{"value":0.0,"displayValue":"0"}},"killsDeathsRatio":{"basic":{"value":0.0,"displayValue":"0.00"}},"killsDeathsAssists":{"basic":{"value":0.0,"displayValue":"0.00"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"values":{"secondsPlayed":{"basic":{"value":347.0,"displayValue":"5m 47s"}},"deaths":{"basic":{"value":2.0,"displayValue":"2"}},"averageLifespan":{"basic":{"value":115.66666666666667,"displayValue":"1m 55s"}},"suicides":{"basic":{"value":2.0,"displayValue":"2"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestSingleLife":{"basic":{"value":204.0,"displayValue":"3m 24s"}},"remainingTimeAfterQuitSeconds":{"basic":{"value":4894.0,"displayValue":"1h 21m"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}},{"standing":0,"score":{"basic":{"value":0.0,"displayValue":"0"}},"player":{"destinyUserInfo":{"iconPath":"/common/destiny_content/icons/db422812e94df2b7e3ca12528d9318ff.jpg","membershipType":2,"membershipId":"4611686018441562059","displayName":"mudpie316"},"characterClass":"Warlock","characterLevel":40,"lightLevel":400,"bungieNetUserInfo":{"iconPath":"/img/profile/avatars/Destiny23.jpg","membershipType":254,"membershipId":"10881448","displayName":"Muds"}},"characterId":"2305843009358070630","values":{"assists":{"basic":{"value":40.0,"displayValue":"40"}},"completed":{"basic":{"value":1.0,"displayValue":"Yes"}},"deaths":{"basic":{"value":23.0,"displayValue":"23"}},"kills":{"basic":{"value":76.0,"displayValue":"76"}},"killsDeathsRatio":{"basic":{"value":3.3043478260869565,"displayValue":"3.30"}},"killsDeathsAssists":{"basic":{"value":4.1739130434782608,"displayValue":"4.17"}},"activityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}},"completionReason":{"basic":{"value":0.0,"displayValue":"0"}},"fireTeamId":{"basic":{"value":0.0,"displayValue":""}},"playerCount":{"basic":{"value":9.0,"displayValue":"9"}},"leaveRemainingSeconds":{"basic":{"value":0.0,"displayValue":"0m 0s"}}},"extended":{"weapons":[{"referenceId":4049432596,"values":{"uniqueWeaponKills":{"basic":{"value":43.0,"displayValue":"43"}},"uniqueWeaponPrecisionKills":{"basic":{"value":11.0,"displayValue":"11"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.2558139534883721,"displayValue":"26%"}}}},{"referenceId":1170904292,"values":{"uniqueWeaponKills":{"basic":{"value":3.0,"displayValue":"3"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}},{"referenceId":4100639365,"values":{"uniqueWeaponKills":{"basic":{"value":23.0,"displayValue":"23"}},"uniqueWeaponPrecisionKills":{"basic":{"value":0.0,"displayValue":"0"}},"uniqueWeaponKillsPrecisionKills":{"basic":{"value":0.0,"displayValue":"0%"}}}}],"values":{"assistsAgainstR1S1RaidVenus0Major7":{"basic":{"value":2.0,"displayValue":"2"}},"assistsAgainstR1S1RaidVenus0Ultra0":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstR1S1RaidVenus0Ultra1":{"basic":{"value":1.0,"displayValue":"1"}},"assistsAgainstVexGoblin":{"basic":{"value":5.0,"displayValue":"5"}},"assistsAgainstVexHarpy":{"basic":{"value":25.0,"displayValue":"25"}},"assistsAgainstVexMinotaur":{"basic":{"value":2.0,"displayValue":"2"}},"assistsAgainstR1S1RaidVenus0HarpyMissile":{"basic":{"value":2.0,"displayValue":"2"}},"totalKillDistance":{"basic":{"value":1539.0,"displayValue":"1539.0"}},"kills":{"basic":{"value":76.0,"displayValue":"76"}},"averageKillDistance":{"basic":{"value":20.25,"displayValue":"20.3"}},"secondsPlayed":{"basic":{"value":4733.0,"displayValue":"1h 18m"}},"deaths":{"basic":{"value":23.0,"displayValue":"23"}},"averageLifespan":{"basic":{"value":197.20833333333334,"displayValue":"3m 17s"}},"precisionKillOfVexHarpy":{"basic":{"value":8.0,"displayValue":"8"}},"precisionKillOfR1S1RaidVenus0HarpyMissile":{"basic":{"value":2.0,"displayValue":"2"}},"deathsFromR1S1RaidVenus0Major2":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromTheGorgons":{"basic":{"value":4.0,"displayValue":"4"}},"deathsFromR1S1RaidVenus0Major4":{"basic":{"value":2.0,"displayValue":"2"}},"deathsFromR1S1RaidVenus0Ultra0":{"basic":{"value":2.0,"displayValue":"2"}},"deathsFromR1S1RaidVenus0Ultra1":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexGoblin":{"basic":{"value":1.0,"displayValue":"1"}},"deathsFromVexMinotaur":{"basic":{"value":3.0,"displayValue":"3"}},"deathsFromVex":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfR1S1RaidVenus0HarpyMissile":{"basic":{"value":9.0,"displayValue":"9"}},"killsOfR1S1RaidVenus0Major4":{"basic":{"value":3.0,"displayValue":"3"}},"killsOfR1S1RaidVenus0Major5":{"basic":{"value":1.0,"displayValue":"1"}},"killsOfBossesAtVaultOfGlass":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfRaidBosses":{"basic":{"value":4.0,"displayValue":"4"}},"killsOfVexGoblin":{"basic":{"value":8.0,"displayValue":"8"}},"killsOfVexHarpy":{"basic":{"value":45.0,"displayValue":"45"}},"killsOfVexMinotaur":{"basic":{"value":7.0,"displayValue":"7"}},"killsOfVex":{"basic":{"value":60.0,"displayValue":"60"}},"precisionKills":{"basic":{"value":11.0,"displayValue":"11"}},"resurrectionsPerformed":{"basic":{"value":1.0,"displayValue":"1"}},"suicides":{"basic":{"value":4.0,"displayValue":"4"}},"weaponPrecisionKillsScoutRifle":{"basic":{"value":11.0,"displayValue":"11"}},"weaponKillsGrenade":{"basic":{"value":6.0,"displayValue":"6"}},"weaponKillsRocketLauncher":{"basic":{"value":3.0,"displayValue":"3"}},"weaponKillsScoutRifle":{"basic":{"value":43.0,"displayValue":"43"}},"weaponKillsSword":{"basic":{"value":23.0,"displayValue":"23"}},"weaponBestType":{"basic":{"value":3.0,"displayValue":"Scout Rifle"}},"weaponKillsPrecisionKillsScoutRifle":{"basic":{"value":0.2558139534883721,"displayValue":"26%"}},"allParticipantsCount":{"basic":{"value":9.0,"displayValue":"9"}},"allParticipantsTimePlayed":{"basic":{"value":27498.0,"displayValue":"7h 38m"}},"assistsAgainstR1S1RaidVenus0HobgoblinPast":{"basic":{"value":2.0,"displayValue":"2"}},"killsOfR1S1RaidVenus0HobgoblinPast":{"basic":{"value":3.0,"displayValue":"3"}},"precisionKillsOfR1S1RaidVenus0HobgoblinPast":{"basic":{"value":1.0,"displayValue":"1"}},"fireTeamId":{"basic":{"value":9.147344074754167E+17,"displayValue":"-2147483648"}},"longestKillSpree":{"basic":{"value":21.0,"displayValue":"21"}},"longestSingleLife":{"basic":{"value":529.0,"displayValue":"8m 49s"}},"orbsDropped":{"basic":{"value":7.0,"displayValue":"7"}},"orbsGathered":{"basic":{"value":36.0,"displayValue":"36"}},"totalActivityDurationSeconds":{"basic":{"value":5242.0,"displayValue":"1h 27m"}}}}}],"teams":[]}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}
+{
+  "Response": {
+    "data": {
+      "period": "2017-04-23T17:49:57Z",
+      "activityDetails": {
+        "referenceId": 4038697181,
+        "instanceId": "6372699231",
+        "mode": 4,
+        "activityTypeHashOverride": 2043403989,
+        "isPrivate": false
+      },
+      "entries": [{
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/9979961d2e5409df64131f2b092b7007.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018434658536",
+            "displayName": "zhtaodragon"
+          },
+          "characterClass": "Titan",
+          "characterLevel": 40,
+          "lightLevel": 400,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/bungieday_07.jpg",
+            "membershipType": 254,
+            "membershipId": "4265381",
+            "displayName": "zhtaodragon"
+          }
+        },
+        "characterId": "2305843009218759947",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 24.0,
+              "displayValue": "24"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "No"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 15.0,
+              "displayValue": "15"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 33.0,
+              "displayValue": "33"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 2.2,
+              "displayValue": "2.20"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 3.0,
+              "displayValue": "3.00"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "weapons": [{
+            "referenceId": 306958364,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 29.0,
+                  "displayValue": "29"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 18.0,
+                  "displayValue": "18"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.62068965517241381,
+                  "displayValue": "62%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 1170904292,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 4.0,
+                  "displayValue": "4"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }],
+          "values": {
+            "assistsAgainstR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstVexHarpy": {
+              "basic": {
+                "value": 21.0,
+                "displayValue": "21"
+              }
+            },
+            "assistsAgainstVexMinotaur": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 1322.0,
+                "displayValue": "1322.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 33.0,
+                "displayValue": "33"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 40.060606060606062,
+                "displayValue": "40.1"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 3703.0,
+                "displayValue": "1h 1m"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 15.0,
+                "displayValue": "15"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 231.4375,
+                "displayValue": "3m 51s"
+              }
+            },
+            "precisionKillOfVexHarpy": {
+              "basic": {
+                "value": 18.0,
+                "displayValue": "18"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "deathsFromVexHarpy": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "deathsFromVexMinotaur": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "deathsFromVex": {
+              "basic": {
+                "value": 5.0,
+                "displayValue": "5"
+              }
+            },
+            "killsOfVexHarpy": {
+              "basic": {
+                "value": 33.0,
+                "displayValue": "33"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 33.0,
+                "displayValue": "33"
+              }
+            },
+            "precisionKills": {
+              "basic": {
+                "value": 18.0,
+                "displayValue": "18"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "weaponPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 18.0,
+                "displayValue": "18"
+              }
+            },
+            "weaponKillsRocketLauncher": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "weaponKillsScoutRifle": {
+              "basic": {
+                "value": 29.0,
+                "displayValue": "29"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "Scout Rifle"
+              }
+            },
+            "weaponKillsPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 0.62068965517241381,
+                "displayValue": "62%"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 6.0,
+                "displayValue": "6"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 371.0,
+                "displayValue": "6m 11s"
+              }
+            },
+            "orbsDropped": {
+              "basic": {
+                "value": 20.0,
+                "displayValue": "20"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 26.0,
+                "displayValue": "26"
+              }
+            },
+            "remainingTimeAfterQuitSeconds": {
+              "basic": {
+                "value": 1126.0,
+                "displayValue": "18m 46s"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/7b3b71821ce26e7d78269248493ea0f3.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018436759322",
+            "displayName": "hahje1"
+          },
+          "characterClass": "Hunter",
+          "characterLevel": 40,
+          "lightLevel": 0,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/e2015_14.jpg",
+            "membershipType": 254,
+            "membershipId": "8352895",
+            "displayName": "hahje1"
+          }
+        },
+        "characterId": "2305843009224116411",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 6.0,
+              "displayValue": "6"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 1.0,
+              "displayValue": "Yes"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 6.0,
+              "displayValue": "6"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 19.0,
+              "displayValue": "19"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 3.1666666666666665,
+              "displayValue": "3.17"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 3.6666666666666665,
+              "displayValue": "3.67"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "weapons": [{
+            "referenceId": 3052681344,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 4.0,
+                  "displayValue": "4"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.25,
+                  "displayValue": "25%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 2001493563,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 2.0,
+                  "displayValue": "2"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.5,
+                  "displayValue": "50%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 3012398149,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }],
+          "values": {
+            "assistsAgainstR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstVexMinotaur": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 232.0,
+                "displayValue": "232.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 19.0,
+                "displayValue": "19"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 12.210526315789474,
+                "displayValue": "12.2"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 1113.0,
+                "displayValue": "18m 33s"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 6.0,
+                "displayValue": "6"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 159.0,
+                "displayValue": "2m 39s"
+              }
+            },
+            "precisionKillOfR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "precisionKillOfVexGoblin": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Major2": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromTheGorgons": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromVexMinotaur": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVex": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major3": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major8": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "killsOfBossesAtVaultOfGlass": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "killsOfRaidBosses": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "killsOfVexGoblin": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfVexMinotaur": {
+              "basic": {
+                "value": 7.0,
+                "displayValue": "7"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "precisionKills": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponPrecisionKillsHandCannon": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponPrecisionKillsSniper": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponKillsFusionRifle": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponKillsHandCannon": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "weaponKillsSniper": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "weaponKillsRelic": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "12"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "Relic"
+              }
+            },
+            "weaponKillsPrecisionKillsHandCannon": {
+              "basic": {
+                "value": 0.25,
+                "displayValue": "25%"
+              }
+            },
+            "weaponKillsPrecisionKillsSniper": {
+              "basic": {
+                "value": 0.5,
+                "displayValue": "50%"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "killsOfR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0GoblinPast": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 11.0,
+                "displayValue": "11"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 267.0,
+                "displayValue": "4m 27s"
+              }
+            },
+            "orbsDropped": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 18.0,
+                "displayValue": "18"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/9979961d2e5409df64131f2b092b7007.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018439109105",
+            "displayName": "BlazinPinoy3"
+          },
+          "characterClass": "Titan",
+          "characterLevel": 40,
+          "lightLevel": 400,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/e2015_15.jpg",
+            "membershipType": 254,
+            "membershipId": "8190165",
+            "displayName": "BlazinPinoy3"
+          }
+        },
+        "characterId": "2305843009240806012",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 30.0,
+              "displayValue": "30"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 1.0,
+              "displayValue": "Yes"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 23.0,
+              "displayValue": "23"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 64.0,
+              "displayValue": "64"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 2.7826086956521738,
+              "displayValue": "2.78"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 3.4347826086956523,
+              "displayValue": "3.43"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "weapons": [{
+            "referenceId": 306958364,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 47.0,
+                  "displayValue": "47"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 26.0,
+                  "displayValue": "26"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.55319148936170215,
+                  "displayValue": "55%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 1170904292,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 7.0,
+                  "displayValue": "7"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 2001493563,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 2.0,
+                  "displayValue": "2"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.5,
+                  "displayValue": "50%"
+                }
+              }
+            }
+          }],
+          "values": {
+            "assistsAgainstR1S1RaidVenus0Major4": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstVexGoblin": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstVexHarpy": {
+              "basic": {
+                "value": 21.0,
+                "displayValue": "21"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0HarpyMissile": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 1944.0,
+                "displayValue": "1944.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 64.0,
+                "displayValue": "64"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 30.375,
+                "displayValue": "30.4"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 4996.0,
+                "displayValue": "1h 23m"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 23.0,
+                "displayValue": "23"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 208.16666666666666,
+                "displayValue": "3m 28s"
+              }
+            },
+            "precisionKillOfR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "precisionKillOfVexGoblin": {
+              "basic": {
+                "value": 5.0,
+                "displayValue": "5"
+              }
+            },
+            "precisionKillOfVexHarpy": {
+              "basic": {
+                "value": 14.0,
+                "displayValue": "14"
+              }
+            },
+            "precisionKillOfR1S1RaidVenus0HarpyMissile": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "precisionKillOfR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Major2": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromTheGorgons": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 6.0,
+                "displayValue": "6"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra1": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexMinotaur": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVex": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0HarpyMissile": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfBossesAtVaultOfGlass": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfRaidBosses": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0Ultra1": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfVexGoblin": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "12"
+              }
+            },
+            "killsOfVexHarpy": {
+              "basic": {
+                "value": 32.0,
+                "displayValue": "32"
+              }
+            },
+            "killsOfVexMinotaur": {
+              "basic": {
+                "value": 5.0,
+                "displayValue": "5"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 49.0,
+                "displayValue": "49"
+              }
+            },
+            "precisionKills": {
+              "basic": {
+                "value": 27.0,
+                "displayValue": "27"
+              }
+            },
+            "resurrectionsReceived": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 5.0,
+                "displayValue": "5"
+              }
+            },
+            "weaponPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 26.0,
+                "displayValue": "26"
+              }
+            },
+            "weaponPrecisionKillsSniper": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponKillsMelee": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponKillsRocketLauncher": {
+              "basic": {
+                "value": 7.0,
+                "displayValue": "7"
+              }
+            },
+            "weaponKillsScoutRifle": {
+              "basic": {
+                "value": 47.0,
+                "displayValue": "47"
+              }
+            },
+            "weaponKillsSniper": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "weaponKillsRelic": {
+              "basic": {
+                "value": 7.0,
+                "displayValue": "7"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "Scout Rifle"
+              }
+            },
+            "weaponKillsPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 0.55319148936170215,
+                "displayValue": "55%"
+              }
+            },
+            "weaponKillsPrecisionKillsSniper": {
+              "basic": {
+                "value": 0.5,
+                "displayValue": "50%"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "precisionKillsOfR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 15.0,
+                "displayValue": "15"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 371.0,
+                "displayValue": "6m 11s"
+              }
+            },
+            "orbsDropped": {
+              "basic": {
+                "value": 26.0,
+                "displayValue": "26"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 23.0,
+                "displayValue": "23"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/9979961d2e5409df64131f2b092b7007.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018432100162",
+            "displayName": "MolecularZombiez"
+          },
+          "characterClass": "Hunter",
+          "characterLevel": 40,
+          "lightLevel": 399,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/e2015_13.jpg",
+            "membershipType": 254,
+            "membershipId": "6496174",
+            "displayName": "MolecularZombie"
+          }
+        },
+        "characterId": "2305843009242075973",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 27.0,
+              "displayValue": "27"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 1.0,
+              "displayValue": "Yes"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 20.0,
+              "displayValue": "20"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 47.0,
+              "displayValue": "47"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 2.35,
+              "displayValue": "2.35"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 3.025,
+              "displayValue": "3.03"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "weapons": [{
+            "referenceId": 2297964387,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 16.0,
+                  "displayValue": "16"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 8.0,
+                  "displayValue": "8"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.5,
+                  "displayValue": "50%"
+                }
+              }
+            }
+          }],
+          "values": {
+            "assistsAgainstR1S1RaidVenus0Major3": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Major5": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Ultra1": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstVexHarpy": {
+              "basic": {
+                "value": 15.0,
+                "displayValue": "15"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 1843.0,
+                "displayValue": "1843.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 47.0,
+                "displayValue": "47"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 39.212765957446805,
+                "displayValue": "39.2"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 4606.0,
+                "displayValue": "1h 16m"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 20.0,
+                "displayValue": "20"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 219.33333333333334,
+                "displayValue": "3m 39s"
+              }
+            },
+            "precisionKillOfVexHarpy": {
+              "basic": {
+                "value": 6.0,
+                "displayValue": "6"
+              }
+            },
+            "precisionKillOfR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Major2": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "deathsFromTheGorgons": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexHarpy": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexMinotaur": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "deathsFromVex": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "killsOfR1S1RaidVenus0HarpyMissile": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfBossesAtVaultOfGlass": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfRaidBosses": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfVexGoblin": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfVexHarpy": {
+              "basic": {
+                "value": 38.0,
+                "displayValue": "38"
+              }
+            },
+            "killsOfVexMinotaur": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 40.0,
+                "displayValue": "40"
+              }
+            },
+            "precisionKills": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "weaponPrecisionKillsPulseRifle": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "weaponKillsGrenade": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponKillsMelee": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponKillsPulseRifle": {
+              "basic": {
+                "value": 16.0,
+                "displayValue": "16"
+              }
+            },
+            "weaponKillsRelic": {
+              "basic": {
+                "value": 29.0,
+                "displayValue": "29"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "Relic"
+              }
+            },
+            "weaponKillsPrecisionKillsPulseRifle": {
+              "basic": {
+                "value": 0.5,
+                "displayValue": "50%"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0GoblinPast": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "precisionKillsOfR1S1RaidVenus0GoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 525.0,
+                "displayValue": "8m 45s"
+              }
+            },
+            "orbsDropped": {
+              "basic": {
+                "value": 32.0,
+                "displayValue": "32"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 23.0,
+                "displayValue": "23"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/ff1ca3e58f41b13bc17c9bb711844f64.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018439336998",
+            "displayName": "RyanEleven"
+          },
+          "characterClass": "Warlock",
+          "characterLevel": 40,
+          "lightLevel": 399,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/bungieday_13.jpg",
+            "membershipType": 254,
+            "membershipId": "5870579",
+            "displayName": "DrugFree"
+          }
+        },
+        "characterId": "2305843009265692952",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 25.0,
+              "displayValue": "25"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "No"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 15.0,
+              "displayValue": "15"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 29.0,
+              "displayValue": "29"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 1.9333333333333333,
+              "displayValue": "1.93"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 2.7666666666666666,
+              "displayValue": "2.77"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "weapons": [{
+            "referenceId": 1475134443,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 18.0,
+                  "displayValue": "18"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 13.0,
+                  "displayValue": "13"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.72222222222222221,
+                  "displayValue": "72%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 3008445140,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 3.0,
+                  "displayValue": "3"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 1170904292,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 2.0,
+                  "displayValue": "2"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }],
+          "values": {
+            "assistsAgainstVexHarpy": {
+              "basic": {
+                "value": 24.0,
+                "displayValue": "24"
+              }
+            },
+            "assistsAgainstVexMinotaur": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 853.0,
+                "displayValue": "853.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 29.0,
+                "displayValue": "29"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 29.413793103448278,
+                "displayValue": "29.4"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 2944.0,
+                "displayValue": "49m 4s"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 15.0,
+                "displayValue": "15"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 184.0,
+                "displayValue": "3m 4s"
+              }
+            },
+            "precisionKillOfVexHarpy": {
+              "basic": {
+                "value": 13.0,
+                "displayValue": "13"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "deathsFromVexHarpy": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexMinotaur": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromVex": {
+              "basic": {
+                "value": 5.0,
+                "displayValue": "5"
+              }
+            },
+            "killsOfVexHarpy": {
+              "basic": {
+                "value": 28.0,
+                "displayValue": "28"
+              }
+            },
+            "killsOfVexMinotaur": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 29.0,
+                "displayValue": "29"
+              }
+            },
+            "precisionKills": {
+              "basic": {
+                "value": 13.0,
+                "displayValue": "13"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 13.0,
+                "displayValue": "13"
+              }
+            },
+            "weaponKillsFusionRifle": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "weaponKillsMelee": {
+              "basic": {
+                "value": 6.0,
+                "displayValue": "6"
+              }
+            },
+            "weaponKillsRocketLauncher": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "weaponKillsScoutRifle": {
+              "basic": {
+                "value": 18.0,
+                "displayValue": "18"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "Scout Rifle"
+              }
+            },
+            "weaponKillsPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 0.72222222222222221,
+                "displayValue": "72%"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 7.0,
+                "displayValue": "7"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 372.0,
+                "displayValue": "6m 12s"
+              }
+            },
+            "orbsDropped": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "12"
+              }
+            },
+            "remainingTimeAfterQuitSeconds": {
+              "basic": {
+                "value": 1884.0,
+                "displayValue": "31m 24s"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/8e60e8942fe545f9f6d68d0cbd907800.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018432959294",
+            "displayName": "MVP_EL1T3z"
+          },
+          "characterClass": "Titan",
+          "characterLevel": 40,
+          "lightLevel": 400,
+          "bungieNetUserInfo": {
+            "iconPath": "/common/destiny_content/icons/7ac15d5937061a4909728831cb2be0f7.jpg",
+            "membershipType": 254,
+            "membershipId": "10265405",
+            "displayName": "rezo"
+          }
+        },
+        "characterId": "2305843009266173878",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 16.0,
+              "displayValue": "16"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 1.0,
+              "displayValue": "Yes"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 20.0,
+              "displayValue": "20"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 106.0,
+              "displayValue": "106"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 5.3,
+              "displayValue": "5.30"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 5.7,
+              "displayValue": "5.70"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "weapons": [{
+            "referenceId": 306958364,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 29.0,
+                  "displayValue": "29"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 12.0,
+                  "displayValue": "12"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.41379310344827586,
+                  "displayValue": "41%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 1170904292,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 16.0,
+                  "displayValue": "16"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 3172428255,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 2.0,
+                  "displayValue": "2"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.5,
+                  "displayValue": "50%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 3490124916,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 9.0,
+                  "displayValue": "9"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.1111111111111111,
+                  "displayValue": "11%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 3895707031,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 2.0,
+                  "displayValue": "2"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 1.0,
+                  "displayValue": "1"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.5,
+                  "displayValue": "50%"
+                }
+              }
+            }
+          }],
+          "values": {
+            "assistsAgainstR1S1RaidVenus0Major3": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Ultra1": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstVexHarpy": {
+              "basic": {
+                "value": 7.0,
+                "displayValue": "7"
+              }
+            },
+            "assistsAgainstVexMinotaur": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 1646.0,
+                "displayValue": "1646.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 106.0,
+                "displayValue": "106"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 15.528301886792454,
+                "displayValue": "15.5"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 4550.0,
+                "displayValue": "1h 15m"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 20.0,
+                "displayValue": "20"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 216.66666666666666,
+                "displayValue": "3m 36s"
+              }
+            },
+            "precisionKillOfVexGoblin": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "precisionKillOfVexHarpy": {
+              "basic": {
+                "value": 11.0,
+                "displayValue": "11"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Major2": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromTheGorgons": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 6.0,
+                "displayValue": "6"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra1": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexHarpy": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexMinotaur": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "deathsFromVex": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfR1S1RaidVenus0BobgoblinFuture": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major3": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major6": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "killsOfBossesAtVaultOfGlass": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "killsOfRaidBosses": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "killsOfVexGoblin": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfVexHarpy": {
+              "basic": {
+                "value": 81.0,
+                "displayValue": "81"
+              }
+            },
+            "killsOfVexMinotaur": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 88.0,
+                "displayValue": "88"
+              }
+            },
+            "precisionKills": {
+              "basic": {
+                "value": 15.0,
+                "displayValue": "15"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponPrecisionKillsHandCannon": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 13.0,
+                "displayValue": "13"
+              }
+            },
+            "weaponPrecisionKillsSniper": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "weaponKillsGrenade": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "weaponKillsHandCannon": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "weaponKillsRocketLauncher": {
+              "basic": {
+                "value": 16.0,
+                "displayValue": "16"
+              }
+            },
+            "weaponKillsScoutRifle": {
+              "basic": {
+                "value": 38.0,
+                "displayValue": "38"
+              }
+            },
+            "weaponKillsSniper": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "weaponKillsRelic": {
+              "basic": {
+                "value": 40.0,
+                "displayValue": "40"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "Relic"
+              }
+            },
+            "weaponKillsPrecisionKillsHandCannon": {
+              "basic": {
+                "value": 0.5,
+                "displayValue": "50%"
+              }
+            },
+            "weaponKillsPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 0.34210526315789475,
+                "displayValue": "34%"
+              }
+            },
+            "weaponKillsPrecisionKillsSniper": {
+              "basic": {
+                "value": 0.5,
+                "displayValue": "50%"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "deathsFromR1S1RaidVenus0GoblinPast": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfR1S1RaidVenus0GoblinPast": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "12"
+              }
+            },
+            "killsOfR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "precisionKillsOfR1S1RaidVenus0GoblinPast": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 19.0,
+                "displayValue": "19"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 529.0,
+                "displayValue": "8m 49s"
+              }
+            },
+            "orbsDropped": {
+              "basic": {
+                "value": 22.0,
+                "displayValue": "22"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 16.0,
+                "displayValue": "16"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/78aa7e3f57549c484dce30e311c12234.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018436759322",
+            "displayName": "hahje1"
+          },
+          "characterClass": "Titan",
+          "characterLevel": 40,
+          "lightLevel": 400,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/e2015_14.jpg",
+            "membershipType": 254,
+            "membershipId": "8352895",
+            "displayName": "hahje1"
+          }
+        },
+        "characterId": "2305843009292889053",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 1.0,
+              "displayValue": "1"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "No"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 1.0,
+              "displayValue": "1"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 8.0,
+              "displayValue": "8"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 8.0,
+              "displayValue": "8.00"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 8.5,
+              "displayValue": "8.50"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "values": {
+            "assistsAgainstR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 17.0,
+                "displayValue": "17.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 2.125,
+                "displayValue": "2.1"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 506.0,
+                "displayValue": "8m 26s"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 253.0,
+                "displayValue": "4m 13s"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfVexHarpy": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "weaponKillsRelic": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 12.0,
+                "displayValue": "Relic"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 283.0,
+                "displayValue": "4m 43s"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "remainingTimeAfterQuitSeconds": {
+              "basic": {
+                "value": 1159.0,
+                "displayValue": "19m 19s"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/f9fbcad29097c102e7df0b7dd97a63cd.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018434658536",
+            "displayName": "zhtaodragon"
+          },
+          "characterClass": "Hunter",
+          "characterLevel": 40,
+          "lightLevel": 400,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/bungieday_07.jpg",
+            "membershipType": 254,
+            "membershipId": "4265381",
+            "displayName": "zhtaodragon"
+          }
+        },
+        "characterId": "2305843009340329188",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "No"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 2.0,
+              "displayValue": "2"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0.00"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0.00"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "values": {
+            "secondsPlayed": {
+              "basic": {
+                "value": 347.0,
+                "displayValue": "5m 47s"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 115.66666666666667,
+                "displayValue": "1m 55s"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 204.0,
+                "displayValue": "3m 24s"
+              }
+            },
+            "remainingTimeAfterQuitSeconds": {
+              "basic": {
+                "value": 4894.0,
+                "displayValue": "1h 21m"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }, {
+        "standing": 0,
+        "score": {
+          "basic": {
+            "value": 0.0,
+            "displayValue": "0"
+          }
+        },
+        "player": {
+          "destinyUserInfo": {
+            "iconPath": "/common/destiny_content/icons/db422812e94df2b7e3ca12528d9318ff.jpg",
+            "membershipType": 2,
+            "membershipId": "4611686018441562059",
+            "displayName": "mudpie316"
+          },
+          "characterClass": "Warlock",
+          "characterLevel": 40,
+          "lightLevel": 400,
+          "bungieNetUserInfo": {
+            "iconPath": "/img/profile/avatars/Destiny23.jpg",
+            "membershipType": 254,
+            "membershipId": "10881448",
+            "displayName": "Muds"
+          }
+        },
+        "characterId": "2305843009358070630",
+        "values": {
+          "assists": {
+            "basic": {
+              "value": 40.0,
+              "displayValue": "40"
+            }
+          },
+          "completed": {
+            "basic": {
+              "value": 1.0,
+              "displayValue": "Yes"
+            }
+          },
+          "deaths": {
+            "basic": {
+              "value": 23.0,
+              "displayValue": "23"
+            }
+          },
+          "kills": {
+            "basic": {
+              "value": 76.0,
+              "displayValue": "76"
+            }
+          },
+          "killsDeathsRatio": {
+            "basic": {
+              "value": 3.3043478260869565,
+              "displayValue": "3.30"
+            }
+          },
+          "killsDeathsAssists": {
+            "basic": {
+              "value": 4.1739130434782608,
+              "displayValue": "4.17"
+            }
+          },
+          "activityDurationSeconds": {
+            "basic": {
+              "value": 5242.0,
+              "displayValue": "1h 27m"
+            }
+          },
+          "completionReason": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0"
+            }
+          },
+          "fireTeamId": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": ""
+            }
+          },
+          "playerCount": {
+            "basic": {
+              "value": 9.0,
+              "displayValue": "9"
+            }
+          },
+          "leaveRemainingSeconds": {
+            "basic": {
+              "value": 0.0,
+              "displayValue": "0m 0s"
+            }
+          }
+        },
+        "extended": {
+          "weapons": [{
+            "referenceId": 4049432596,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 43.0,
+                  "displayValue": "43"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 11.0,
+                  "displayValue": "11"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.2558139534883721,
+                  "displayValue": "26%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 1170904292,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 3.0,
+                  "displayValue": "3"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }, {
+            "referenceId": 4100639365,
+            "values": {
+              "uniqueWeaponKills": {
+                "basic": {
+                  "value": 23.0,
+                  "displayValue": "23"
+                }
+              },
+              "uniqueWeaponPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0"
+                }
+              },
+              "uniqueWeaponKillsPrecisionKills": {
+                "basic": {
+                  "value": 0.0,
+                  "displayValue": "0%"
+                }
+              }
+            }
+          }],
+          "values": {
+            "assistsAgainstR1S1RaidVenus0Major7": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0Ultra1": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "assistsAgainstVexGoblin": {
+              "basic": {
+                "value": 5.0,
+                "displayValue": "5"
+              }
+            },
+            "assistsAgainstVexHarpy": {
+              "basic": {
+                "value": 25.0,
+                "displayValue": "25"
+              }
+            },
+            "assistsAgainstVexMinotaur": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0HarpyMissile": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "totalKillDistance": {
+              "basic": {
+                "value": 1539.0,
+                "displayValue": "1539.0"
+              }
+            },
+            "kills": {
+              "basic": {
+                "value": 76.0,
+                "displayValue": "76"
+              }
+            },
+            "averageKillDistance": {
+              "basic": {
+                "value": 20.25,
+                "displayValue": "20.3"
+              }
+            },
+            "secondsPlayed": {
+              "basic": {
+                "value": 4733.0,
+                "displayValue": "1h 18m"
+              }
+            },
+            "deaths": {
+              "basic": {
+                "value": 23.0,
+                "displayValue": "23"
+              }
+            },
+            "averageLifespan": {
+              "basic": {
+                "value": 197.20833333333334,
+                "displayValue": "3m 17s"
+              }
+            },
+            "precisionKillOfVexHarpy": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "precisionKillOfR1S1RaidVenus0HarpyMissile": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Major2": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromTheGorgons": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Major4": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra0": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "deathsFromR1S1RaidVenus0Ultra1": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexGoblin": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "deathsFromVexMinotaur": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "deathsFromVex": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfR1S1RaidVenus0HarpyMissile": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major4": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "killsOfR1S1RaidVenus0Major5": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "killsOfBossesAtVaultOfGlass": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfRaidBosses": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "killsOfVexGoblin": {
+              "basic": {
+                "value": 8.0,
+                "displayValue": "8"
+              }
+            },
+            "killsOfVexHarpy": {
+              "basic": {
+                "value": 45.0,
+                "displayValue": "45"
+              }
+            },
+            "killsOfVexMinotaur": {
+              "basic": {
+                "value": 7.0,
+                "displayValue": "7"
+              }
+            },
+            "killsOfVex": {
+              "basic": {
+                "value": 60.0,
+                "displayValue": "60"
+              }
+            },
+            "precisionKills": {
+              "basic": {
+                "value": 11.0,
+                "displayValue": "11"
+              }
+            },
+            "resurrectionsPerformed": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "suicides": {
+              "basic": {
+                "value": 4.0,
+                "displayValue": "4"
+              }
+            },
+            "weaponPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 11.0,
+                "displayValue": "11"
+              }
+            },
+            "weaponKillsGrenade": {
+              "basic": {
+                "value": 6.0,
+                "displayValue": "6"
+              }
+            },
+            "weaponKillsRocketLauncher": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "weaponKillsScoutRifle": {
+              "basic": {
+                "value": 43.0,
+                "displayValue": "43"
+              }
+            },
+            "weaponKillsSword": {
+              "basic": {
+                "value": 23.0,
+                "displayValue": "23"
+              }
+            },
+            "weaponBestType": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "Scout Rifle"
+              }
+            },
+            "weaponKillsPrecisionKillsScoutRifle": {
+              "basic": {
+                "value": 0.2558139534883721,
+                "displayValue": "26%"
+              }
+            },
+            "allParticipantsCount": {
+              "basic": {
+                "value": 9.0,
+                "displayValue": "9"
+              }
+            },
+            "allParticipantsTimePlayed": {
+              "basic": {
+                "value": 27498.0,
+                "displayValue": "7h 38m"
+              }
+            },
+            "assistsAgainstR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 2.0,
+                "displayValue": "2"
+              }
+            },
+            "killsOfR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 3.0,
+                "displayValue": "3"
+              }
+            },
+            "precisionKillsOfR1S1RaidVenus0HobgoblinPast": {
+              "basic": {
+                "value": 1.0,
+                "displayValue": "1"
+              }
+            },
+            "fireTeamId": {
+              "basic": {
+                "value": 9.147344074754167E+17,
+                "displayValue": "-2147483648"
+              }
+            },
+            "longestKillSpree": {
+              "basic": {
+                "value": 21.0,
+                "displayValue": "21"
+              }
+            },
+            "longestSingleLife": {
+              "basic": {
+                "value": 529.0,
+                "displayValue": "8m 49s"
+              }
+            },
+            "orbsDropped": {
+              "basic": {
+                "value": 7.0,
+                "displayValue": "7"
+              }
+            },
+            "orbsGathered": {
+              "basic": {
+                "value": 36.0,
+                "displayValue": "36"
+              }
+            },
+            "totalActivityDurationSeconds": {
+              "basic": {
+                "value": 5242.0,
+                "displayValue": "1h 27m"
+              }
+            }
+          }
+        }
+      }],
+      "teams": []
+    }
+  },
+  "ErrorCode": 1,
+  "ThrottleSeconds": 0,
+  "ErrorStatus": "Success",
+  "Message": "Ok",
+  "MessageData": {}
+}
